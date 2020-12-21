@@ -1,0 +1,15 @@
+$background : #121212;
+$primary : #BB86FC;
+$error : #CF6679;
+
+$surface : lighten($background, 5%);
+$lightSurface : lighten($background, 10%);
+$lighterSurface : lighten($background, 15%);
+$lightPrimary : lighten($primary, 10%);
+$darkPrimary : darken($primary, 5%);
+$lightError : lighten($error, 5%);
+
+$onBackground : #FFFFFF;
+$onSurface : #FFFFFF;
+$onPrimary : #000000;
+$onError : #000000;

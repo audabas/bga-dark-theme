@@ -1,0 +1,423 @@
+body {
+  background: #121212;
+}
+
+.emblempremium_big {
+  filter: hue-rotate(756deg) invert(100%);
+}
+
+.pageheader {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.pageheader a {
+  color: #BB86FC;
+}
+.pageheader a:hover {
+  color: #d7b8fd;
+}
+
+.pagesection,
+.portlet {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.pagesection h2, .pagesection h2 a, .pagesection h3, .pagesection h3 a,
+.portlet h2,
+.portlet h2 a,
+.portlet h3,
+.portlet h3 a {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.pagesection a:not(.bgabutton),
+.pagesection a.playername,
+.portlet a:not(.bgabutton),
+.portlet a.playername {
+  color: #BB86FC;
+}
+.pagesection a:not(.bgabutton):hover,
+.pagesection a.playername:hover,
+.portlet a:not(.bgabutton):hover,
+.portlet a.playername:hover {
+  color: #d7b8fd;
+}
+
+.bgabutton_blue {
+  background: #ad6dfb;
+  color: #FFFFFF !important;
+}
+.bgabutton_blue:hover {
+  background: #BB86FC !important;
+}
+
+.bgabutton_red {
+  background: #CF6679;
+  color: #000000 !important;
+}
+.bgabutton_red:hover {
+  background: #d5798a !important;
+}
+
+.bgabutton_gray {
+  background: #ad6dfb;
+  color: #000000 !important;
+}
+.bgabutton_gray:hover {
+  background: #BB86FC !important;
+  color: #000000;
+}
+
+textarea,
+.board_fake_input,
+input,
+input.dijitInputInner {
+  background: #121212 !important;
+  background-color: #121212 !important;
+  border: solid 1px #FFFFFF;
+  color: #FFFFFF !important;
+}
+
+.standard_popin {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.standard_popin .standard_popin_closeicon,
+.standard_popin .standard_popin_helpicon {
+  color: #FFFFFF !important;
+}
+.standard_popin .standard_popin_closeicon:hover,
+.standard_popin .standard_popin_helpicon:hover {
+  color: #d7b8fd !important;
+}
+
+.pageheader_menu .pageheader_menuitem {
+  color: #FFFFFF;
+}
+.pageheader_menu .pageheader_menuitem:hover {
+  color: #BB86FC;
+}
+.pageheader_menu .pageheader_menuitem .pageheader_menuitembar {
+  background-color: #BB86FC;
+}
+
+.row-data .row-label {
+  color: #FFFFFF;
+}
+
+#overall-footer {
+  background: #1f1f1f;
+}
+
+#topbar.newbgastyle {
+  background: #2c2c2c;
+}
+#topbar.newbgastyle #friends_icon.friendsOnline #friends_baseicon,
+#topbar.newbgastyle #friends_icon .notification_nbr_icon {
+  color: #ad6dfb;
+}
+#topbar.newbgastyle a.menu_item {
+  color: #FFFFFF;
+}
+#topbar.newbgastyle a.menu_item:hover {
+  color: #d7b8fd;
+}
+
+#login-menu,
+#language_switcher_dropdown,
+#mobile-menu,
+#friend-menu {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+#login-menu #connected_username,
+#language_switcher_dropdown #connected_username,
+#mobile-menu #connected_username,
+#friend-menu #connected_username {
+  color: #BB86FC !important;
+}
+#login-menu .login-menu-item,
+#language_switcher_dropdown .login-menu-item,
+#mobile-menu .login-menu-item,
+#friend-menu .login-menu-item {
+  color: #FFFFFF !important;
+}
+#login-menu .login-menu-item:hover,
+#language_switcher_dropdown .login-menu-item:hover,
+#mobile-menu .login-menu-item:hover,
+#friend-menu .login-menu-item:hover {
+  background: none;
+  color: #d7b8fd !important;
+}
+#login-menu .playername,
+#language_switcher_dropdown .playername,
+#mobile-menu .playername,
+#friend-menu .playername {
+  color: #BB86FC;
+}
+#login-menu .player_baseline,
+#language_switcher_dropdown .player_baseline,
+#mobile-menu .player_baseline,
+#friend-menu .player_baseline {
+  color: #FFFFFF;
+}
+#login-menu a,
+#language_switcher_dropdown a,
+#mobile-menu a,
+#friend-menu a {
+  color: #BB86FC;
+}
+#login-menu a:hover,
+#language_switcher_dropdown a:hover,
+#mobile-menu a:hover,
+#friend-menu a:hover {
+  color: #d7b8fd;
+}
+
+.notouch-device #topbar #login-menu a.login-menu-item:hover,
+.notouch-device #topbar #language_switcher a.login-menu-item:hover {
+  color: #d7b8fd !important;
+}
+
+.roundedbox,
+.roundedbox_main,
+.roundedbox_topmain,
+.roundedbox_topleft,
+.roundedbox_topright,
+.roundedbox_bottommain,
+.roundedbox_bottomleft,
+.roundedbox_bottomright {
+  background: #2c2c2c !important;
+  color: #FFFFFF;
+}
+
+.live_stream_title_next,
+.live_stream_title,
+.live_stream_date {
+  color: #BB86FC !important;
+}
+
+.gamelist_item:hover {
+  background: none !important;
+}
+
+.whiteblock {
+  background-image: none;
+}
+
+.howtoplay_block_enabled {
+  background: #ad6dfb;
+}
+.howtoplay_block_enabled .howtoplay_content {
+  color: #FFFFFF;
+}
+.howtoplay_block_enabled:hover {
+  background: #BB86FC;
+}
+.howtoplay_block_enabled a span {
+  color: white !important;
+}
+
+.challenge_text {
+  color: #FFFFFF;
+}
+.challenge_text b {
+  color: #BB86FC;
+}
+
+.challenge_image {
+  filter: none;
+}
+
+.icon16_nbrplayer,
+.icon16_duration,
+.icon16_luck {
+  filter: invert(100%);
+}
+
+.icon16_strategy {
+  filter: brightness(200%);
+}
+
+.game_carac_bar_strategy {
+  background-color: blue;
+}
+
+.game_carac_bar_luck {
+  background-color: white;
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch {
+  background-color: #ad6dfb !important;
+}
+.pageheader_menu_verylarge .pageheader_big_switch:hover {
+  color: #FFFFFF;
+}
+.pageheader_menu_verylarge .pageheader_big_switch:hover .switcher_zone {
+  background: #d7b8fd !important;
+}
+.pageheader_menu_verylarge .pageheader_big_switch .switcher_zone {
+  background: #BB86FC;
+  border-left: none;
+}
+
+.pageheader_big_switch_dropdown .pageheader_menuitem {
+  background-color: #2c2c2c !important;
+  color: #FFFFFF !important;
+}
+.pageheader_big_switch_dropdown .pageheader_menuitem.pageheader_menuitemselected {
+  background-color: #383838;
+}
+.pageheader_big_switch_dropdown .pageheader_menuitem:hover {
+  color: #BB86FC !important;
+}
+
+.wannaplayauto_button {
+  box-shadow: none;
+  border: none;
+}
+
+.tabbed_slider_bar_barcenter {
+  background-color: #2c2c2c !important;
+  color: #FFFFFF !important;
+}
+.tabbed_slider_bar_barcenter .icon_plus {
+  background-color: #BB86FC;
+}
+.tabbed_slider_bar_barcenter .tabbed_slider_bar_left,
+.tabbed_slider_bar_barcenter .tabbed_slider_bar_right {
+  border-top-color: #2c2c2c;
+}
+
+.sectiontitle_dropdown_menu {
+  background: #1f1f1f;
+}
+
+.game_box_wrap.tables_available {
+  border-color: #ad6dfb;
+}
+
+#lobby_friend_list_state h3,
+#lobby_friend_list_state .lobby_invite_friend_name {
+  color: #BB86FC;
+}
+#lobby_friend_list_state #lobby_add_friend_button .lobby_invite_friend_avatar {
+  background-color: #BB86FC;
+}
+
+.gametable {
+  background-color: #2c2c2c;
+}
+
+#loader_mask {
+  background-color: #121212;
+}
+
+.player-board {
+  background-color: #2c2c2c;
+  color: #FFFFFF;
+}
+
+#topbar.ingame {
+  background: #1f1f1f;
+}
+#topbar.ingame .upperrightmenu_item i,
+#topbar.ingame .upperrightmenu_item a,
+#topbar.ingame #tableinfos {
+  color: #FFFFFF;
+}
+
+.whypremium_icon {
+  filter: invert(100%);
+}
+
+.controlpanelmenu .panelmenuicon {
+  color: white !important;
+}
+
+.chatwindowlogs,
+.chatwindowexpanded {
+  background-color: #1f1f1f;
+}
+.chatwindowlogs .timestamp,
+.chatwindowexpanded .timestamp {
+  color: #FFFFFF;
+}
+.chatwindowlogs .roundedboxinner,
+.chatwindowexpanded .roundedboxinner {
+  background-color: #2c2c2c !important;
+  color: #FFFFFF !important;
+}
+.chatwindowlogs .roundedboxinner a,
+.chatwindowexpanded .roundedboxinner a {
+  color: #BB86FC !important;
+}
+.chatwindowlogs .roundedboxinner a:hover,
+.chatwindowexpanded .roundedboxinner a:hover {
+  color: #d7b8fd !important;
+}
+.chatwindowlogs .chatbarbelowinput_item,
+.chatwindowlogs .audiovideo_inactive,
+.chatwindowexpanded .chatbarbelowinput_item,
+.chatwindowexpanded .audiovideo_inactive {
+  color: #FFFFFF;
+}
+.chatwindowlogs .chatbarbelowinput_item:hover,
+.chatwindowlogs .audiovideo_inactive:hover,
+.chatwindowexpanded .chatbarbelowinput_item:hover,
+.chatwindowexpanded .audiovideo_inactive:hover {
+  color: #d7b8fd !important;
+}
+.chatwindowlogs .audiovideo_active.chatbarbelowinput_item:hover,
+.chatwindowexpanded .audiovideo_active.chatbarbelowinput_item:hover {
+  color: #BB86FC !important;
+  border-bottom-color: #BB86FC !important;
+}
+.chatwindowlogs .audiovideo_active.chatbarbelowinput_item:hover:hover,
+.chatwindowexpanded .audiovideo_active.chatbarbelowinput_item:hover:hover {
+  color: #d7b8fd !important;
+}
+
+.tundra .dijitTooltipContainer {
+  background: #383838;
+  color: #FFFFFF;
+  border-color: #ad6dfb;
+}
+.tundra .dijitTooltipContainer .predefined_textmessage:hover {
+  background-color: #2c2c2c;
+  color: #d7b8fd;
+}
+
+.tournaments-list-result {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.tournaments-list-result:hover {
+  background: #383838;
+}
+.tournaments-list-result .tournaments-list-result__players-max,
+.tournaments-list-result .tournaments-list-result__date,
+.tournaments-list-result .tournaments-list-result__date span,
+.tournaments-list-result .tournaments-list-result__gamemode span {
+  color: #FFFFFF;
+}
+
+.tournaments-list-filters label:hover {
+  color: #d7b8fd;
+}
+
+.tournaments-presentation {
+  background-color: #1f1f1f;
+  color: #FFFFFF;
+}
+.tournaments-presentation .tournaments-presentation-status__global,
+.tournaments-presentation .tournaments-mode-presentation__name,
+.tournaments-presentation .tournaments-mode-presentation__description {
+  color: #FFFFFF;
+}
+.tournaments-presentation a {
+  color: #BB86FC;
+}
+.tournaments-presentation a:hover {
+  color: #d7b8fd;
+}
