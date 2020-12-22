@@ -1,5 +1,6 @@
 body {
   background: #121212;
+  color: #FFFFFF;
 }
 
 .emblempremium_big {
@@ -19,7 +20,7 @@ body {
 
 .pagesection,
 .portlet {
-  background: #2c2c2c;
+  background: #1f1f1f;
   color: #FFFFFF;
 }
 .pagesection h2, .pagesection h2 a, .pagesection h3, .pagesection h3 a,
@@ -41,6 +42,14 @@ body {
 .portlet a:not(.bgabutton):hover,
 .portlet a.playername:hover {
   color: #d7b8fd;
+}
+.pagesection#follow_us_portlet a span,
+.portlet#follow_us_portlet a span {
+  color: #BB86FC !important;
+}
+.pagesection#follow_us_portlet a span:hover,
+.portlet#follow_us_portlet a span:hover {
+  color: #d7b8fd !important;
 }
 
 .bgabutton_blue {
@@ -91,6 +100,10 @@ input.dijitInputInner {
   color: #d7b8fd !important;
 }
 
+.standard_popin_underlay {
+  background-color: #121212;
+}
+
 .pageheader_menu .pageheader_menuitem {
   color: #FFFFFF;
 }
@@ -105,12 +118,44 @@ input.dijitInputInner {
   color: #FFFFFF;
 }
 
+.tableWindow th {
+  border-bottom-color: #FFFFFF;
+}
+
+.tableWindow td {
+  color: #FFFFFF;
+}
+
+.tableWindow tbody tr:hover td {
+  color: #d7b8fd;
+}
+
+.extended_message_hidden::after {
+  background: linear-gradient(180deg, rgba(31, 31, 31, 0), #1f1f1f);
+}
+
+.warning_high {
+  background-color: #CF6679;
+}
+
+.head_info {
+  background-color: #383838;
+  color: #FFFFFF;
+}
+
+#current_table_banner {
+  background-color: #BB86FC;
+}
+#current_table_banner a {
+  color: #000000;
+}
+
 #overall-footer {
   background: #1f1f1f;
 }
 
 #topbar.newbgastyle {
-  background: #2c2c2c;
+  background: #1f1f1f;
 }
 #topbar.newbgastyle #friends_icon.friendsOnline #friends_baseicon,
 #topbar.newbgastyle #friends_icon .notification_nbr_icon {
@@ -248,16 +293,16 @@ input.dijitInputInner {
 }
 
 .pageheader_menu_verylarge .pageheader_big_switch {
-  background-color: #ad6dfb !important;
+  background-color: #1f1f1f !important;
 }
 .pageheader_menu_verylarge .pageheader_big_switch:hover {
   color: #FFFFFF;
 }
 .pageheader_menu_verylarge .pageheader_big_switch:hover .switcher_zone {
-  background: #d7b8fd !important;
+  background: #383838 !important;
 }
 .pageheader_menu_verylarge .pageheader_big_switch .switcher_zone {
-  background: #BB86FC;
+  background: #2c2c2c !important;
   border-left: none;
 }
 
@@ -309,6 +354,19 @@ input.dijitInputInner {
   background-color: #2c2c2c;
 }
 
+.player_is_at_table .gametable.gametable_status_init,
+.player_is_at_table .gametable.gametable_status_open {
+  background-color: #383838;
+}
+
+.gamestart_overlay {
+  background: #121212;
+}
+
+.playerstart_content {
+  background-color: #1f1f1f;
+}
+
 #loader_mask {
   background-color: #121212;
 }
@@ -325,6 +383,27 @@ input.dijitInputInner {
 #topbar.ingame .upperrightmenu_item a,
 #topbar.ingame #tableinfos {
   color: #FFFFFF;
+}
+
+#ingame_menu_content {
+  background: #1f1f1f;
+}
+#ingame_menu_content .ingame_menu_item {
+  color: #FFFFFF;
+}
+#ingame_menu_content .ingame_menu_item:hover {
+  background-color: #2c2c2c;
+}
+#ingame_menu_content .icon64 {
+  filter: invert(100%);
+}
+
+.log_replayable:hover {
+  background-color: #1f1f1f;
+}
+
+#seemorelogs {
+  filter: grayscale(100%) brightness(150%);
 }
 
 .whypremium_icon {
@@ -378,6 +457,11 @@ input.dijitInputInner {
   color: #d7b8fd !important;
 }
 
+.chatwindowpreviewmsg {
+  background-color: #383838;
+  color: #FFFFFF;
+}
+
 .tundra .dijitTooltipContainer {
   background: #383838;
   color: #FFFFFF;
@@ -386,6 +470,12 @@ input.dijitInputInner {
 .tundra .dijitTooltipContainer .predefined_textmessage:hover {
   background-color: #2c2c2c;
   color: #d7b8fd;
+}
+
+.tundra .dijitMenu,
+.tundra .dijitMenuBar {
+  background-color: #2c2c2c;
+  color: #FFFFFF;
 }
 
 .tournaments-list-result {
@@ -420,4 +510,8 @@ input.dijitInputInner {
 }
 .tournaments-presentation a:hover {
   color: #d7b8fd;
+}
+
+#myhand .stockitem_selected {
+  box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }

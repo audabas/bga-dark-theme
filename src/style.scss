@@ -3,6 +3,7 @@
 // Global
 body {
     background: $background;
+    color: $onSurface;
 }
 
 .emblempremium_big {
@@ -22,7 +23,7 @@ body {
 
 .pagesection,
 .portlet {
-    background: $lightSurface;
+    background: $surface;
     color: $onSurface;
 
     h2, h3 {
@@ -37,6 +38,12 @@ body {
         color: $primary;
         &:hover {
             color: $lightPrimary;
+        }
+    }
+    &#follow_us_portlet a span {
+        color: $primary !important;
+        &:hover {
+            color: $lightPrimary !important;
         }
     }
 }
@@ -88,6 +95,10 @@ input.dijitInputInner {
     }
 }
 
+.standard_popin_underlay {
+    background-color: $background;
+}
+
 .pageheader_menu {
     .pageheader_menuitem {
         color: $onSurface;
@@ -104,13 +115,43 @@ input.dijitInputInner {
     color: $onSurface;
 }
 
+.tableWindow th {
+    border-bottom-color: $onSurface;
+}
+.tableWindow td {
+    color: $onSurface;
+}
+.tableWindow tbody tr:hover td {
+    color: $lightPrimary;
+}
+
+.extended_message_hidden::after {
+    background: linear-gradient(180deg, rgba($surface, 0), rgba($surface, 1));
+}
+
+.warning_high {
+    background-color: $error;
+}
+
+.head_info {
+    background-color: $lighterSurface;
+    color: $onSurface;
+}
+
+#current_table_banner {
+    background-color: $primary;
+    a {
+        color: $onPrimary;
+    }
+}
+
 #overall-footer {
     background: $surface;
 }
 
 // Menu
 #topbar.newbgastyle {
-    background: $lightSurface;
+    background: $surface;
     #friends_icon.friendsOnline #friends_baseicon,
     #friends_icon .notification_nbr_icon {
         color: $darkPrimary;
@@ -229,17 +270,17 @@ input.dijitInputInner {
 
 // Game select
 .pageheader_menu_verylarge .pageheader_big_switch {
-    background-color: $darkPrimary !important;
+    background-color: $surface !important;
 
     &:hover {
         color: $onSurface;
         .switcher_zone {
-            background: $lightPrimary !important;
+            background: $lighterSurface !important;
         }
     }
 
     .switcher_zone {
-        background: $primary;
+        background: $lightSurface !important;
         border-left: none;
     }
 }
@@ -296,8 +337,18 @@ input.dijitInputInner {
 .gametable {
     background-color: $lightSurface;
 }
+.player_is_at_table .gametable.gametable_status_init,
+.player_is_at_table .gametable.gametable_status_open {
+    background-color: $lighterSurface;
+}
 
 // Playing game
+.gamestart_overlay {
+    background: $background;
+}
+.playerstart_content {
+    background-color: $surface;
+}
 #loader_mask {
     background-color: $background;
 }
@@ -312,6 +363,27 @@ input.dijitInputInner {
     #tableinfos {
         color: $onSurface;
     }
+}
+
+#ingame_menu_content {
+    background: $surface;
+    .ingame_menu_item {
+        color: $onSurface;
+        &:hover {
+            background-color: $lightSurface;
+        }
+    }
+    .icon64 {
+        filter: invert(100%);
+    }
+}
+
+.log_replayable:hover {
+    background-color: $surface;
+}
+
+#seemorelogs {
+    filter: grayscale(100%) brightness(150%);
 }
 
 // Premium
@@ -361,6 +433,10 @@ input.dijitInputInner {
         }
     }
 }
+.chatwindowpreviewmsg {
+    background-color: $lighterSurface;
+    color: $onSurface;
+}
 .tundra .dijitTooltipContainer {
     background: $lighterSurface;
     color: $onSurface;
@@ -369,6 +445,12 @@ input.dijitInputInner {
         background-color: $lightSurface;
         color: $lightPrimary;
     }
+}
+
+.tundra .dijitMenu,
+.tundra .dijitMenuBar {
+    background-color: $lightSurface;
+    color: $onSurface;
 }
 
 // Tournaments
@@ -405,3 +487,6 @@ input.dijitInputInner {
         }
     }
 }
+
+// Specific games
+@import "games/papayoo";
