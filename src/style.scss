@@ -148,6 +148,16 @@ input.dijitInputInner {
         color: $onPrimary;
     }
 }
+#expected_table_banners .expected_banner {
+    background-color: $lighterSurface;
+    color: $onSurface;
+    a {
+        color: $primary;
+        &:hover {
+            color : $lightPrimary;
+        }
+    }
+}
 
 #overall-footer {
     background: $surface;

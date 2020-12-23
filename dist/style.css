@@ -154,6 +154,17 @@ input.dijitInputInner {
   color: #000000;
 }
 
+#expected_table_banners .expected_banner {
+  background-color: #383838;
+  color: #FFFFFF;
+}
+#expected_table_banners .expected_banner a {
+  color: #BB86FC;
+}
+#expected_table_banners .expected_banner a:hover {
+  color: #d7b8fd;
+}
+
 #overall-footer {
   background: #1f1f1f;
 }
