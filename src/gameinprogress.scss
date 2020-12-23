@@ -1,0 +1,9 @@
+.newbgatable {
+    td,
+    th {
+        color: $onSurface;
+    }
+    tr:hover td {
+        color: $lightPrimary !important;
+    }
+}

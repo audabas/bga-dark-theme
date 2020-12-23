@@ -87,6 +87,10 @@ input.dijitInputInner {
   color: #FFFFFF !important;
 }
 
+.post .comment {
+  background: #2c2c2c;
+}
+
 .standard_popin {
   background: #2c2c2c;
   color: #FFFFFF;
@@ -414,6 +418,65 @@ input.dijitInputInner {
   color: white !important;
 }
 
+.tournaments-list-result {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.tournaments-list-result:hover {
+  background: #383838;
+}
+.tournaments-list-result .tournaments-list-result__players-max,
+.tournaments-list-result .tournaments-list-result__date,
+.tournaments-list-result .tournaments-list-result__date span,
+.tournaments-list-result .tournaments-list-result__gamemode span {
+  color: #FFFFFF;
+}
+
+.tournaments-list-filters label:hover {
+  color: #d7b8fd;
+}
+
+.tournaments-presentation {
+  background-color: #1f1f1f;
+  color: #FFFFFF;
+}
+.tournaments-presentation .tournaments-presentation-status__global,
+.tournaments-presentation .tournaments-mode-presentation__name,
+.tournaments-presentation .tournaments-mode-presentation__description {
+  color: #FFFFFF;
+}
+.tournaments-presentation a {
+  color: #BB86FC;
+}
+.tournaments-presentation a:hover {
+  color: #d7b8fd;
+}
+
+.newbgatable td,
+.newbgatable th {
+  color: #FFFFFF;
+}
+.newbgatable tr:hover td {
+  color: #d7b8fd !important;
+}
+
+.chatwindowpreviewmsg {
+  background-color: #2c2c2c;
+}
+
+.chatwindowcollapsed {
+  background-color: #2c2c2c;
+}
+.chatwindowcollapsed:hover {
+  background-color: #383838 !important;
+}
+.chatwindowcollapsed:hover .icon20 {
+  filter: invert(100%);
+}
+.chatwindowcollapsed .chatwindowcollapsedtitle {
+  color: #FFFFFF;
+}
+
 .chatwindowlogs,
 .chatwindowexpanded {
   background-color: #1f1f1f;
@@ -476,40 +539,6 @@ input.dijitInputInner {
 .tundra .dijitMenuBar {
   background-color: #2c2c2c;
   color: #FFFFFF;
-}
-
-.tournaments-list-result {
-  background: #2c2c2c;
-  color: #FFFFFF;
-}
-.tournaments-list-result:hover {
-  background: #383838;
-}
-.tournaments-list-result .tournaments-list-result__players-max,
-.tournaments-list-result .tournaments-list-result__date,
-.tournaments-list-result .tournaments-list-result__date span,
-.tournaments-list-result .tournaments-list-result__gamemode span {
-  color: #FFFFFF;
-}
-
-.tournaments-list-filters label:hover {
-  color: #d7b8fd;
-}
-
-.tournaments-presentation {
-  background-color: #1f1f1f;
-  color: #FFFFFF;
-}
-.tournaments-presentation .tournaments-presentation-status__global,
-.tournaments-presentation .tournaments-mode-presentation__name,
-.tournaments-presentation .tournaments-mode-presentation__description {
-  color: #FFFFFF;
-}
-.tournaments-presentation a {
-  color: #BB86FC;
-}
-.tournaments-presentation a:hover {
-  color: #d7b8fd;
 }
 
 #myhand .stockitem_selected {

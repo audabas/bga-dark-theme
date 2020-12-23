@@ -1,0 +1,72 @@
+.chatwindowpreviewmsg {
+    background-color : $lightSurface;
+}
+
+.chatwindowcollapsed {
+    background-color: $lightSurface;
+    &:hover {
+        background-color: $lighterSurface !important;
+        .icon20 {
+            filter: invert(100%);
+        }
+    }
+    .chatwindowcollapsedtitle {
+        color: $onSurface;
+    }
+}
+
+.chatwindowlogs,
+.chatwindowexpanded {
+
+    background-color: $surface;
+
+    .timestamp {
+        color: $onSurface;
+    }
+
+    .roundedboxinner {
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+
+        a {
+            color: $primary !important;
+            &:hover {
+                color: $lightPrimary !important;
+            }
+        }
+    }
+
+    .chatbarbelowinput_item,
+    .audiovideo_inactive {
+        color: $onSurface;
+        &:hover {
+            color: $lightPrimary !important;
+        }
+    }
+    .audiovideo_active.chatbarbelowinput_item:hover {
+        color: $primary !important;
+        border-bottom-color: $primary !important;
+        &:hover {
+            color: $lightPrimary !important;
+        }
+    }
+}
+.chatwindowpreviewmsg {
+    background-color: $lighterSurface;
+    color: $onSurface;
+}
+.tundra .dijitTooltipContainer {
+    background: $lighterSurface;
+    color: $onSurface;
+    border-color: $darkPrimary;
+    .predefined_textmessage:hover {
+        background-color: $lightSurface;
+        color: $lightPrimary;
+    }
+}
+
+.tundra .dijitMenu,
+.tundra .dijitMenuBar {
+    background-color: $lightSurface;
+    color: $onSurface;
+}
