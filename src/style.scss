@@ -148,6 +148,7 @@ input.dijitInputInner {
         color: $onPrimary;
     }
 }
+#async_table_banner,
 #expected_table_banners .expected_banner {
     background-color: $lighterSurface;
     color: $onSurface;
@@ -225,10 +226,18 @@ input.dijitInputInner {
 }
 
 // Homepage
-.live_stream_title_next,
-.live_stream_title,
-.live_stream_date {
-    color : $primary !important;
+.live_stream_next {
+    background-color: $lighterSurface !important;
+
+    .live_stream_title_next,
+    .live_stream_title,
+    .live_stream_date {
+        color: $primary !important;
+    }
+    .live_stream_button {
+        background-color: $primary;
+        color: $lighterSurface;
+    }
 }
 
 // Game list
@@ -448,6 +457,7 @@ input.dijitInputInner {
 // Global
 @import "gameinprogress";
 @import "chat";
+@import "mobile";
 
 // Specific games
 @import "games/papayoo";

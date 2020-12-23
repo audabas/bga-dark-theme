@@ -154,13 +154,16 @@ input.dijitInputInner {
   color: #000000;
 }
 
+#async_table_banner,
 #expected_table_banners .expected_banner {
   background-color: #383838;
   color: #FFFFFF;
 }
+#async_table_banner a,
 #expected_table_banners .expected_banner a {
   color: #BB86FC;
 }
+#async_table_banner a:hover,
 #expected_table_banners .expected_banner a:hover {
   color: #d7b8fd;
 }
@@ -251,10 +254,17 @@ input.dijitInputInner {
   color: #FFFFFF;
 }
 
-.live_stream_title_next,
-.live_stream_title,
-.live_stream_date {
+.live_stream_next {
+  background-color: #383838 !important;
+}
+.live_stream_next .live_stream_title_next,
+.live_stream_next .live_stream_title,
+.live_stream_next .live_stream_date {
   color: #BB86FC !important;
+}
+.live_stream_next .live_stream_button {
+  background-color: #BB86FC;
+  color: #383838;
 }
 
 .gamelist_item:hover {
@@ -550,6 +560,23 @@ input.dijitInputInner {
 .tundra .dijitMenuBar {
   background-color: #2c2c2c;
   color: #FFFFFF;
+}
+
+.mobile_version #mobile-navigation #mobile-menu-icon {
+  color: #FFFFFF;
+}
+.mobile_version #mobile-menu a {
+  color: #FFFFFF !important;
+}
+.mobile_version #mobile-menu a:hover {
+  background-color: #383838;
+  color: #d7b8fd !important;
+}
+.mobile_version.chatbar_ontop #chatbar_inner::before {
+  background: rgba(31, 31, 31, 0.75);
+}
+.mobile_version .chatwindowavatar {
+  background-color: #BB86FC;
 }
 
 #myhand .stockitem_selected {

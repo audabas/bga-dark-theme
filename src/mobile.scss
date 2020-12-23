@@ -1,0 +1,23 @@
+.mobile_version {
+    #mobile-navigation {
+        #mobile-menu-icon {
+            color: $onSurface;
+        }
+    }
+    #mobile-menu {
+        a {
+            color: $onSurface !important;
+            &:hover {
+                background-color: $lighterSurface;
+                color: $lightPrimary !important;
+            }
+        }
+    }
+
+    &.chatbar_ontop #chatbar_inner::before {
+        background: rgba($surface, 0.75);
+    }
+    .chatwindowavatar {
+        background-color: $primary;
+    }
+}
