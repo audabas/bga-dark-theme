@@ -15,4 +15,8 @@ A dark css theme for [boardgamearena.com](https://boardgamearena.com/)
 ### In-game
 ![ingame](https://raw.githubusercontent.com/bastien09/bga-dark-theme/main/screenshots/ingame.png)
 
-## 
+## Found a bug ?
+
+I'm doing my best to make this theme work on most games, but won't have time to check them all, so feel free to create an issue if you find any visibility issue in-game.
+
+Unfortunately there is no way to apply custom style for a specific game, I you feel concerned about this too you can help bringing it to BGA developers' attention by upvoting this feature request : https://boardgamearena.com/bug?id=13845 (yes, you have to disable custom.css to be able to enter BGA's bug forum...)
