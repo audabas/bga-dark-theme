@@ -13,6 +13,10 @@
             }
         }
     }
+    .pagesection .pagesection_link a {
+        color: $onSurface;
+        border-color: $onSurface;
+    }
 
     &.chatbar_ontop #chatbar_inner::before {
         background: rgba($surface, 0.75);
