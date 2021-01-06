@@ -1,0 +1,33 @@
+a.tournaments-list-result {
+    background: $lightSurface;
+    color: $onSurface;
+    &:hover {
+        background: $lighterSurface;
+    }
+    .tournaments-list-result__players-max,
+    .tournaments-list-result__date,
+    .tournaments-list-result__date span,
+    .tournaments-list-result__gamemode span {
+        color: $onSurface;
+    }
+}
+
+.tournaments-list-filters label:hover {
+    color: $lightPrimary;
+}
+
+.tournaments-presentation {
+    background-color: $surface;
+    color: $onSurface;
+    .tournaments-presentation-status__global,
+    .tournaments-mode-presentation__name,
+    .tournaments-mode-presentation__description {
+        color: $onSurface;
+    }
+    a {
+        color: $primary;
+        &:hover {
+            color: $lightPrimary;
+        }
+    }
+}
