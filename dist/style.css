@@ -91,6 +91,13 @@ input.dijitInputInner {
   background: #2c2c2c;
 }
 
+.post.playernotification_not_read {
+  background-color: #ad6dfb;
+}
+.post.playernotification_not_read a {
+  color: #FFFFFF;
+}
+
 .standard_popin {
   background: #2c2c2c;
   color: #FFFFFF;

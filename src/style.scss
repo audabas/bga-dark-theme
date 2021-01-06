@@ -87,6 +87,13 @@ input.dijitInputInner {
     background : $lightSurface
 }
 
+.post.playernotification_not_read {
+    background-color: $darkPrimary;
+    a {
+        color: $onSurface;
+    }
+}
+
 .standard_popin {
     background: $lightSurface;
     color: $onSurface;
