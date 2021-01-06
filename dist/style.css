@@ -598,3 +598,12 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 #myhand .stockitem_selected {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
+
+#vmg_portalstockrow,
+.vmg_playerportaldonerow {
+  background-color: #1f1f1f;
+}
+
+.vmg_playerportalactiverow {
+  background-color: #2c2c2c;
+}
