@@ -590,6 +590,11 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   background-color: #BB86FC;
 }
 
+.lettertycoon_deck_info,
+.lettertycoon_area_label {
+  color: #FFFFFF;
+}
+
 #myhand .stockitem_selected {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
