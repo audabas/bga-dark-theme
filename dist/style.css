@@ -601,6 +601,21 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+#clue_box {
+  background-color: #383838;
+}
+#clue_box .clue_option {
+  color: #FFFFFF;
+}
+
+#clues_avail {
+  background-color: #383838;
+}
+
+.colored_element_5 .clue_panel {
+  color: black;
+}
+
 .lettertycoon_deck_info,
 .lettertycoon_area_label {
   color: #FFFFFF;
