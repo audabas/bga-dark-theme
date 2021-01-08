@@ -599,6 +599,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
 
+.warningCounterIcon {
+  filter: invert(100%);
+}
+
 #vmg_portalstockrow,
 .vmg_playerportaldonerow {
   background-color: #1f1f1f;
