@@ -633,8 +633,13 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   filter: invert(100%);
 }
 
-.power-ext p {
+.power-detail .power-ext p {
   color: black;
+}
+
+#sevenwonder_wrap .player_board_wrap.whiteblock h3 {
+  background: linear-gradient(90deg, #ad6dfb, rgba(173, 109, 251, 0));
+  border-radius: 5px;
 }
 
 #vmg_portalstockrow,
