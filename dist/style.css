@@ -629,6 +629,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   filter: invert(100%);
 }
 
+.power-ext p {
+  color: black;
+}
+
 #vmg_portalstockrow,
 .vmg_playerportaldonerow {
   background-color: #1f1f1f;
