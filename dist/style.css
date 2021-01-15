@@ -638,7 +638,8 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #sevenwonder_wrap .player_board_wrap.whiteblock h3 {
-  background: linear-gradient(90deg, #ad6dfb, rgba(173, 109, 251, 0));
+  background: linear-gradient(90deg, #ad6dfb 0%, rgba(173, 109, 251, 0.5) 25%, rgba(173, 109, 251, 0) 75%);
+  padding: 6px 0 0 6px;
   border-radius: 5px;
 }
 
