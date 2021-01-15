@@ -601,6 +601,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+.guess_dinosaur .guess_text {
+  color: black;
+}
+
 #clue_box {
   background-color: #383838;
 }
