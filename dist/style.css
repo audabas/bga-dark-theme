@@ -633,6 +633,15 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+div#objectives div.objective div.objective-name,
+div#objectives div.objective div.objective-desc p {
+  color: black !important;
+}
+
+.dijitTooltip .tile-prompt {
+  background-color: initial !important;
+}
+
 .lettertycoon_deck_info,
 .lettertycoon_area_label {
   color: #FFFFFF;
