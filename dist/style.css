@@ -661,6 +661,16 @@ div#objectives div.objective div.objective-desc p {
   background-color: #2c2c2c !important;
 }
 
+#bank_and_cards #bank span {
+  color: black;
+}
+
+.tundra .dijitTooltipContainer .midSizeDialog .buildingtt,
+.tundra .dijitTooltipContainer .midSizeDialog .plantationtt,
+.tundra .dijitTooltipContainer .midSizeDialog .rolett {
+  background-color: initial;
+}
+
 .warningCounterIcon {
   filter: invert(100%);
 }
