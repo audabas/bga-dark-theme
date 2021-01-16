@@ -642,6 +642,9 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   padding: 6px 0 0 6px;
   border-radius: 5px;
 }
+#sevenwonder_wrap .new_edition .rotate_icon {
+  filter: invert(100%);
+}
 
 #vmg_portalstockrow,
 .vmg_playerportaldonerow {
