@@ -1,0 +1,10 @@
+.player_bid_zone_disabled {
+    background-color: $lightSurface;
+}
+.player-board.roundedboxdisabled {
+    background-color: $lighterSurface;
+}
+.player_sell_zone span.to_translate span,
+.player_bid_zone span.to_translate span {
+    color: $onSurface !important;
+}

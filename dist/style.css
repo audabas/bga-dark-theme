@@ -605,6 +605,19 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.player_bid_zone_disabled {
+  background-color: #2c2c2c;
+}
+
+.player-board.roundedboxdisabled {
+  background-color: #383838;
+}
+
+.player_sell_zone span.to_translate span,
+.player_bid_zone span.to_translate span {
+  color: #FFFFFF !important;
+}
+
 #clue_box {
   background-color: #383838;
 }
