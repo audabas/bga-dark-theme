@@ -618,6 +618,24 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF !important;
 }
 
+#hc_board .clue_container h3 > span.to_translate,
+#hc_board #clue_builder_container h3 > span.to_translate {
+  text-shadow: none;
+}
+#hc_board .clue_container #clue_builder .row div.word_add,
+#hc_board #clue_builder_container #clue_builder .row div.word_add {
+  color: rgba(255, 255, 255, 0.5);
+}
+#hc_board .clue_container #clue_builder .row div.word,
+#hc_board #clue_builder_container #clue_builder .row div.word {
+  color: black;
+}
+#hc_board #stacks .stack div.word_container div.word,
+#hc_board div.clue_container div.clue div.row div.word,
+#hc_board #hand > div.word {
+  color: black;
+}
+
 #clue_box {
   background-color: #383838;
 }
