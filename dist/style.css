@@ -601,6 +601,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+#concept-app #concept-card > ul > li {
+  color: black;
+}
+
 .guess_dinosaur .guess_text {
   color: black;
 }
