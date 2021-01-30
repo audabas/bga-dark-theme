@@ -679,12 +679,12 @@ div#objectives div.objective div.objective-desc p {
   color: black;
 }
 
-#sevenwonder_wrap .player_board_wrap.whiteblock h3 {
+body.new_edition #sevenwonder_wrap .player_board_wrap.whiteblock h3 {
   background: linear-gradient(90deg, rgba(173, 109, 251, 0.99), rgba(173, 109, 251, 0.25), rgba(173, 109, 251, 0));
   padding: 6px 0 0 6px;
   border-radius: 5px;
 }
-#sevenwonder_wrap .new_edition .rotate_icon {
+body.new_edition #sevenwonder_wrap .rotate_icon {
   filter: invert(100%);
 }
 
