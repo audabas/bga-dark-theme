@@ -1,10 +1,10 @@
-#sevenwonder_wrap {
+body.new_edition #sevenwonder_wrap {
     .player_board_wrap.whiteblock h3 {
         background: linear-gradient(90deg, rgba($darkPrimary, 0.99), rgba($darkPrimary, 0.25), rgba($darkPrimary, 0));
         padding: 6px 0 0 6px;
         border-radius: 5px;
     }
-    .new_edition .rotate_icon {
+    .rotate_icon {
         filter: invert(100%);
     }
 }

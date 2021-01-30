@@ -601,6 +601,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+#concept-app #concept-card > ul > li {
+  color: black;
+}
+
 .guess_dinosaur .guess_text {
   color: black;
 }
@@ -616,6 +620,24 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .player_sell_zone span.to_translate span,
 .player_bid_zone span.to_translate span {
   color: #FFFFFF !important;
+}
+
+#hc_board .clue_container h3 > span.to_translate,
+#hc_board #clue_builder_container h3 > span.to_translate {
+  text-shadow: none;
+}
+#hc_board .clue_container #clue_builder .row div.word_add,
+#hc_board #clue_builder_container #clue_builder .row div.word_add {
+  color: rgba(255, 255, 255, 0.5);
+}
+#hc_board .clue_container #clue_builder .row div.word,
+#hc_board #clue_builder_container #clue_builder .row div.word {
+  color: black;
+}
+#hc_board #stacks .stack div.word_container div.word,
+#hc_board div.clue_container div.clue div.row div.word,
+#hc_board #hand > div.word {
+  color: black;
 }
 
 #clue_box {
@@ -651,6 +673,10 @@ div#objectives div.objective div.objective-desc p {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
 
+#game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
+  color: white;
+}
+
 #game_play_area_wrap #game_play_area .playerArea.whiteblock .marble_pool,
 #game_play_area_wrap #game_play_area .playerArea.whiteblock .active,
 #game_play_area_wrap #game_play_area .playerArea.whiteblock .cupboard,
@@ -679,12 +705,12 @@ div#objectives div.objective div.objective-desc p {
   color: black;
 }
 
-#sevenwonder_wrap .player_board_wrap.whiteblock h3 {
+body.new_edition #sevenwonder_wrap .player_board_wrap.whiteblock h3 {
   background: linear-gradient(90deg, rgba(173, 109, 251, 0.99), rgba(173, 109, 251, 0.25), rgba(173, 109, 251, 0));
   padding: 6px 0 0 6px;
   border-radius: 5px;
 }
-#sevenwonder_wrap .new_edition .rotate_icon {
+body.new_edition #sevenwonder_wrap .rotate_icon {
   filter: invert(100%);
 }
 
