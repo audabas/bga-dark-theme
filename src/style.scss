@@ -368,7 +368,8 @@ input.dijitInputInner {
     background-color: $lightSurface;
 }
 .player_is_at_table .gametable.gametable_status_init,
-.player_is_at_table .gametable.gametable_status_open {
+.player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncopen {
     background-color: $lighterSurface;
 }
 

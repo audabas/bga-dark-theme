@@ -387,8 +387,8 @@ input.dijitInputInner {
 }
 
 .player_is_at_table .gametable.gametable_status_init,
-.player_is_at_table .gametable.gametable_status_asyncopen,
-.player_is_at_table .gametable.gametable_status_open {
+.player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncopen {
   background-color: #383838;
 }
 
@@ -716,11 +716,13 @@ body.new_edition #sevenwonder_wrap .rotate_icon {
 }
 
 #vmg_portalstockrow,
-.vmg_playerportaldonerow {
+.vmg_playerportaldonerow,
+#vmg_myportaldonerow {
   background-color: #1f1f1f;
 }
 
-.vmg_playerportalactiverow {
+.vmg_playerportalactiverow,
+#vmg_myportalactiverow {
   background-color: #2c2c2c;
 }
 
