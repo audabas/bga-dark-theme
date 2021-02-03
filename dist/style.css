@@ -387,6 +387,7 @@ input.dijitInputInner {
 }
 
 .player_is_at_table .gametable.gametable_status_init,
+.player_is_at_table .gametable.gametable_status_asyncopen,
 .player_is_at_table .gametable.gametable_status_open {
   background-color: #383838;
 }
