@@ -674,6 +674,10 @@ div#objectives div.objective div.objective-desc p {
   color: #FFFFFF;
 }
 
+div.orf-tip-card {
+  color: black;
+}
+
 #myhand .stockitem_selected {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
