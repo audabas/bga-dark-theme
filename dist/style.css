@@ -79,12 +79,16 @@ body {
 
 textarea,
 .board_fake_input,
-input,
+input:not(.dijitArrowButtonInner),
 input.dijitInputInner {
   background: #121212 !important;
   background-color: #121212 !important;
   border: solid 1px #FFFFFF;
   color: #FFFFFF !important;
+}
+
+.dijitSelect .dijitSelectLabel {
+  color: black;
 }
 
 .post .comment {
