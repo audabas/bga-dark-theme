@@ -674,6 +674,15 @@ div#objectives div.objective div.objective-desc p {
   color: #FFFFFF;
 }
 
+#ll_background .whiteblock {
+  background: rgba(56, 56, 56, 0.5);
+}
+#ll_background #explanation_card,
+#ll_background #explanation_card2,
+#ll_background .cardtitle {
+  color: black;
+}
+
 div.orf-tip-card {
   color: black;
 }
