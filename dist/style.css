@@ -645,6 +645,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.gamestate_guess .player_board_content .player_hc .player_panel_word.word {
+  color: black;
+}
+
 #clue_box {
   background-color: #383838;
 }
