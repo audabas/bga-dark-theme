@@ -79,12 +79,16 @@ body {
 
 textarea,
 .board_fake_input,
-input,
+input:not(.dijitArrowButtonInner),
 input.dijitInputInner {
   background: #121212 !important;
   background-color: #121212 !important;
   border: solid 1px #FFFFFF;
   color: #FFFFFF !important;
+}
+
+.dijitSelect .dijitSelectLabel {
+  color: black;
 }
 
 .post .comment {
@@ -387,7 +391,8 @@ input.dijitInputInner {
 }
 
 .player_is_at_table .gametable.gametable_status_init,
-.player_is_at_table .gametable.gametable_status_open {
+.player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncopen {
   background-color: #383838;
 }
 
@@ -640,6 +645,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.gamestate_guess .player_board_content .player_hc .player_panel_word.word {
+  color: black;
+}
+
 #clue_box {
   background-color: #383838;
 }
@@ -667,6 +676,19 @@ div#objectives div.objective div.objective-desc p {
 .lettertycoon_deck_info,
 .lettertycoon_area_label {
   color: #FFFFFF;
+}
+
+#ll_background .whiteblock {
+  background: rgba(56, 56, 56, 0.5);
+}
+#ll_background #explanation_card,
+#ll_background #explanation_card2,
+#ll_background .cardtitle {
+  color: black;
+}
+
+div.orf-tip-card {
+  color: black;
 }
 
 #myhand .stockitem_selected {
@@ -715,11 +737,13 @@ body.new_edition #sevenwonder_wrap .rotate_icon {
 }
 
 #vmg_portalstockrow,
-.vmg_playerportaldonerow {
+.vmg_playerportaldonerow,
+#vmg_myportaldonerow {
   background-color: #1f1f1f;
 }
 
-.vmg_playerportalactiverow {
+.vmg_playerportalactiverow,
+#vmg_myportalactiverow {
   background-color: #2c2c2c;
 }
 

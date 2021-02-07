@@ -75,12 +75,16 @@ body {
 
 textarea,
 .board_fake_input,
-input,
+input:not(.dijitArrowButtonInner),
 input.dijitInputInner {
     background: $background !important;
     background-color: $background !important;
     border: solid 1px $onBackground;
     color: $onSurface !important;
+}
+
+.dijitSelect .dijitSelectLabel {
+    color : black;
 }
 
 .post .comment {
@@ -368,7 +372,8 @@ input.dijitInputInner {
     background-color: $lightSurface;
 }
 .player_is_at_table .gametable.gametable_status_init,
-.player_is_at_table .gametable.gametable_status_open {
+.player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncopen {
     background-color: $lighterSurface;
 }
 
@@ -441,6 +446,8 @@ input.dijitInputInner {
 @import "games/hanabi";
 @import "games/kingdom_builder";
 @import "games/letter_tycoon";
+@import "games/love_letter";
+@import "games/oriflamme";
 @import "games/papayoo";
 @import "games/piratenkapern";
 @import "games/potion_explosion";
