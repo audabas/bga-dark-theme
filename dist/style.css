@@ -687,6 +687,31 @@ div#objectives div.objective div.objective-desc p {
   color: black;
 }
 
+#pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.placeCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.survivalCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.huntCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.placeCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.survivalCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.huntCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.placeCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.survivalCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.huntCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.placeCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.survivalCard,
+#pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.huntCard {
+  color: black;
+}
+
+#dialogContent .cardsWrapper .huntCard,
+#dialogContent .cardsWrapper .placeCard,
+#dialogContent .cardsWrapper .survivalCard,
+.dijitTooltip .dijitTooltipContainer .huntCard,
+.dijitTooltip .dijitTooltipContainer .placeCard,
+.dijitTooltip .dijitTooltipContainer .survivalCard {
+  color: black;
+}
+
 div.orf-tip-card {
   color: black;
 }
@@ -705,7 +730,8 @@ div.orf-tip-card {
 #game_play_area_wrap #game_play_area .playerArea.whiteblock .discard {
   border-color: #383838 !important;
 }
-#game_play_area_wrap #game_play_area .playerArea.whiteblock .potion_tooltip_small {
+
+.dijitTooltipContainer .potion_tooltip_small {
   background-color: #2c2c2c !important;
 }
 
