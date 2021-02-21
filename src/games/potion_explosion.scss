@@ -5,8 +5,8 @@
     .discard {
         border-color: $lighterSurface !important;
     }
+}
 
-    .potion_tooltip_small {
-        background-color: $lightSurface !important;
-    }
+.dijitTooltipContainer .potion_tooltip_small {
+    background-color: $lightSurface !important;
 }
