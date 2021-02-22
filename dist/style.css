@@ -649,6 +649,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+#turn-container #nb-turns-container {
+  color: #FFFFFF;
+}
+
 .guess_dinosaur .guess_text {
   color: black;
 }
