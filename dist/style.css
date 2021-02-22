@@ -493,6 +493,45 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #d7b8fd;
 }
 
+#tournament-module .v2tournament {
+  background: #1f1f1f;
+}
+#tournament-module .v2tournament h4 {
+  background: #ad6dfb;
+}
+#tournament-module .v2tournament .v2tournament__players-stats-table tr:nth-child(2n+1) td {
+  background: #383838;
+}
+#tournament-module .v2tournament .v2tournament__players-stats-table td {
+  background: #2c2c2c;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step {
+  background: #2c2c2c;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step:nth-child(2n+1) {
+  background: #383838;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounters-step-title {
+  background: #ad6dfb;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounters-step-title::after {
+  border-left-color: #ad6dfb;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounter-wrapper {
+  background: #1f1f1f;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounter-wrapper a.v2tournament__encounter-title {
+  background: #ad6dfb;
+  color: #FFFFFF;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounter-wrapper .v2tournament__encounter-player-points,
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounter-wrapper .v2tournament__encounter-player-result {
+  color: #FFFFFF;
+}
+#tournament-module .v2tournament .v2tournament__encounters-step .v2tournament__encounter-wrapper .v2tournament__encounter-player.highlighted {
+  background-color: #383838;
+}
+
 .chatwindowpreviewmsg {
   background-color: #2c2c2c;
 }

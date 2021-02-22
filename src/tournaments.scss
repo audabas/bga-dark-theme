@@ -31,3 +31,54 @@ a.tournaments-list-result {
         }
     }
 }
+
+#tournament-module .v2tournament {
+    background: $surface;
+
+    h4 {
+        background: $darkPrimary;
+    }
+
+    .v2tournament__players-stats-table {
+        tr:nth-child(2n+1) td {
+            background: $lighterSurface;
+        }
+        td {
+            background: $lightSurface;
+        }
+    }
+
+    .v2tournament__encounters-step {
+        background: $lightSurface;
+
+        &:nth-child(2n+1) {
+            background: $lighterSurface;
+        }
+
+        .v2tournament__encounters-step-title {
+            background: $darkPrimary;
+
+            &::after {
+                border-left-color: $darkPrimary;
+            }
+        }
+
+        .v2tournament__encounter-wrapper {
+            background: $surface;
+
+            a.v2tournament__encounter-title {
+                background: $darkPrimary;
+                color: $onSurface;
+            }
+
+            .v2tournament__encounter-player-points,
+            .v2tournament__encounter-player-result {
+                color: $onSurface;
+            }
+
+            .v2tournament__encounter-player.highlighted {
+                background-color: $lighterSurface;
+            }
+        }
+    }
+}
