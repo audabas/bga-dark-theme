@@ -54,6 +54,9 @@ body {
     &:hover {
         background: $primary !important;
     }
+    &.green {
+        background: green !important;
+    }
 }
 
 .bgabutton_red {
@@ -439,6 +442,7 @@ input.dijitInputInner {
 @import "versioning";
 
 // Specific games
+@import "games/cacao";
 @import "games/concept";
 @import "games/dice_forge";
 @import "games/dinosaur_tea_party";

@@ -59,6 +59,9 @@ body {
 .bgabutton_blue:hover {
   background: #BB86FC !important;
 }
+.bgabutton_blue.green {
+  background: green !important;
+}
 
 .bgabutton_red {
   background: #CF6679;
@@ -532,6 +535,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   background-color: #383838;
 }
 
+#newtournament-module #createnewtournament .row-data .row-label {
+  color: #FFFFFF;
+}
+
 .chatwindowpreviewmsg {
   background-color: #2c2c2c;
 }
@@ -645,6 +652,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
+  color: black;
+}
+
 #concept-app #concept-card > ul > li {
   color: black;
 }
@@ -688,7 +699,8 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
-.gamestate_guess .player_board_content .player_hc .player_panel_word.word {
+.gamestate_guess .player_board_content .player_hc .player_panel_word.word,
+.gamestate_score .player_board_content .player_hc .player_panel_word.word {
   color: black;
 }
 

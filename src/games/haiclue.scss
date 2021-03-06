@@ -21,6 +21,9 @@
     }
 }
 
-.gamestate_guess .player_board_content .player_hc .player_panel_word.word {
-    color: black;
+.gamestate_guess,
+.gamestate_score {
+    .player_board_content .player_hc .player_panel_word.word {
+        color: black;
+    }
 }
