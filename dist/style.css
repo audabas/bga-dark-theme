@@ -648,6 +648,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
+  color: black;
+}
+
 #concept-app #concept-card > ul > li {
   color: black;
 }
