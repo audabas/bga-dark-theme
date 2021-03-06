@@ -54,6 +54,9 @@ body {
     &:hover {
         background: $primary !important;
     }
+    &.green {
+        background: green !important;
+    }
 }
 
 .bgabutton_red {

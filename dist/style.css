@@ -59,6 +59,9 @@ body {
 .bgabutton_blue:hover {
   background: #BB86FC !important;
 }
+.bgabutton_blue.green {
+  background: green !important;
+}
 
 .bgabutton_red {
   background: #CF6679;
