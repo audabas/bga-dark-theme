@@ -688,7 +688,8 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
-.gamestate_guess .player_board_content .player_hc .player_panel_word.word {
+.gamestate_guess .player_board_content .player_hc .player_panel_word.word,
+.gamestate_score .player_board_content .player_hc .player_panel_word.word {
   color: black;
 }
 
