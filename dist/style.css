@@ -664,6 +664,13 @@ div#player_boards div.player_board_inner div.player_board_content > div.player_s
   color: black;
 }
 
+#cubirds_below {
+  color: black;
+}
+#cubirds_below .whiteblock {
+  background-color: #2c2c2c;
+}
+
 #turn-container #nb-turns-container {
   color: #FFFFFF;
 }
