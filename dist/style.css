@@ -660,6 +660,10 @@ div#player_boards div.player_board_inner div.player_board_content > div.player_s
   color: black;
 }
 
+.crazy-box .cards .hand .card-container .action {
+  color: black;
+}
+
 #turn-container #nb-turns-container {
   color: #FFFFFF;
 }
