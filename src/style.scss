@@ -434,6 +434,12 @@ input.dijitInputInner {
     color: white !important;
 }
 
+// Agenda
+
+.agenda-tournament-list-category, .agenda-tournament-list__title, .agenda-tournament-list__players-num {
+    color: $onSurface;
+}
+
 // Global
 @import "gameinprogress";
 @import "tournaments";
