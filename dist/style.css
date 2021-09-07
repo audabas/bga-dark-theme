@@ -454,6 +454,10 @@ input.dijitInputInner {
   color: white !important;
 }
 
+.agenda-tournament-list-category, .agenda-tournament-list__title, .agenda-tournament-list__players-num {
+  color: #FFFFFF;
+}
+
 .newbgatable td,
 .newbgatable th {
   color: #FFFFFF;
