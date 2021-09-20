@@ -1,14 +1,16 @@
-#clue_box {
-    background-color: $lighterSurface;
-    .clue_option {
-        color : $onSurface;
+.bgagame-Hanabi {
+    #clue_box {
+        background-color: $lighterSurface;
+        .clue_option {
+            color : $onSurface;
+        }
     }
-}
 
-#clues_avail {
-    background-color: $lighterSurface;
-}
+    #clues_avail {
+        background-color: $lighterSurface;
+    }
 
-.colored_element_5 .clue_panel { // White on white
-    color: black;
+    .colored_element_5 .clue_panel { // White on white
+        color: black;
+    }
 }

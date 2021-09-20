@@ -1,24 +1,26 @@
-#pagesection_gameview #game_play_area_wrap #game_play_area {
-    #hand_zone,
-    #choice_zone,
-    #artemia_wrap,
-    #ongoingEffects,
-    #hunt_survival_cards_discard_zone {
-        .stockitem {
-            &.placeCard,
-            &.survivalCard,
-            &.huntCard {
-                color: black;
+.bgagame-notalone {
+    #pagesection_gameview #game_play_area_wrap #game_play_area {
+        #hand_zone,
+        #choice_zone,
+        #artemia_wrap,
+        #ongoingEffects,
+        #hunt_survival_cards_discard_zone {
+            .stockitem {
+                &.placeCard,
+                &.survivalCard,
+                &.huntCard {
+                    color: black;
+                }
             }
         }
     }
-}
 
-#dialogContent .cardsWrapper,
-.dijitTooltip .dijitTooltipContainer {
-    .huntCard,
-    .placeCard,
-    .survivalCard {
-        color: black;
+    #dialogContent .cardsWrapper,
+    .dijitTooltip .dijitTooltipContainer {
+        .huntCard,
+        .placeCard,
+        .survivalCard {
+            color: black;
+        }
     }
 }

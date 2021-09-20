@@ -1,29 +1,31 @@
-#hc_board {
-    .clue_container,
-    #clue_builder_container {
-        h3 > span.to_translate {
-            text-shadow: none;
+.bgagame-haiclue {
+    #hc_board {
+        .clue_container,
+        #clue_builder_container {
+            h3 > span.to_translate {
+                text-shadow: none;
+            }
+            #clue_builder .row {
+                div.word_add {
+                    color: rgba(white, 0.5);
+                }
+                div.word {
+                    color: black;
+                }
+            }
         }
-        #clue_builder .row {
-            div.word_add {
-                color: rgba(white, 0.5);
-            }
-            div.word {
-                color: black;
-            }
+
+        #stacks .stack div.word_container div.word,
+        div.clue_container div.clue div.row div.word,
+        #hand > div.word {
+            color: black;
         }
     }
 
-    #stacks .stack div.word_container div.word,
-    div.clue_container div.clue div.row div.word,
-    #hand > div.word {
-        color: black;
-    }
-}
-
-.gamestate_guess,
-.gamestate_score {
-    .player_board_content .player_hc .player_panel_word.word {
-        color: black;
+    .gamestate_guess,
+    .gamestate_score {
+        .player_board_content .player_hc .player_panel_word.word {
+            color: black;
+        }
     }
 }

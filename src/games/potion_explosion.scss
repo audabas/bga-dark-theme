@@ -1,12 +1,14 @@
-#game_play_area_wrap #game_play_area .playerArea.whiteblock {
-    .marble_pool,
-    .active,
-    .cupboard,
-    .discard {
-        border-color: $lighterSurface !important;
+.bgagame-potionexplosion {
+    #game_play_area_wrap #game_play_area .playerArea.whiteblock {
+        .marble_pool,
+        .active,
+        .cupboard,
+        .discard {
+            border-color: $lighterSurface !important;
+        }
     }
-}
 
-.dijitTooltipContainer .potion_tooltip_small {
-    background-color: $lightSurface !important;
+    .dijitTooltipContainer .potion_tooltip_small {
+        background-color: $lightSurface !important;
+    }
 }

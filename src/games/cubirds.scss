@@ -1,7 +1,9 @@
-#cubirds_below {
-    color: black;
+.bgagame-cubirds {
+    #cubirds_below {
+        color: black;
 
-    .whiteblock {
-        background-color: $lightSurface;
+        .whiteblock {
+            background-color: $lightSurface;
+        }
     }
 }

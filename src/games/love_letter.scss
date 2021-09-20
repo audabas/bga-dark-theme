@@ -1,10 +1,12 @@
-#ll_background {
-    .whiteblock {
-        background: rgba($lighterSurface, 0.5);
-    }
-    #explanation_card,
-    #explanation_card2,
-    .cardtitle {
-        color: black;
+.bgagame-loveletter {
+    #ll_background {
+        .whiteblock {
+            background: rgba($lighterSurface, 0.5);
+        }
+        #explanation_card,
+        #explanation_card2,
+        .cardtitle {
+            color: black;
+        }
     }
 }

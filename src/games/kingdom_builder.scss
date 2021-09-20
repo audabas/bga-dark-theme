@@ -1,10 +1,12 @@
-div#objectives div.objective {
-    div.objective-name,
-    div.objective-desc p {
-        color: black !important;
+.bgagame-kingdombuilder {
+    div#objectives div.objective {
+        div.objective-name,
+        div.objective-desc p {
+            color: black !important;
+        }
     }
-}
 
-.dijitTooltip .tile-prompt {
-    background-color: initial !important;
+    .dijitTooltip .tile-prompt {
+        background-color: initial !important;
+    }
 }

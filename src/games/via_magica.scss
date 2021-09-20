@@ -1,9 +1,11 @@
-#vmg_portalstockrow,
-.vmg_playerportaldonerow,
-#vmg_myportaldonerow {
-    background-color: $surface;
-}
-.vmg_playerportalactiverow,
-#vmg_myportalactiverow {
-    background-color: $lightSurface;
+.bgagame-viamagica {
+    #vmg_portalstockrow,
+    .vmg_playerportaldonerow,
+    #vmg_myportaldonerow {
+        background-color: $surface;
+    }
+    .vmg_playerportalactiverow,
+    #vmg_myportalactiverow {
+        background-color: $lightSurface;
+    }
 }
