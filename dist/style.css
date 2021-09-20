@@ -646,7 +646,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #login-menu::after {
-  content: "BGA Dark theme v1.0.10\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.11\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -656,198 +656,188 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
-div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
+.bgagame-cacao div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
   color: black;
 }
 
-#concept-app #concept-card > ul > li {
+.bgagame-concept #concept-app #concept-card > ul > li {
   color: black;
 }
 
-.crazy-box .cards .hand .card-container .action {
+.bgagame-crazyfarmers .crazy-box .cards .hand .card-container .action {
   color: black;
 }
 
-#cubirds_below {
+.bgagame-cubirds #cubirds_below {
   color: black;
 }
-#cubirds_below .whiteblock {
+.bgagame-cubirds #cubirds_below .whiteblock {
   background-color: #2c2c2c;
 }
 
-#turn-container #nb-turns-container {
+.bgagame-diceforge #turn-container #nb-turns-container {
   color: #FFFFFF;
 }
 
-.guess_dinosaur .guess_text {
+.bgagame-dinosaurteaparty .guess_dinosaur .guess_text {
   color: black;
 }
 
-#draftosaurus-wrap #counter-wrap {
+.bgagame-draftosaurus #draftosaurus-wrap #counter-wrap {
   color: black;
 }
 
-.player_bid_zone_disabled {
+.bgagame-forsale .player_bid_zone_disabled {
   background-color: #2c2c2c;
 }
-
-.player-board.roundedboxdisabled {
+.bgagame-forsale .player-board.roundedboxdisabled {
   background-color: #383838;
 }
-
-.player_sell_zone span.to_translate span,
-.player_bid_zone span.to_translate span {
+.bgagame-forsale .player_sell_zone span.to_translate span,
+.bgagame-forsale .player_bid_zone span.to_translate span {
   color: #FFFFFF !important;
 }
 
-#hc_board .clue_container h3 > span.to_translate,
-#hc_board #clue_builder_container h3 > span.to_translate {
+.bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
+.bgagame-haiclue #hc_board #clue_builder_container h3 > span.to_translate {
   text-shadow: none;
 }
-#hc_board .clue_container #clue_builder .row div.word_add,
-#hc_board #clue_builder_container #clue_builder .row div.word_add {
+.bgagame-haiclue #hc_board .clue_container #clue_builder .row div.word_add,
+.bgagame-haiclue #hc_board #clue_builder_container #clue_builder .row div.word_add {
   color: rgba(255, 255, 255, 0.5);
 }
-#hc_board .clue_container #clue_builder .row div.word,
-#hc_board #clue_builder_container #clue_builder .row div.word {
+.bgagame-haiclue #hc_board .clue_container #clue_builder .row div.word,
+.bgagame-haiclue #hc_board #clue_builder_container #clue_builder .row div.word {
   color: black;
 }
-#hc_board #stacks .stack div.word_container div.word,
-#hc_board div.clue_container div.clue div.row div.word,
-#hc_board #hand > div.word {
+.bgagame-haiclue #hc_board #stacks .stack div.word_container div.word,
+.bgagame-haiclue #hc_board div.clue_container div.clue div.row div.word,
+.bgagame-haiclue #hc_board #hand > div.word {
+  color: black;
+}
+.bgagame-haiclue .gamestate_guess .player_board_content .player_hc .player_panel_word.word,
+.bgagame-haiclue .gamestate_score .player_board_content .player_hc .player_panel_word.word {
   color: black;
 }
 
-.gamestate_guess .player_board_content .player_hc .player_panel_word.word,
-.gamestate_score .player_board_content .player_hc .player_panel_word.word {
-  color: black;
-}
-
-#clue_box {
+.bgagame-Hanabi #clue_box {
   background-color: #383838;
 }
-#clue_box .clue_option {
+.bgagame-Hanabi #clue_box .clue_option {
   color: #FFFFFF;
 }
-
-#clues_avail {
+.bgagame-Hanabi #clues_avail {
   background-color: #383838;
 }
-
-.colored_element_5 .clue_panel {
+.bgagame-Hanabi .colored_element_5 .clue_panel {
   color: black;
 }
 
-div#objectives div.objective div.objective-name,
-div#objectives div.objective div.objective-desc p {
+.bgagame-kingdombuilder div#objectives div.objective div.objective-name,
+.bgagame-kingdombuilder div#objectives div.objective div.objective-desc p {
   color: black !important;
 }
-
-.dijitTooltip .tile-prompt {
+.bgagame-kingdombuilder .dijitTooltip .tile-prompt {
   background-color: initial !important;
 }
 
-.lettertycoon_deck_info,
-.lettertycoon_area_label {
+.bgagame-lettertycoon .lettertycoon_deck_info,
+.bgagame-lettertycoon .lettertycoon_area_label {
   color: #FFFFFF;
 }
 
-#ll_background .whiteblock {
+.bgagame-loveletter #ll_background .whiteblock {
   background: rgba(56, 56, 56, 0.5);
 }
-#ll_background #explanation_card,
-#ll_background #explanation_card2,
-#ll_background .cardtitle {
+.bgagame-loveletter #ll_background #explanation_card,
+.bgagame-loveletter #ll_background #explanation_card2,
+.bgagame-loveletter #ll_background .cardtitle {
   color: black;
 }
 
-#pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.placeCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.survivalCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.huntCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.placeCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.survivalCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.huntCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.placeCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.survivalCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.huntCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.placeCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.survivalCard,
-#pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.huntCard {
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.placeCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.survivalCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.huntCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.placeCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.survivalCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #artemia_wrap .stockitem.huntCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.placeCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.survivalCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #ongoingEffects .stockitem.huntCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.placeCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.survivalCard,
+.bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.huntCard {
+  color: black;
+}
+.bgagame-notalone #dialogContent .cardsWrapper .huntCard,
+.bgagame-notalone #dialogContent .cardsWrapper .placeCard,
+.bgagame-notalone #dialogContent .cardsWrapper .survivalCard,
+.bgagame-notalone .dijitTooltip .dijitTooltipContainer .huntCard,
+.bgagame-notalone .dijitTooltip .dijitTooltipContainer .placeCard,
+.bgagame-notalone .dijitTooltip .dijitTooltipContainer .survivalCard {
   color: black;
 }
 
-#dialogContent .cardsWrapper .huntCard,
-#dialogContent .cardsWrapper .placeCard,
-#dialogContent .cardsWrapper .survivalCard,
-.dijitTooltip .dijitTooltipContainer .huntCard,
-.dijitTooltip .dijitTooltipContainer .placeCard,
-.dijitTooltip .dijitTooltipContainer .survivalCard {
+.bgagame-oriflamme div.orf-tip-card {
   color: black;
 }
 
-div.orf-tip-card {
-  color: black;
-}
-
-#myhand .stockitem_selected {
+.bgagame-papayoo #myhand .stockitem_selected {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
 
-#game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
+.bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
   color: white;
 }
 
-#game_play_area_wrap #game_play_area .playerArea.whiteblock .marble_pool,
-#game_play_area_wrap #game_play_area .playerArea.whiteblock .active,
-#game_play_area_wrap #game_play_area .playerArea.whiteblock .cupboard,
-#game_play_area_wrap #game_play_area .playerArea.whiteblock .discard {
+.bgagame-potionexplosion #game_play_area_wrap #game_play_area .playerArea.whiteblock .marble_pool,
+.bgagame-potionexplosion #game_play_area_wrap #game_play_area .playerArea.whiteblock .active,
+.bgagame-potionexplosion #game_play_area_wrap #game_play_area .playerArea.whiteblock .cupboard,
+.bgagame-potionexplosion #game_play_area_wrap #game_play_area .playerArea.whiteblock .discard {
   border-color: #383838 !important;
 }
-
-.dijitTooltipContainer .potion_tooltip_small {
+.bgagame-potionexplosion .dijitTooltipContainer .potion_tooltip_small {
   background-color: #2c2c2c !important;
 }
 
-#bank_and_cards #bank span {
+.bgagame-puertorico #bank_and_cards #bank span {
   color: black;
 }
-
-.tundra .dijitTooltipContainer .midSizeDialog .buildingtt,
-.tundra .dijitTooltipContainer .midSizeDialog .plantationtt,
-.tundra .dijitTooltipContainer .midSizeDialog .rolett {
+.bgagame-puertorico .tundra .dijitTooltipContainer .midSizeDialog .buildingtt,
+.bgagame-puertorico .tundra .dijitTooltipContainer .midSizeDialog .plantationtt,
+.bgagame-puertorico .tundra .dijitTooltipContainer .midSizeDialog .rolett {
   background-color: initial;
 }
 
-.warningCounterIcon {
+.bgagame-rallymangt .warningCounterIcon {
   filter: invert(100%);
 }
 
-.power-detail .power-ext p {
+.bgagame-santorini .power-detail .power-ext p {
   color: black;
 }
 
-body.new_edition #sevenwonder_wrap .player_board_wrap.whiteblock h3 {
+.bgagame-sevenwonders .player_board_wrap.whiteblock h3 {
   background: linear-gradient(90deg, rgba(173, 109, 251, 0.99), rgba(173, 109, 251, 0.25), rgba(173, 109, 251, 0));
   padding: 6px 0 0 6px;
   border-radius: 5px;
 }
-body.new_edition #sevenwonder_wrap .rotate_icon {
+.bgagame-sevenwonders .rotate_icon {
   filter: invert(100%);
 }
 
-#vmg_portalstockrow,
-.vmg_playerportaldonerow,
-#vmg_myportaldonerow {
+.bgagame-viamagica #vmg_portalstockrow,
+.bgagame-viamagica .vmg_playerportaldonerow,
+.bgagame-viamagica #vmg_myportaldonerow {
   background-color: #1f1f1f;
 }
-
-.vmg_playerportalactiverow,
-#vmg_myportalactiverow {
+.bgagame-viamagica .vmg_playerportalactiverow,
+.bgagame-viamagica #vmg_myportalactiverow {
   background-color: #2c2c2c;
 }
 
-table.table-style-one th, table.table-style-one td {
+.bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td {
   color: #FFFFFF;
   border-color: #383838;
 }
