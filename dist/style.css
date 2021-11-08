@@ -841,3 +841,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF;
   border-color: #383838;
 }
+
+.bgagame-railroadink .score {
+  color: black;
+}
