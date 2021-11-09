@@ -842,7 +842,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   border-color: #383838;
 }
 
-.bgagame-railroadink .score {
+.bgagame-railroadink .score, .bgagame-railroadink .round-number {
   color: black;
 }
 
