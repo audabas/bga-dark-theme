@@ -1,0 +1,24 @@
+.bgagame-viticulture {
+	.label_boardLabels, .label_playerBoardLabels, .playerboard .building_slot, .playerBoardLabels,.deck_count,.card, .papa,.mama {
+	   color: black;
+	}
+	
+	#turn_header {
+	  color: black;
+	}
+	
+	.card_tooltip {
+		background: #383838!important;
+	}
+
+	.dijitTooltipContainer {
+		background: #383838!important;
+		border-color: #ad6dfb!important;
+	}
+	
+	.player-board {
+		background-color: #2c2c2c;
+		color: #FFFFFF;
+	}
+}
+

@@ -845,3 +845,21 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-railroadink .score {
   color: black;
 }
+
+.bgagame-viticulture .label_boardLabels, .bgagame-viticulture .label_playerBoardLabels, .bgagame-viticulture .playerboard .building_slot, .bgagame-viticulture .playerBoardLabels, .bgagame-viticulture .deck_count, .bgagame-viticulture .card, .bgagame-viticulture .papa, .bgagame-viticulture .mama {
+  color: black;
+}
+.bgagame-viticulture #turn_header {
+  color: black;
+}
+.bgagame-viticulture .card_tooltip {
+  background: #383838 !important;
+}
+.bgagame-viticulture .dijitTooltipContainer {
+  background: #383838 !important;
+  border-color: #ad6dfb !important;
+}
+.bgagame-viticulture .player-board {
+  background-color: #2c2c2c;
+  color: #FFFFFF;
+}
