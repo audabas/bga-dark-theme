@@ -867,3 +867,11 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-thebuilders .cardname {
   color: black;
 }
+
+.bgagame-thebuildersantiquity .cardname {
+  color: black;
+}
+.bgagame-thebuildersantiquity #universities {
+  background-color: #d9cab2;
+  border-radius: 10px;
+}
