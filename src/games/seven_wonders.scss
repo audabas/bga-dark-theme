@@ -7,4 +7,9 @@
     .rotate_icon {
         filter: invert(100%);
     }
+    #table_score_contents {
+        .tableWindow th {
+            color: $onSurface;
+        }
+    }
 }

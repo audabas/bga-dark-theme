@@ -864,6 +864,9 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-sevenwonders .rotate_icon {
   filter: invert(100%);
 }
+.bgagame-sevenwonders #table_score_contents .tableWindow th {
+  color: #FFFFFF;
+}
 
 .bgagame-viamagica #vmg_portalstockrow,
 .bgagame-viamagica .vmg_playerportaldonerow,
