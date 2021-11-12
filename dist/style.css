@@ -771,6 +771,11 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.bgagame-icecoldicehockey .normalPeriod,
+.bgagame-icecoldicehockey #period {
+  color: #d7b8fd;
+}
+
 .bgagame-kingdombuilder div#objectives div.objective div.objective-name,
 .bgagame-kingdombuilder div#objectives div.objective div.objective-desc p {
   color: black !important;
