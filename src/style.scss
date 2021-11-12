@@ -86,6 +86,41 @@ input.dijitInputInner {
     color: $onSurface !important;
 }
 
+.tundra .dijitCalendarContainer {
+    .dijitCalendarMonthContainer {
+        background: $lighterSurface;
+        .dijitCalendarMonthLabel {
+            color: $onSurface;
+        }
+    }
+    table {
+        .dijitCalendarDayLabelTemplate {
+            background: $lightSurface;
+            color: $onSurface;
+        }
+        .dijitCalendarCurrentMonth {
+            background: $lightSurface;
+            color: $onSurface;
+        }
+        .dijitCalendarPreviousMonth,
+        .dijitCalendarNextMonth {
+            background: $surface;
+            color: $onSurface;
+        }
+    }
+    .dijitCalendarYearContainer {
+        background: $lighterSurface;
+        .dijitCalendarNextYear, .dijitCalendarPreviousYear {
+            color: $onSurface !important;
+        }
+    }
+}
+.tundra .dijitCalendarMonthMenuPopup {
+    .dijitCalendarMonthLabel {
+        color: $onSurface;
+    }
+}
+
 .dijitSelect .dijitSelectLabel {
     color : black;
 }
