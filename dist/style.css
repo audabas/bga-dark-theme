@@ -889,6 +889,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.bgagame-thebuilders .cardname {
+  color: black;
+}
+
 .bgagame-thebuildersantiquity .cardname {
   color: black;
 }
@@ -897,8 +901,15 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   border-radius: 10px;
 }
 
-.bgagame-thebuilders .cardname {
-  color: black;
+.bgagame-thecrew::before {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/thecrew/201022-1013/img/stars.png);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(20%);
 }
 
 .bgagame-viamagica #vmg_portalstockrow,
