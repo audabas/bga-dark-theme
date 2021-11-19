@@ -90,6 +90,36 @@ input.dijitInputInner {
   color: #FFFFFF !important;
 }
 
+.tundra .dijitCalendarContainer .dijitCalendarMonthContainer {
+  background: #383838;
+}
+.tundra .dijitCalendarContainer .dijitCalendarMonthContainer .dijitCalendarMonthLabel {
+  color: #FFFFFF;
+}
+.tundra .dijitCalendarContainer table .dijitCalendarDayLabelTemplate {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.tundra .dijitCalendarContainer table .dijitCalendarCurrentMonth {
+  background: #2c2c2c;
+  color: #FFFFFF;
+}
+.tundra .dijitCalendarContainer table .dijitCalendarPreviousMonth,
+.tundra .dijitCalendarContainer table .dijitCalendarNextMonth {
+  background: #1f1f1f;
+  color: #FFFFFF;
+}
+.tundra .dijitCalendarContainer .dijitCalendarYearContainer {
+  background: #383838;
+}
+.tundra .dijitCalendarContainer .dijitCalendarYearContainer .dijitCalendarNextYear, .tundra .dijitCalendarContainer .dijitCalendarYearContainer .dijitCalendarPreviousYear {
+  color: #FFFFFF !important;
+}
+
+.tundra .dijitCalendarMonthMenuPopup .dijitCalendarMonthLabel {
+  color: #FFFFFF;
+}
+
 .dijitSelect .dijitSelectLabel {
   color: black;
 }
@@ -446,6 +476,14 @@ input.dijitInputInner {
   filter: grayscale(100%) brightness(150%);
 }
 
+#archivecontrol a {
+  color: #FFFFFF;
+}
+
+#archive_goto_menu a:link, #archive_goto_menu a:visited {
+  color: #BB86FC;
+}
+
 .whypremium_icon {
   filter: invert(100%);
 }
@@ -646,7 +684,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #login-menu::after {
-  content: "BGA Dark theme v1.0.11\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.12\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -748,6 +786,11 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.bgagame-icecoldicehockey .normalPeriod,
+.bgagame-icecoldicehockey #period {
+  color: #d7b8fd;
+}
+
 .bgagame-kingdombuilder div#objectives div.objective div.objective-name,
 .bgagame-kingdombuilder div#objectives div.objective div.objective-desc p {
   color: black !important;
@@ -825,12 +868,12 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   background-color: initial;
 }
 
-.bgagame-rallymangt .warningCounterIcon {
-  filter: invert(100%);
-}
-
 .bgagame-railroadink .score, .bgagame-railroadink .round-number {
   color: black;
+}
+
+.bgagame-rallymangt .warningCounterIcon {
+  filter: invert(100%);
 }
 
 .bgagame-santorini .power-detail .power-ext p {
@@ -845,12 +888,23 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-sevenwonders .rotate_icon {
   filter: invert(100%);
 }
+.bgagame-sevenwonders #table_score_contents .tableWindow th {
+  color: #FFFFFF;
+}
 
 .bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {
   -webkit-box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) rgba(0, 0, 0, 0.16);
   box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) grey;
 }
 .bgagame-sevenwondersduel .swd_title {
+  color: black;
+}
+
+.bgagame-splendor .spl_coinpile_counter {
+  color: black;
+}
+
+.bgagame-starfluxx .flx-card, .bgagame-starfluxx .flx-card-overlay-title {
   color: black;
 }
 
@@ -868,6 +922,17 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-thebuildersantiquity #universities {
   background-color: #d9cab2;
   border-radius: 10px;
+}
+
+.bgagame-thecrew::before {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/thecrew/201022-1013/img/stars.png);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(20%);
 }
 
 .bgagame-viamagica #vmg_portalstockrow,

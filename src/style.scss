@@ -86,6 +86,41 @@ input.dijitInputInner {
     color: $onSurface !important;
 }
 
+.tundra .dijitCalendarContainer {
+    .dijitCalendarMonthContainer {
+        background: $lighterSurface;
+        .dijitCalendarMonthLabel {
+            color: $onSurface;
+        }
+    }
+    table {
+        .dijitCalendarDayLabelTemplate {
+            background: $lightSurface;
+            color: $onSurface;
+        }
+        .dijitCalendarCurrentMonth {
+            background: $lightSurface;
+            color: $onSurface;
+        }
+        .dijitCalendarPreviousMonth,
+        .dijitCalendarNextMonth {
+            background: $surface;
+            color: $onSurface;
+        }
+    }
+    .dijitCalendarYearContainer {
+        background: $lighterSurface;
+        .dijitCalendarNextYear, .dijitCalendarPreviousYear {
+            color: $onSurface !important;
+        }
+    }
+}
+.tundra .dijitCalendarMonthMenuPopup {
+    .dijitCalendarMonthLabel {
+        color: $onSurface;
+    }
+}
+
 .dijitSelect .dijitSelectLabel {
     color : black;
 }
@@ -424,6 +459,15 @@ input.dijitInputInner {
     filter: grayscale(100%) brightness(150%);
 }
 
+#archivecontrol a {
+    color: $onSurface;
+}
+#archive_goto_menu {
+    a:link, a:visited {
+        color: $primary;
+    }
+}
+
 // Premium
 .whypremium_icon {
     filter: invert(100%);
@@ -460,6 +504,7 @@ input.dijitInputInner {
 @import "games/for_sale";
 @import "games/haiclue";
 @import "games/hanabi";
+@import "games/icecoldicehockey";
 @import "games/kingdom_builder";
 @import "games/letter_tycoon";
 @import "games/love_letter";
@@ -469,18 +514,19 @@ input.dijitInputInner {
 @import "games/piratenkapern";
 @import "games/potion_explosion";
 @import "games/puerto_rico";
-@import "games/rallymangt";
 @import "games/railroadink";
+@import "games/rallymangt";
 @import "games/santorini";
 @import "games/seven_wonders";
 @import "games/sevenwondersduel";
+@import "games/splendor";
 @import "games/starfluxx";
 @import "games/targi";
 @import "games/thebuilders";
 @import "games/thebuildersantiquity";
+@import "games/thecrew";
 @import "games/via_magica";
 @import "games/viticulture";
 @import "games/welcometo";
 @import "games/welcometonewlasvegas";
 @import "games/yatzy";
-
