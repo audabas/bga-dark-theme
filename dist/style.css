@@ -656,6 +656,17 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+.bgagame-azul zoom-notice {
+  background-color: #2c2c2c;
+}
+.bgagame-azul #zoom-wrapper #zoom-controls button {
+  filter: invert(50%);
+}
+.bgagame-azul .player-table-wrapper .player-hand {
+  background: rgba(128, 128, 128, 0.3);
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.3);
+}
+
 .bgagame-cacao div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
   color: black;
 }
@@ -814,6 +825,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   filter: invert(100%);
 }
 
+.bgagame-railroadink .score, .bgagame-railroadink .round-number {
+  color: black;
+}
+
 .bgagame-santorini .power-detail .power-ext p {
   color: black;
 }
@@ -827,6 +842,30 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   filter: invert(100%);
 }
 
+.bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {
+  -webkit-box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) rgba(0, 0, 0, 0.16);
+  box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) grey;
+}
+.bgagame-sevenwondersduel .swd_title {
+  color: black;
+}
+
+.bgagame-targi .card {
+  color: black;
+}
+
+.bgagame-thebuilders .cardname {
+  color: black;
+}
+
+.bgagame-thebuildersantiquity .cardname {
+  color: black;
+}
+.bgagame-thebuildersantiquity #universities {
+  background-color: #d9cab2;
+  border-radius: 10px;
+}
+
 .bgagame-viamagica #vmg_portalstockrow,
 .bgagame-viamagica .vmg_playerportaldonerow,
 .bgagame-viamagica #vmg_myportaldonerow {
@@ -835,15 +874,6 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-viamagica .vmg_playerportalactiverow,
 .bgagame-viamagica #vmg_myportalactiverow {
   background-color: #2c2c2c;
-}
-
-.bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td {
-  color: #FFFFFF;
-  border-color: #383838;
-}
-
-.bgagame-railroadink .score, .bgagame-railroadink .round-number {
-  color: black;
 }
 
 .bgagame-viticulture .label_boardLabels, .bgagame-viticulture .label_playerBoardLabels, .bgagame-viticulture .playerboard .building_slot, .bgagame-viticulture .playerBoardLabels, .bgagame-viticulture .deck_count, .bgagame-viticulture .card, .bgagame-viticulture .papa, .bgagame-viticulture .mama {
@@ -864,22 +894,15 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF;
 }
 
-.bgagame-thebuilders .cardname {
-  color: black;
+.bgagame-welcometo .house-number, .bgagame-welcometo .score-counter {
+  color: darkblue;
 }
 
-.bgagame-thebuildersantiquity .cardname {
-  color: black;
-}
-.bgagame-thebuildersantiquity #universities {
-  background-color: #d9cab2;
-  border-radius: 10px;
+.bgagame-welcometonewlasvegas .handwritten {
+  color: darkblue;
 }
 
-.bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {
-  -webkit-box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) rgba(0, 0, 0, 0.16);
-  box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) grey;
-}
-.bgagame-sevenwondersduel .swd_title {
-  color: black;
+.bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td {
+  color: #FFFFFF;
+  border-color: #383838;
 }
