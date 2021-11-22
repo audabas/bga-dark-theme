@@ -694,6 +694,17 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   margin-bottom: 0.5rem;
 }
 
+.bgagame-azul zoom-notice {
+  background-color: #2c2c2c;
+}
+.bgagame-azul #zoom-wrapper #zoom-controls button {
+  filter: invert(50%);
+}
+.bgagame-azul .player-table-wrapper .player-hand {
+  background: rgba(128, 128, 128, 0.3);
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.3);
+}
+
 .bgagame-cacao div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
   color: black;
 }
@@ -722,6 +733,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bgagame-draftosaurus #draftosaurus-wrap #counter-wrap {
+  color: black;
+}
+
+.bgagame-fluxx .flx-card, .bgagame-fluxx .flx-card-overlay-title {
   color: black;
 }
 
@@ -889,6 +904,14 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.bgagame-starfluxx .flx-card, .bgagame-starfluxx .flx-card-overlay-title {
+  color: black;
+}
+
+.bgagame-targi .card {
+  color: black;
+}
+
 .bgagame-thebuilders .cardname {
   color: black;
 }
@@ -938,6 +961,14 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-viticulture .player-board {
   background-color: #2c2c2c;
   color: #FFFFFF;
+}
+
+.bgagame-welcometo .house-number, .bgagame-welcometo .score-counter {
+  color: darkblue;
+}
+
+.bgagame-welcometonewlasvegas .handwritten {
+  color: darkblue;
 }
 
 .bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td {

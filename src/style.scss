@@ -492,6 +492,7 @@ input.dijitInputInner {
 @import "versioning";
 
 // Specific games
+@import "games/azul";
 @import "games/cacao";
 @import "games/concept";
 @import "games/crazy_farmers";
@@ -499,6 +500,7 @@ input.dijitInputInner {
 @import "games/dice_forge";
 @import "games/dinosaur_tea_party";
 @import "games/draftosaurus";
+@import "games/fluxx";
 @import "games/for_sale";
 @import "games/haiclue";
 @import "games/hanabi";
@@ -518,9 +520,13 @@ input.dijitInputInner {
 @import "games/seven_wonders";
 @import "games/sevenwondersduel";
 @import "games/splendor";
+@import "games/starfluxx";
+@import "games/targi";
 @import "games/thebuilders";
 @import "games/thebuildersantiquity";
 @import "games/thecrew";
 @import "games/via_magica";
 @import "games/viticulture";
+@import "games/welcometo";
+@import "games/welcometonewlasvegas";
 @import "games/yatzy";
