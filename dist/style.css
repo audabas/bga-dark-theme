@@ -903,6 +903,9 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-splendor .spl_coinpile_counter {
   color: black;
 }
+.bgagame-splendor .spl_cardbutton {
+  color: black;
+}
 
 .bgagame-starfluxx .flx-card, .bgagame-starfluxx .flx-card-overlay-title {
   color: black;
