@@ -970,6 +970,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF;
 }
 
+.bgagame-vultureculture .heading {
+  color: black;
+}
+
 .bgagame-welcometo .house-number, .bgagame-welcometo .score-counter {
   color: darkblue;
 }
