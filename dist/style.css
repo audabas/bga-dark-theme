@@ -751,6 +751,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF !important;
 }
 
+.bgagame-frenchtarot #called_card .black {
+  color: #FFFFFF !important;
+}
+
 .bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
 .bgagame-haiclue #hc_board #clue_builder_container h3 > span.to_translate {
   text-shadow: none;
