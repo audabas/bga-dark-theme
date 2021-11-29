@@ -692,7 +692,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #login-menu::after {
-  content: "BGA Dark theme v1.0.12\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.13\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -907,6 +907,13 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 
 .bgagame-rallymangt .warningCounterIcon {
   filter: invert(100%);
+}
+
+.bgagame-rollforthegalaxy .tile_title {
+  color: black;
+}
+.bgagame-rollforthegalaxy #shipping_choice_consume, .bgagame-rollforthegalaxy #shipping_choice_trade {
+  background-color: #2c2c2c;
 }
 
 .bgagame-santorini .power-detail .power-ext p {
