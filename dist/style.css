@@ -705,6 +705,19 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.3);
 }
 
+.bgagame-bang .player-info,
+.bgagame-bang .bang-card {
+  color: black;
+}
+
+.bang-character-tooltip {
+  color: black;
+}
+
+.bang_popin #dialog-title-container {
+  color: black;
+}
+
 .bgagame-cacao div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
   color: black;
 }
