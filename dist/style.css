@@ -496,6 +496,11 @@ input.dijitInputInner {
   color: #FFFFFF;
 }
 
+.standard_popin .expanded .achievement,
+.notouch-device .expanded .achievement:hover {
+  background-color: #383838;
+}
+
 .newbgatable td,
 .newbgatable th {
   color: #FFFFFF;

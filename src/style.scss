@@ -484,6 +484,12 @@ input.dijitInputInner {
     color: $onSurface;
 }
 
+// Achievements
+.standard_popin .expanded .achievement,
+.notouch-device .expanded .achievement:hover {
+    background-color: $lighterSurface;
+}
+
 // Global
 @import "gameinprogress";
 @import "tournaments";
