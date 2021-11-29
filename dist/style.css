@@ -830,6 +830,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.hbz_tooltiptext {
+  color: #FFFFFF;
+}
+
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.placeCard,
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.survivalCard,
