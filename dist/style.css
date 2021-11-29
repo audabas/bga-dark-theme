@@ -768,6 +768,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF !important;
 }
 
+.gnfd_tooltip-text {
+  color: #FFFFFF;
+}
+
 .bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
 .bgagame-haiclue #hc_board #clue_builder_container h3 > span.to_translate {
   text-shadow: none;
