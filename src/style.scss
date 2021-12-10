@@ -490,6 +490,11 @@ input.dijitInputInner {
     background-color: $lighterSurface;
 }
 
+#player_chooseactions {
+	background-color: $lightSurface;
+}
+
+
 // Global
 @import "gameinprogress";
 @import "tournaments";
