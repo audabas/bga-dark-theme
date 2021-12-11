@@ -839,6 +839,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF;
 }
 
+.bgagame-lostcities #deck_count {
+  color: #FFFFFF !important;
+}
+
 .bgagame-loveletter #ll_background .whiteblock {
   background: rgba(56, 56, 56, 0.5);
 }
