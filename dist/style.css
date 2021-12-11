@@ -915,6 +915,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   filter: invert(100%);
 }
 
+.bgagame-redsevengame .whiteblock {
+  background: #2c2c2c;
+}
+
 .bgagame-rollforthegalaxy .tile_title {
   color: black;
 }
