@@ -411,6 +411,7 @@ input.dijitInputInner {
 }
 .player_is_at_table .gametable.gametable_status_init,
 .player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncinit,
 .player_is_at_table .gametable.gametable_status_asyncopen {
     background-color: $lighterSurface;
 }
@@ -489,6 +490,11 @@ input.dijitInputInner {
 .notouch-device .expanded .achievement:hover {
     background-color: $lighterSurface;
 }
+
+#player_chooseactions {
+	background-color: $lightSurface;
+}
+
 
 // Global
 @import "gameinprogress";

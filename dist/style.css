@@ -425,6 +425,7 @@ input.dijitInputInner {
 
 .player_is_at_table .gametable.gametable_status_init,
 .player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncinit,
 .player_is_at_table .gametable.gametable_status_asyncopen {
   background-color: #383838;
 }
@@ -499,6 +500,10 @@ input.dijitInputInner {
 .standard_popin .expanded .achievement,
 .notouch-device .expanded .achievement:hover {
   background-color: #383838;
+}
+
+#player_chooseactions {
+  background-color: #2c2c2c;
 }
 
 .newbgatable td,
