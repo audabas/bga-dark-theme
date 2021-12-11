@@ -1,0 +1,8 @@
+.bgagame-tichu {
+    .whiteblock {
+        background: $lightSurface;
+        &.lastComboPlayer {
+            background-color: rgba(#ff0, 0.5);
+        }
+    }
+}

@@ -169,6 +169,7 @@ input.dijitInputInner {
 }
 
 .tableWindow th {
+    color: $onSurface;
     border-bottom-color: $onSurface;
 }
 .tableWindow td {
@@ -542,6 +543,7 @@ input.dijitInputInner {
 @import "games/thebuilders";
 @import "games/thebuildersantiquity";
 @import "games/thecrew";
+@import "games/tichu";
 @import "games/via_magica";
 @import "games/viticulture";
 @import "games/vultureculture";
