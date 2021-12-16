@@ -496,6 +496,14 @@ input.dijitInputInner {
 	background-color: $lightSurface;
 }
 
+.bg-bga-whitebg {
+	background-color: $surface;
+}
+
+
+.bg-bga-graybg {
+	background-color: $background;
+}
 
 // Global
 @import "gameinprogress";

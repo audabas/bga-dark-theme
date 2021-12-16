@@ -507,6 +507,14 @@ input.dijitInputInner {
   background-color: #2c2c2c;
 }
 
+.bg-bga-whitebg {
+  background-color: #1f1f1f;
+}
+
+.bg-bga-graybg {
+  background-color: #121212;
+}
+
 .newbgatable td,
 .newbgatable th {
   color: #FFFFFF;
