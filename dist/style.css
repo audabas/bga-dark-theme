@@ -507,12 +507,85 @@ input.dijitInputInner {
   background-color: #2c2c2c;
 }
 
-.bg-bga-whitebg {
-  background-color: #1f1f1f;
+.chatwindowpreviewmsg {
+  background-color: #2c2c2c;
 }
 
-.bg-bga-graybg {
-  background-color: #121212;
+.chatwindowcollapsed {
+  background-color: #2c2c2c;
+}
+.chatwindowcollapsed:hover {
+  background-color: #383838 !important;
+}
+.chatwindowcollapsed:hover .icon20 {
+  filter: invert(100%);
+}
+.chatwindowcollapsed .chatwindowcollapsedtitle {
+  color: #FFFFFF;
+}
+
+.chatwindowlogs,
+.chatwindowexpanded {
+  background-color: #1f1f1f;
+}
+.chatwindowlogs .timestamp,
+.chatwindowexpanded .timestamp {
+  color: #FFFFFF;
+}
+.chatwindowlogs .roundedboxinner,
+.chatwindowexpanded .roundedboxinner {
+  background-color: #2c2c2c !important;
+  color: #FFFFFF !important;
+}
+.chatwindowlogs .roundedboxinner a,
+.chatwindowexpanded .roundedboxinner a {
+  color: #BB86FC !important;
+}
+.chatwindowlogs .roundedboxinner a:hover,
+.chatwindowexpanded .roundedboxinner a:hover {
+  color: #d7b8fd !important;
+}
+.chatwindowlogs .chatbarbelowinput_item,
+.chatwindowlogs .audiovideo_inactive,
+.chatwindowexpanded .chatbarbelowinput_item,
+.chatwindowexpanded .audiovideo_inactive {
+  color: #FFFFFF;
+}
+.chatwindowlogs .chatbarbelowinput_item:hover,
+.chatwindowlogs .audiovideo_inactive:hover,
+.chatwindowexpanded .chatbarbelowinput_item:hover,
+.chatwindowexpanded .audiovideo_inactive:hover {
+  color: #d7b8fd !important;
+}
+.chatwindowlogs .audiovideo_active.chatbarbelowinput_item:hover,
+.chatwindowexpanded .audiovideo_active.chatbarbelowinput_item:hover {
+  color: #BB86FC !important;
+  border-bottom-color: #BB86FC !important;
+}
+.chatwindowlogs .audiovideo_active.chatbarbelowinput_item:hover:hover,
+.chatwindowexpanded .audiovideo_active.chatbarbelowinput_item:hover:hover {
+  color: #d7b8fd !important;
+}
+
+.chatwindowpreviewmsg {
+  background-color: #383838;
+  color: #FFFFFF;
+}
+
+.tundra .dijitTooltipContainer {
+  background: #383838;
+  color: #FFFFFF;
+  border-color: #ad6dfb;
+}
+.tundra .dijitTooltipContainer .predefined_textmessage:hover {
+  background-color: #2c2c2c;
+  color: #d7b8fd;
+}
+
+.tundra .dijitMenu,
+.tundra .dijitMenuBar {
+  background-color: #2c2c2c;
+  color: #FFFFFF;
 }
 
 .newbgatable td,
@@ -521,6 +594,60 @@ input.dijitInputInner {
 }
 .newbgatable tr:hover td {
   color: #d7b8fd !important;
+}
+
+.bga-friends-icon__dropdown-arrow.bg-bga-whitebg {
+  background-color: #BB86FC;
+}
+
+.bga-friends-icon__dropdown,
+.bga-player-menu {
+  background-color: #121212;
+}
+.bga-friends-icon__dropdown .bg-bga-whitebg,
+.bga-player-menu .bg-bga-whitebg {
+  background-color: #1f1f1f;
+}
+.bga-friends-icon__dropdown .bga-hover-for-list:hover,
+.bga-player-menu .bga-hover-for-list:hover {
+  background: #2c2c2c;
+}
+.bga-friends-icon__dropdown .text-bga-link,
+.bga-friends-icon__dropdown .bga-link,
+.bga-friends-icon__dropdown a.bga-link,
+.bga-player-menu .text-bga-link,
+.bga-player-menu .bga-link,
+.bga-player-menu a.bga-link {
+  color: #ad6dfb;
+}
+.bga-friends-icon__dropdown .bga-player-menu__tab,
+.bga-player-menu .bga-player-menu__tab {
+  color: #BB86FC !important;
+}
+.bga-friends-icon__dropdown .bga-player-menu__tab.bga-player-menu__tab--active,
+.bga-player-menu .bga-player-menu__tab.bga-player-menu__tab--active {
+  color: #ad6dfb !important;
+}
+
+.mobile_version #mobile-navigation #mobile-menu-icon {
+  color: #FFFFFF;
+}
+.mobile_version #mobile-menu a {
+  color: #FFFFFF !important;
+}
+.mobile_version #mobile-menu a:hover {
+  background-color: #383838;
+  color: #d7b8fd !important;
+}
+.mobile_version .pagesection .pagesection_link a {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+.mobile_version.chatbar_ontop #chatbar_inner::before {
+  background: rgba(31, 31, 31, 0.75);
+}
+.mobile_version .chatwindowavatar {
+  background-color: #BB86FC;
 }
 
 a.tournaments-list-result {
@@ -603,109 +730,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: #FFFFFF;
 }
 
-.chatwindowpreviewmsg {
-  background-color: #2c2c2c;
-}
-
-.chatwindowcollapsed {
-  background-color: #2c2c2c;
-}
-.chatwindowcollapsed:hover {
-  background-color: #383838 !important;
-}
-.chatwindowcollapsed:hover .icon20 {
-  filter: invert(100%);
-}
-.chatwindowcollapsed .chatwindowcollapsedtitle {
-  color: #FFFFFF;
-}
-
-.chatwindowlogs,
-.chatwindowexpanded {
-  background-color: #1f1f1f;
-}
-.chatwindowlogs .timestamp,
-.chatwindowexpanded .timestamp {
-  color: #FFFFFF;
-}
-.chatwindowlogs .roundedboxinner,
-.chatwindowexpanded .roundedboxinner {
-  background-color: #2c2c2c !important;
-  color: #FFFFFF !important;
-}
-.chatwindowlogs .roundedboxinner a,
-.chatwindowexpanded .roundedboxinner a {
-  color: #BB86FC !important;
-}
-.chatwindowlogs .roundedboxinner a:hover,
-.chatwindowexpanded .roundedboxinner a:hover {
-  color: #d7b8fd !important;
-}
-.chatwindowlogs .chatbarbelowinput_item,
-.chatwindowlogs .audiovideo_inactive,
-.chatwindowexpanded .chatbarbelowinput_item,
-.chatwindowexpanded .audiovideo_inactive {
-  color: #FFFFFF;
-}
-.chatwindowlogs .chatbarbelowinput_item:hover,
-.chatwindowlogs .audiovideo_inactive:hover,
-.chatwindowexpanded .chatbarbelowinput_item:hover,
-.chatwindowexpanded .audiovideo_inactive:hover {
-  color: #d7b8fd !important;
-}
-.chatwindowlogs .audiovideo_active.chatbarbelowinput_item:hover,
-.chatwindowexpanded .audiovideo_active.chatbarbelowinput_item:hover {
-  color: #BB86FC !important;
-  border-bottom-color: #BB86FC !important;
-}
-.chatwindowlogs .audiovideo_active.chatbarbelowinput_item:hover:hover,
-.chatwindowexpanded .audiovideo_active.chatbarbelowinput_item:hover:hover {
-  color: #d7b8fd !important;
-}
-
-.chatwindowpreviewmsg {
-  background-color: #383838;
-  color: #FFFFFF;
-}
-
-.tundra .dijitTooltipContainer {
-  background: #383838;
-  color: #FFFFFF;
-  border-color: #ad6dfb;
-}
-.tundra .dijitTooltipContainer .predefined_textmessage:hover {
-  background-color: #2c2c2c;
-  color: #d7b8fd;
-}
-
-.tundra .dijitMenu,
-.tundra .dijitMenuBar {
-  background-color: #2c2c2c;
-  color: #FFFFFF;
-}
-
-.mobile_version #mobile-navigation #mobile-menu-icon {
-  color: #FFFFFF;
-}
-.mobile_version #mobile-menu a {
-  color: #FFFFFF !important;
-}
-.mobile_version #mobile-menu a:hover {
-  background-color: #383838;
-  color: #d7b8fd !important;
-}
-.mobile_version .pagesection .pagesection_link a {
-  color: #FFFFFF;
-  border-color: #FFFFFF;
-}
-.mobile_version.chatbar_ontop #chatbar_inner::before {
-  background: rgba(31, 31, 31, 0.75);
-}
-.mobile_version .chatwindowavatar {
-  background-color: #BB86FC;
-}
-
-#login-menu::after {
+.bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
   content: "BGA Dark theme v1.0.15\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
@@ -713,7 +738,8 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   display: block;
   color: darkgray;
   font-size: 0.6rem;
-  margin-bottom: 0.5rem;
+  position: absolute;
+  bottom: 1rem;
 }
 
 .bgagame-azul zoom-notice {

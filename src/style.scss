@@ -496,20 +496,12 @@ input.dijitInputInner {
 	background-color: $lightSurface;
 }
 
-.bg-bga-whitebg {
-	background-color: $surface;
-}
-
-
-.bg-bga-graybg {
-	background-color: $background;
-}
-
 // Global
-@import "gameinprogress";
-@import "tournaments";
 @import "chat";
+@import "gameinprogress";
+@import "menu";
 @import "mobile";
+@import "tournaments";
 @import "versioning";
 
 // Specific games

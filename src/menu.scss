@@ -1,0 +1,29 @@
+.bga-friends-icon__dropdown-arrow.bg-bga-whitebg {
+    background-color: $primary;
+}
+
+.bga-friends-icon__dropdown,
+.bga-player-menu {
+    background-color: $background;
+
+    .bg-bga-whitebg {
+        background-color: $surface;
+    }
+
+    .bga-hover-for-list:hover {
+        background: $lightSurface;
+    }
+
+    .text-bga-link,
+    .bga-link,
+    a.bga-link {
+        color: $darkPrimary;
+    }
+
+    .bga-player-menu__tab {
+        color: $primary !important;
+        &.bga-player-menu__tab--active {
+            color: $darkPrimary !important;
+        }
+    }
+}
