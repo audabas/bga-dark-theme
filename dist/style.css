@@ -953,6 +953,13 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.bgagame-railwaysoftheworld .stockitem {
+  color: black;
+}
+.bgagame-railwaysoftheworld #cityNameShow {
+  background-color: black !important;
+}
+
 .bgagame-rallymangt .warningCounterIcon {
   filter: invert(100%);
 }
