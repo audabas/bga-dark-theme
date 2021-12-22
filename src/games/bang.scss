@@ -1,6 +1,6 @@
 .bgagame-bang {
     .player-info,
-    .bang-card {
+    .bang-card, #role-card {
         color: black;
     }
 }
@@ -9,7 +9,9 @@
     color: black;
 }
 .bang_popin {
-    #dialog-title-container {
-        color: black;
-    }
+	color: black;
+}
+
+.tundra .dijitTooltipContainer .bang-card{
+  color:black;
 }

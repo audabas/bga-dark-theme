@@ -754,7 +754,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bgagame-bang .player-info,
-.bgagame-bang .bang-card {
+.bgagame-bang .bang-card, .bgagame-bang #role-card {
   color: black;
 }
 
@@ -762,7 +762,11 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
-.bang_popin #dialog-title-container {
+.bang_popin {
+  color: black;
+}
+
+.tundra .dijitTooltipContainer .bang-card {
   color: black;
 }
 
