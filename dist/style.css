@@ -1000,6 +1000,9 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 .bgagame-sevenwonders #table_score_contents .tableWindow th {
   color: #FFFFFF;
 }
+.bgagame-sevenwonders .cardname {
+  color: black;
+}
 
 .bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {
   -webkit-box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) rgba(0, 0, 0, 0.16);
