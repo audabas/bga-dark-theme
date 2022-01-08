@@ -763,7 +763,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_4p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
 }
 
-.tundra .dijitTooltipContainer .action-header, .tundra .dijitTooltipContainer .action-desc, .tundra .dijitTooltipContainer .player-card {
+html[style^="--agricola"] .tundra .dijitTooltipContainer .action-header, html[style^="--agricola"] .tundra .dijitTooltipContainer .action-desc, html[style^="--agricola"] .tundra .dijitTooltipContainer .player-card {
   color: black;
 }
 
@@ -773,6 +773,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 
 .agricola_popin_title {
   background-color: #2c2c2c !important;
+}
+
+html[style^="--agricola"] .player-card-resizable {
+  color: black !important;
 }
 
 .bgagame-azul zoom-notice {

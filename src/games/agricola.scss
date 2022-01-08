@@ -22,7 +22,7 @@
 	}	
 }
 
-.tundra .dijitTooltipContainer {
+html[style^="--agricola"] .tundra .dijitTooltipContainer {
 	.action-header, .action-desc, .player-card {
 	   color:black;
 	}
@@ -34,4 +34,9 @@
 
 .agricola_popin_title {
 	background-color: $lightSurface!important;
+}
+
+//overlay is not in bgagame-agricola and name is a bit too generic
+html[style^="--agricola"] .player-card-resizable{
+  color: black!important;
 }
