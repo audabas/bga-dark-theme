@@ -6,6 +6,20 @@
 		background: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/central.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
 		background-size: 100% auto, 100% auto;
 	}
+	#add-board {
+		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/add_34p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+		background-size:100% auto;
+	}
+	[data-players="2"] #add-board {
+		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/add_2p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+	} 
+	
+	#left-board {
+		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_3p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+	 }
+	[data-players="4"] #left-board {
+		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_4p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+	}	
 }
 
 .tundra .dijitTooltipContainer {
