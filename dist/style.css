@@ -767,6 +767,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   color: black;
 }
 
+.agricola_popin_contents {
+  color: black;
+}
+
 .bgagame-azul zoom-notice {
   background-color: #2c2c2c;
 }
