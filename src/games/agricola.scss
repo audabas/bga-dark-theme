@@ -1,0 +1,15 @@
+.bgagame-agricola {
+	.action-header, .action-desc, .zone-capacity, .agricola-player-pannel, .player-board, .player-card{
+	  color:black;
+	}
+	#central-board{
+		background: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/central.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+		background-size: 100% auto, 100% auto;
+	}
+}
+
+.tundra .dijitTooltipContainer {
+	.action-header, .action-desc, .player-card {
+	   color:black;
+	}
+}
