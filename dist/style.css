@@ -789,6 +789,12 @@ html[style^="--agricola"] .player-card-resizable {
   background: rgba(128, 128, 128, 0.3);
   box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.3);
 }
+.bgagame-azul #zoom-notice {
+  background-color: #2c2c2c;
+}
+.bgagame-azul #zoom-notice .arrow-right {
+  border-left: 12px solid #2c2c2c;
+}
 
 .bgagame-bang .player-info,
 .bgagame-bang .bang-card, .bgagame-bang #role-card {
