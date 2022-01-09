@@ -742,6 +742,43 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   bottom: 1rem;
 }
 
+.bgagame-agricola .action-header, .bgagame-agricola .action-desc, .bgagame-agricola .zone-capacity, .bgagame-agricola .agricola-player-pannel, .bgagame-agricola .player-board, .bgagame-agricola .player-card {
+  color: black;
+}
+.bgagame-agricola #central-board {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/central.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+  background-size: 100% auto, 100% auto;
+}
+.bgagame-agricola #add-board {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/add_34p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+  background-size: 100% auto;
+}
+.bgagame-agricola [data-players="2"] #add-board {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/add_2p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+}
+.bgagame-agricola #left-board {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_3p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+}
+.bgagame-agricola [data-players="4"] #left-board {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_4p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
+}
+
+html[style^="--agricola"] .tundra .dijitTooltipContainer .action-header, html[style^="--agricola"] .tundra .dijitTooltipContainer .action-desc, html[style^="--agricola"] .tundra .dijitTooltipContainer .player-card {
+  color: black;
+}
+
+.agricola_popin_contents {
+  color: black;
+}
+
+.agricola_popin_title {
+  background-color: #2c2c2c !important;
+}
+
+html[style^="--agricola"] .player-card-resizable {
+  color: black !important;
+}
+
 .bgagame-azul zoom-notice {
   background-color: #2c2c2c;
 }
