@@ -1066,6 +1066,16 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-tapestry #capital_helper {
+  background: #383838;
+}
+
+.tundra .tooltipcontainer {
+  background: #383838;
+  color: #FFFFFF;
+  border-color: #ad6dfb;
+}
+
 .bgagame-targi .card {
   color: black;
 }
