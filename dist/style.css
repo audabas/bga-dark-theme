@@ -1069,11 +1069,23 @@ html[style^="--agricola"] .player-card-resizable {
 .bgagame-tapestry #capital_helper {
   background: #383838;
 }
+.bgagame-tapestry .config-control {
+  color: #BB86FC;
+}
 
 .tundra .tooltipcontainer {
   background: #383838;
   color: #FFFFFF;
   border-color: #ad6dfb;
+}
+
+/* hard to read on dark surface, so lighten the color a bit */
+.track_color_2 {
+  filter: brightness(140%);
+}
+
+.trackicon_2 {
+  filter: brightness(140%);
 }
 
 .bgagame-targi .card {
