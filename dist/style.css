@@ -979,6 +979,10 @@ html[style^="--agricola"] .player-card-resizable {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
 
+.bgagame-polis #region_info {
+  background: #383838;
+}
+
 .bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
   color: white;
 }
