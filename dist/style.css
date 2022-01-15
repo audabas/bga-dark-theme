@@ -817,6 +817,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-codexnaturalis #left-side-wrapper {
+  background: #383838;
+}
+
 .bgagame-concept #concept-app #concept-card > ul > li {
   color: black;
 }
