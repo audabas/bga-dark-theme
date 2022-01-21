@@ -1,0 +1,23 @@
+.bgagame-tapestry {
+	#capital_helper{
+	  background: $lighterSurface;
+	}
+	
+	.config-control{
+		color: $primary;
+	}
+}
+
+.tundra .tooltipcontainer {
+	background: $lighterSurface;
+	color: $onSurface;
+	border-color: $darkPrimary;
+}
+
+/* hard to read on dark surface, so lighten the color a bit */
+.track_color_2{
+ filter: brightness(140%);
+}
+.trackicon_2 {
+ filter: brightness(140%);
+}

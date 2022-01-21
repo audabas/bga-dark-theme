@@ -1,6 +1,6 @@
 .bgagame-azul{
     zoom-notice {
-        background-color: #2c2c2c;
+        background-color: $lightSurface;
     }
 	
 	#zoom-wrapper #zoom-controls button {
@@ -10,5 +10,13 @@
 	.player-table-wrapper .player-hand {
 		background:hsla(0,0%,50%,.30);
 		box-shadow:0 0 5px 5px hsla(0,0%,50%,.30);
+	}
+	
+	
+	#zoom-notice {
+		background-color: $lightSurface;
+	}
+	#zoom-notice .arrow-right {
+		border-left:12px solid $lightSurface;
 	}
 }
