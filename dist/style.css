@@ -742,6 +742,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   bottom: 1rem;
 }
 
+.bgagame-abandonallartichokes .artichoke_tray_description {
+  color: black;
+}
+
 .bgagame-agricola .action-header, .bgagame-agricola .action-desc, .bgagame-agricola .zone-capacity, .bgagame-agricola .agricola-player-pannel, .bgagame-agricola .player-board, .bgagame-agricola .player-card {
   color: black;
 }
