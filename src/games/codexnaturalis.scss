@@ -1,5 +1,12 @@
 .bgagame-codexnaturalis {
-	#left-side-wrapper {
-	  background: $lighterSurface;
+	&::before {
+		background: url(https://x.boardgamearena.net/data/themereleases/current/games/codexnaturalis/210719-2314/img/background.jpg);
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		filter: brightness(30%);
 	}
 }
