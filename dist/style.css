@@ -1165,13 +1165,13 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 .bgagame-ultimaterailroads #thething:before {
-  background-image: none;
+  filter: brightness(20%);
 }
 .bgagame-ultimaterailroads .breadcrumbs {
   background-color: #2c2c2c;
 }
 .bgagame-ultimaterailroads .button_top {
-  filter: invert(50%);
+  filter: invert(90%);
 }
 .bgagame-ultimaterailroads .player-name, .bgagame-ultimaterailroads .player_board_inner, .bgagame-ultimaterailroads .player_score {
   background-color: #2c2c2c;
