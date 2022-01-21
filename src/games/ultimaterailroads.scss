@@ -1,0 +1,18 @@
+.bgagame-ultimaterailroads {
+	#thething{
+	  color: black;
+	}
+	#thething:before{
+	  background-image: none;
+	}
+
+	.breadcrumbs{
+	  background-color: $lightSurface;
+	}
+	.button_top {
+	  filter:invert(50%);
+	}
+	.player-name, .player_board_inner, .player_score{	
+	  background-color: $lightSurface;
+	}
+}
