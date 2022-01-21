@@ -731,7 +731,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
-  content: "BGA Dark theme v1.0.16\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.17\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
