@@ -1,10 +1,33 @@
 .bgagame-tapestry {
+	&::before {
+		background: url(https://x.boardgamearena.net/data/themereleases/current/games/tapestry/220120-0200/img/background_small.jpg);
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		filter: brightness(25%);
+	}
+
+	#settings-controls-container .row-data .row-label {
+		color: $onSurface;
+	}
+
 	#capital_helper{
 	  background: $lighterSurface;
 	}
 	
 	.config-control{
-		color: $primary;
+		filter: invert(100%);
+	}
+
+	/* hard to read on dark surface, so lighten the color a bit */
+	.track_color_2{
+		filter: brightness(140%);
+	}
+	.trackicon_2 {
+		filter: brightness(140%);
 	}
 }
 
@@ -12,12 +35,4 @@
 	background: $lighterSurface;
 	color: $onSurface;
 	border-color: $darkPrimary;
-}
-
-/* hard to read on dark surface, so lighten the color a bit */
-.track_color_2{
- filter: brightness(140%);
-}
-.trackicon_2 {
- filter: brightness(140%);
 }

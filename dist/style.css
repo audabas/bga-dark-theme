@@ -731,7 +731,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
-  content: "BGA Dark theme v1.0.16\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.17\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -740,6 +740,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
   font-size: 0.6rem;
   position: absolute;
   bottom: 1rem;
+}
+
+.bgagame-abandonallartichokes .artichoke_tray_description {
+  color: black;
 }
 
 .bgagame-agricola .action-header, .bgagame-agricola .action-desc, .bgagame-agricola .zone-capacity, .bgagame-agricola .agricola-player-pannel, .bgagame-agricola .player-board, .bgagame-agricola .player-card {
@@ -779,15 +783,22 @@ html[style^="--agricola"] .player-card-resizable {
   color: black !important;
 }
 
-.bgagame-azul zoom-notice {
-  background-color: #2c2c2c;
-}
-.bgagame-azul #zoom-wrapper #zoom-controls button {
-  filter: invert(50%);
+.bgagame-azul::before {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(30%);
 }
 .bgagame-azul .player-table-wrapper .player-hand {
   background: rgba(128, 128, 128, 0.3);
   box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.3);
+}
+.bgagame-azul #zoom-wrapper #zoom-controls button {
+  filter: invert(50%);
 }
 .bgagame-azul #zoom-notice {
   background-color: #2c2c2c;
@@ -817,8 +828,15 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
-.bgagame-codexnaturalis #left-side-wrapper {
-  background: #383838;
+.bgagame-codexnaturalis::before {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/codexnaturalis/210719-2314/img/background.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(30%);
 }
 
 .bgagame-concept #concept-app #concept-card > ul > li {
@@ -1074,26 +1092,39 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-tapestry {
+  /* hard to read on dark surface, so lighten the color a bit */
+}
+.bgagame-tapestry::before {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/tapestry/220120-0200/img/background_small.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(25%);
+}
+.bgagame-tapestry #settings-controls-container .row-data .row-label {
+  color: #FFFFFF;
+}
 .bgagame-tapestry #capital_helper {
   background: #383838;
 }
 .bgagame-tapestry .config-control {
-  color: #BB86FC;
+  filter: invert(100%);
+}
+.bgagame-tapestry .track_color_2 {
+  filter: brightness(140%);
+}
+.bgagame-tapestry .trackicon_2 {
+  filter: brightness(140%);
 }
 
 .tundra .tooltipcontainer {
   background: #383838;
   color: #FFFFFF;
   border-color: #ad6dfb;
-}
-
-/* hard to read on dark surface, so lighten the color a bit */
-.track_color_2 {
-  filter: brightness(140%);
-}
-
-.trackicon_2 {
-  filter: brightness(140%);
 }
 
 .bgagame-targi .card {
@@ -1134,13 +1165,13 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 .bgagame-ultimaterailroads #thething:before {
-  background-image: none;
+  filter: brightness(20%);
 }
 .bgagame-ultimaterailroads .breadcrumbs {
   background-color: #2c2c2c;
 }
 .bgagame-ultimaterailroads .button_top {
-  filter: invert(50%);
+  filter: invert(90%);
 }
 .bgagame-ultimaterailroads .player-name, .bgagame-ultimaterailroads .player_board_inner, .bgagame-ultimaterailroads .player_score {
   background-color: #2c2c2c;

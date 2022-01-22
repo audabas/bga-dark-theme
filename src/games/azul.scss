@@ -1,17 +1,23 @@
 .bgagame-azul{
-    zoom-notice {
-        background-color: $lightSurface;
-    }
-	
-	#zoom-wrapper #zoom-controls button {
-		filter: invert(50%);
+	&::before {
+		background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+			filter: brightness(30%);
 	}
 	
 	.player-table-wrapper .player-hand {
 		background:hsla(0,0%,50%,.30);
 		box-shadow:0 0 5px 5px hsla(0,0%,50%,.30);
 	}
-	
+
+	#zoom-wrapper #zoom-controls button {
+		filter: invert(50%);
+	}
 	
 	#zoom-notice {
 		background-color: $lightSurface;

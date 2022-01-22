@@ -3,14 +3,14 @@
 	  color: black;
 	}
 	#thething:before{
-	  background-image: none;
+		filter: brightness(20%);
 	}
 
 	.breadcrumbs{
 	  background-color: $lightSurface;
 	}
 	.button_top {
-	  filter:invert(50%);
+	  filter:invert(90%);
 	}
 	.player-name, .player_board_inner, .player_score{	
 	  background-color: $lightSurface;
