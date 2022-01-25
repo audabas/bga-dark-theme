@@ -866,6 +866,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-elgrande .stockitem {
+  color: black;
+}
+
 .bgagame-fluxx .flx-card, .bgagame-fluxx .flx-card-overlay-title {
   color: black;
 }
