@@ -28,6 +28,10 @@ body {
 	color:$onSurface;
 }
 
+.bga-link-inside a:not(.playername, .gamename, .bgabutton) {
+	color: $primary;
+}
+
 .pagesection,
 .portlet {
     a:not(.bgabutton),

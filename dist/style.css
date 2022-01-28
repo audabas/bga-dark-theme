@@ -26,6 +26,10 @@ body {
   color: #FFFFFF;
 }
 
+.bga-link-inside a:not(.playername, .gamename, .bgabutton) {
+  color: #BB86FC;
+}
+
 .pagesection a:not(.bgabutton),
 .pagesection a.playername,
 .portlet a:not(.bgabutton),
