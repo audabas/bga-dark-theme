@@ -21,18 +21,15 @@ body {
     }
 }
 
+.bga-menu-bar {
+	background-image:linear-gradient($lighterSurface ,$surface)!important;
+}
+.bga-link {
+	color:$onSurface;
+}
+
 .pagesection,
 .portlet {
-    background: $surface;
-    color: $onSurface;
-
-    h2, h3 {
-        &, & a {
-            background: $lightSurface;
-            color: $onSurface;
-        }
-    }
-
     a:not(.bgabutton),
     a.playername {
         color: $primary;
@@ -407,9 +404,21 @@ input.dijitInputInner {
     }
 }
 
-.gametable {
+.gametable, .pagesection__content, .portlet__content, .tips__content {
     background-color: $lightSurface;
 }
+
+.pagesection__title, .portle__title, .portlet__title{
+    color: $onBackground;
+}
+
+.gamelist_item{
+	background-color: $lighterSurface;
+}
+.gamename, .gamename:active, .gamename:hover{
+	color: $primary;
+}
+
 .player_is_at_table .gametable.gametable_status_init,
 .player_is_at_table .gametable.gametable_status_open,
 .player_is_at_table .gametable.gametable_status_asyncinit,
