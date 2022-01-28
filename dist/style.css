@@ -30,6 +30,11 @@ body {
   color: #BB86FC;
 }
 
+.pagesection,
+.portlet {
+  background: #1f1f1f;
+  color: #FFFFFF;
+}
 .pagesection a:not(.bgabutton),
 .pagesection a.playername,
 .portlet a:not(.bgabutton),
@@ -49,6 +54,12 @@ body {
 .pagesection#follow_us_portlet a span:hover,
 .portlet#follow_us_portlet a span:hover {
   color: #d7b8fd !important;
+}
+
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
+  background: -prefixe-linear-gradient(bottom, #2c2c2c, #383838);
+  background: linear-gradient(0deg, #2c2c2c, #383838);
+  color: white;
 }
 
 .bgabutton_blue {

@@ -1,4 +1,6 @@
 @import "colors";
+//TODO: fix result page
+
 
 // Global
 body {
@@ -34,6 +36,8 @@ body {
 
 .pagesection,
 .portlet {
+	background: $surface;
+    color: $onSurface;
     a:not(.bgabutton),
     a.playername {
         color: $primary;
@@ -48,6 +52,18 @@ body {
         }
     }
 }
+
+.pagesection, .portlet, .tips {
+  
+}
+
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
+  background: -prefixe-linear-gradient(bottom,$lightSurface,$lighterSurface);
+  background: linear-gradient(0deg,$lightSurface,$lighterSurface);
+  color:white;
+}
+
+  
 
 .bgabutton_blue {
     background: $darkPrimary;
