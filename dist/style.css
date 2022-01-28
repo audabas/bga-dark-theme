@@ -865,6 +865,10 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: #2c2c2c;
 }
 
+.bgagame-deus .deus_repeat_counter_section, .bgagame-deus .whiteblock {
+  background-color: #2c2c2c;
+}
+
 .bgagame-diceforge #turn-container #nb-turns-container {
   color: #FFFFFF;
 }
