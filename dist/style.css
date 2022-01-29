@@ -56,10 +56,26 @@ body {
   color: #d7b8fd !important;
 }
 
+.pagesection, .portlet, .tips {
+  border-radius: 6px;
+  -o-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
 .pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
   background: -prefixe-linear-gradient(bottom, #2c2c2c, #383838);
   background: linear-gradient(0deg, #2c2c2c, #383838);
-  color: white;
+  color: #f2f2f2;
+}
+
+.gamelist .pagesection, .gamelist .portlet {
+  background: none;
+  box-shadow: none;
+}
+.gamelist .pagesection h2, .gamelist .pagesection h3, .gamelist .portlet h2, .gamelist .portlet h3 {
+  background: none;
+  color: #f2f2f2;
+  font-size: 1.2rem;
 }
 
 .bgabutton_blue {
@@ -432,10 +448,6 @@ input.dijitInputInner {
 
 .gametable, .pagesection__content, .portlet__content, .tips__content {
   background-color: #2c2c2c;
-}
-
-.pagesection__title, .portle__title, .portlet__title {
-  color: #FFFFFF;
 }
 
 .gamelist_item {

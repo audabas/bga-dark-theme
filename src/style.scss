@@ -1,7 +1,4 @@
 @import "colors";
-//TODO: fix result page
-
-
 // Global
 body {
     background: $background;
@@ -54,15 +51,28 @@ body {
 }
 
 .pagesection, .portlet, .tips {
-  
+  border-radius: 6px;
+-o-box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
+box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
 }
 
 .pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
   background: -prefixe-linear-gradient(bottom,$lightSurface,$lighterSurface);
   background: linear-gradient(0deg,$lightSurface,$lighterSurface);
-  color:white;
+  color:$darkOnBackground;
 }
 
+.gamelist {
+	.pagesection, .portlet {
+		background: none;
+		box-shadow: none;
+		h2,h3 {
+					background: none;
+			color:$darkOnBackground;
+			font-size: 1.2rem;
+		}
+	}
+}
   
 
 .bgabutton_blue {
@@ -426,10 +436,6 @@ input.dijitInputInner {
 
 .gametable, .pagesection__content, .portlet__content, .tips__content {
     background-color: $lightSurface;
-}
-
-.pagesection__title, .portle__title, .portlet__title{
-    color: $onBackground;
 }
 
 .gamelist_item{
