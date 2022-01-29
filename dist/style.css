@@ -1117,6 +1117,10 @@ html[style^="--agricola"] .player-card-resizable {
 
 .bgagame-sevenwondersarchitects .choiceitem {
   background-color: #BB86FC;
+  color: #000000;
+}
+.bgagame-sevenwondersarchitects .stwbattleicon {
+  color: black;
 }
 
 .bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {
