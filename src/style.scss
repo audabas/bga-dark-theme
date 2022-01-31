@@ -1,5 +1,4 @@
 @import "colors";
-
 // Global
 body {
     background: $background;
@@ -21,18 +20,21 @@ body {
     }
 }
 
+.bga-menu-bar {
+	background-image:linear-gradient($lighterSurface ,$surface)!important;
+}
+.bga-link {
+	color:$onSurface;
+}
+
+.bga-link-inside a:not(.playername, .gamename, .bgabutton) {
+	color: $primary;
+}
+
 .pagesection,
 .portlet {
-    background: $surface;
+	background: $surface;
     color: $onSurface;
-
-    h2, h3 {
-        &, & a {
-            background: $lightSurface;
-            color: $onSurface;
-        }
-    }
-
     a:not(.bgabutton),
     a.playername {
         color: $primary;
@@ -47,6 +49,31 @@ body {
         }
     }
 }
+
+.pagesection, .portlet, .tips {
+  border-radius: 6px;
+-o-box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
+box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
+}
+
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
+  background: -prefixe-linear-gradient(bottom,$lightSurface,$lighterSurface);
+  background: linear-gradient(0deg,$lightSurface,$lighterSurface);
+  color:$darkOnBackground;
+}
+
+.gamelist {
+	.pagesection, .portlet {
+		background: none;
+		box-shadow: none;
+		h2,h3 {
+					background: none;
+			color:$darkOnBackground;
+			font-size: 1.2rem;
+		}
+	}
+}
+  
 
 .bgabutton_blue {
     background: $darkPrimary;
@@ -407,9 +434,17 @@ input.dijitInputInner {
     }
 }
 
-.gametable {
+.gametable, .pagesection__content, .portlet__content, .tips__content {
     background-color: $lightSurface;
 }
+
+.gamelist_item{
+	background-color: $lighterSurface;
+}
+.gamename, .gamename:active, .gamename:hover{
+	color: $primary;
+}
+
 .player_is_at_table .gametable.gametable_status_init,
 .player_is_at_table .gametable.gametable_status_open,
 .player_is_at_table .gametable.gametable_status_asyncinit,
@@ -514,9 +549,11 @@ input.dijitInputInner {
 @import "games/concept";
 @import "games/crazy_farmers";
 @import "games/cubirds";
+@import "games/deus";
 @import "games/dice_forge";
 @import "games/dinosaur_tea_party";
 @import "games/draftosaurus";
+@import "games/elgrande";
 @import "games/fluxx";
 @import "games/for_sale";
 @import "games/frenchtarot";
@@ -544,6 +581,7 @@ input.dijitInputInner {
 @import "games/rollforthegalaxy";
 @import "games/santorini";
 @import "games/seven_wonders";
+@import "games/sevenwondersarchitects";
 @import "games/sevenwondersduel";
 @import "games/splendor";
 @import "games/starfluxx";

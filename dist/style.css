@@ -18,17 +18,21 @@ body {
   color: #d7b8fd;
 }
 
+.bga-menu-bar {
+  background-image: linear-gradient(#383838, #1f1f1f) !important;
+}
+
+.bga-link {
+  color: #FFFFFF;
+}
+
+.bga-link-inside a:not(.playername, .gamename, .bgabutton) {
+  color: #BB86FC;
+}
+
 .pagesection,
 .portlet {
   background: #1f1f1f;
-  color: #FFFFFF;
-}
-.pagesection h2, .pagesection h2 a, .pagesection h3, .pagesection h3 a,
-.portlet h2,
-.portlet h2 a,
-.portlet h3,
-.portlet h3 a {
-  background: #2c2c2c;
   color: #FFFFFF;
 }
 .pagesection a:not(.bgabutton),
@@ -50,6 +54,28 @@ body {
 .pagesection#follow_us_portlet a span:hover,
 .portlet#follow_us_portlet a span:hover {
   color: #d7b8fd !important;
+}
+
+.pagesection, .portlet, .tips {
+  border-radius: 6px;
+  -o-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
+  background: -prefixe-linear-gradient(bottom, #2c2c2c, #383838);
+  background: linear-gradient(0deg, #2c2c2c, #383838);
+  color: #f2f2f2;
+}
+
+.gamelist .pagesection, .gamelist .portlet {
+  background: none;
+  box-shadow: none;
+}
+.gamelist .pagesection h2, .gamelist .pagesection h3, .gamelist .portlet h2, .gamelist .portlet h3 {
+  background: none;
+  color: #f2f2f2;
+  font-size: 1.2rem;
 }
 
 .bgabutton_blue {
@@ -420,8 +446,16 @@ input.dijitInputInner {
   background-color: #BB86FC;
 }
 
-.gametable {
+.gametable, .pagesection__content, .portlet__content, .tips__content {
   background-color: #2c2c2c;
+}
+
+.gamelist_item {
+  background-color: #383838;
+}
+
+.gamename, .gamename:active, .gamename:hover {
+  color: #BB86FC;
 }
 
 .player_is_at_table .gametable.gametable_status_init,
@@ -854,6 +888,10 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: #2c2c2c;
 }
 
+.bgagame-deus .deus_repeat_counter_section, .bgagame-deus .whiteblock {
+  background-color: #2c2c2c;
+}
+
 .bgagame-diceforge #turn-container #nb-turns-container {
   color: #FFFFFF;
 }
@@ -863,6 +901,10 @@ html[style^="--agricola"] .player-card-resizable {
 }
 
 .bgagame-draftosaurus #draftosaurus-wrap #counter-wrap {
+  color: black;
+}
+
+.bgagame-elgrande .stockitem {
   color: black;
 }
 
@@ -1070,6 +1112,14 @@ html[style^="--agricola"] .player-card-resizable {
   color: #FFFFFF;
 }
 .bgagame-sevenwonders .cardname {
+  color: black;
+}
+
+.bgagame-sevenwondersarchitects .choiceitem {
+  background-color: #BB86FC;
+  color: #000000;
+}
+.bgagame-sevenwondersarchitects .stwbattleicon {
   color: black;
 }
 
