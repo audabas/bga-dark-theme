@@ -971,6 +971,23 @@ html[style^="--agricola"] .player-card-resizable {
   color: #d7b8fd;
 }
 
+.bgagame-imhotep .boards-col-wrapper {
+  color: black;
+}
+.bgagame-imhotep #all_wrap.sand-bg:before {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/imhotep/211115-2252/img/bg/sand03.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(20%);
+}
+.bgagame-imhotep .bgagame-imhotep .supply-board .player-name {
+  color: black;
+}
+
 .bgagame-kingdombuilder div#objectives div.objective div.objective-name,
 .bgagame-kingdombuilder div#objectives div.objective div.objective-desc p {
   color: black !important;
