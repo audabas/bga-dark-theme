@@ -1,0 +1,14 @@
+.bgagame-spaceempires {
+	#pagemaintitletext{
+	  color: $lightSurface;
+	}
+
+	.SE4Xeconomic {
+	  color: $onPrimary;
+	}
+
+	#SE4Xaids2, #SE4Xaids1 {
+	  filter:invert(100%);
+	  border:none;
+	}
+}

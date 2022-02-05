@@ -1148,6 +1148,17 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-spaceempires #pagemaintitletext {
+  color: #2c2c2c;
+}
+.bgagame-spaceempires .SE4Xeconomic {
+  color: #000000;
+}
+.bgagame-spaceempires #SE4Xaids2, .bgagame-spaceempires #SE4Xaids1 {
+  filter: invert(100%);
+  border: none;
+}
+
 .bgagame-splendor .spl_coinpile_counter {
   color: black;
 }
