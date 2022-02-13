@@ -479,7 +479,7 @@ input.dijitInputInner {
 #ingame_menu_content {
     background: $surface;
     .ingame_menu_item {
-        color: $onSurface;
+        color: $onSurface !important;
         &:hover {
             background-color: $lightSurface;
         }
@@ -562,6 +562,7 @@ input.dijitInputInner {
 @import "games/gonutsfordonuts";
 @import "games/haiclue";
 @import "games/hanabi";
+@import "games/hardback";
 @import "games/icecoldicehockey";
 @import "games/imhotep";
 @import "games/kingdom_builder";
