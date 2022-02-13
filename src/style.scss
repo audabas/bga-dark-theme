@@ -20,7 +20,8 @@ body {
     }
 }
 
-.bga-menu-bar {
+.bga-menu-bar,
+.bga-menu-subbar {
 	background-image:linear-gradient($lighterSurface ,$surface)!important;
 }
 .bga-link {
