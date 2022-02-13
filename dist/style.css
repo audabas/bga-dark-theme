@@ -1188,6 +1188,11 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-stella .ste_playerplate_pg,
+.bgagame-stella .ste_playerplate_name {
+  color: black;
+}
+
 .bgagame-tapestry {
   /* hard to read on dark surface, so lighten the color a bit */
 }
