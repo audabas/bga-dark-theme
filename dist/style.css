@@ -18,7 +18,8 @@ body {
   color: #d7b8fd;
 }
 
-.bga-menu-bar {
+.bga-menu-bar,
+.bga-menu-subbar {
   background-image: linear-gradient(#383838, #1f1f1f) !important;
 }
 
@@ -509,7 +510,7 @@ input.dijitInputInner {
 }
 
 #seemorelogs {
-  filter: grayscale(100%) brightness(150%);
+  filter: grayscale(100%) brightness(150%) invert(100%);
 }
 
 #archivecontrol a {
@@ -682,6 +683,12 @@ input.dijitInputInner {
 }
 .mobile_version .chatwindowavatar {
   background-color: #BB86FC;
+}
+.mobile_version .bga-mobile-sub-bar.svelte-1ttaetx {
+  color: #FFFFFF;
+}
+.mobile_version .bga-vertical.svelte-1yigghq .bga-menu-bar-items__menu-item.svelte-1yigghq {
+  background-color: #383838;
 }
 
 a.tournaments-list-result {
