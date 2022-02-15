@@ -153,9 +153,9 @@ input.dijitInputInner {
     color : black;
 }
 
-.cardToolTip {
+.dijitTooltipContainer .cardToolTip {
     background-color: $lighterSurface !important;
-}
+} 
 
 .post .comment {
     background : $lightSurface
