@@ -1,0 +1,29 @@
+.bgagame-rememberwhen {
+	.sentenceboard{
+	  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/rememberwhen/181010-1108/img/sentence.png)!important;
+	}
+	.text{
+	  color: black;
+	}
+	ul.tab li a {
+	  color: $onBackground; 
+	}
+	.active{
+	  background: $lightSurface;
+	} 
+}
+
+.dijitTooltipContainer {
+	.divTableBody[class*="tip_1"]>div:nth-child(1) {
+	 background-color:$primary;
+	}
+	.divTableBody[class*="tip_2"]>div:nth-child(2) {
+	 background-color:$primary;
+	}
+	.divTableBody[class*="tip_3"]>div:nth-child(3) {
+	 background-color:$primary;
+	}
+	.divTableBody[class*="tip_4"]>div:nth-child(4) {
+	 background-color:$primary;
+	}
+}
