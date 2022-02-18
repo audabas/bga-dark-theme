@@ -1184,6 +1184,19 @@ html[style^="--agricola"] .player-card-resizable {
 .bgagame-sevenwondersarchitects .stwbattleicon {
   color: black;
 }
+.bgagame-sevenwondersarchitects .stw_bgcartouche {
+  z-index: 0;
+}
+.bgagame-sevenwondersarchitects #left-side-wrapper:before {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/sevenwondersarchitects/220111-0842/img/backimage.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  filter: invert(95%);
+}
 
 .bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {
   -webkit-box-shadow: inset 0 0 calc(var(--scale)*4px) calc(var(--scale)*1px) rgba(0, 0, 0, 0.16);
