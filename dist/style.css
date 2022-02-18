@@ -652,6 +652,10 @@ input.dijitInputInner {
 .bga-player-menu .bg-bga-whitebg {
   background-color: #1f1f1f;
 }
+.bga-friends-icon__dropdown .bga-table-list-item,
+.bga-player-menu .bga-table-list-item {
+  background: none !important;
+}
 .bga-friends-icon__dropdown .bga-hover-for-list:hover,
 .bga-player-menu .bga-hover-for-list:hover {
   background: #2c2c2c;
