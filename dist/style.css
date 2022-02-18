@@ -1214,6 +1214,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-sobek .pauchons_corruption_count {
+  color: black;
+}
+
 .bgagame-spaceempires #pagemaintitletext {
   color: #2c2c2c;
 }
