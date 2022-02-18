@@ -1342,6 +1342,14 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: #2c2c2c;
 }
 
+.bgagame-veggiegarden #harvesttext,
+.bgagame-veggiegarden #yourhandtext {
+  color: black;
+}
+.bgagame-veggiegarden .whiteblock {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .bgagame-viamagica #vmg_portalstockrow,
 .bgagame-viamagica .vmg_playerportaldonerow,
 .bgagame-viamagica #vmg_myportaldonerow {
