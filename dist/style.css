@@ -151,6 +151,10 @@ input.dijitInputInner {
   color: black;
 }
 
+.dijitTooltipContainer .cardToolTip {
+  background-color: #383838 !important;
+}
+
 .post .comment {
   background: #2c2c2c;
 }
@@ -417,6 +421,10 @@ input.dijitInputInner {
 .wannaplayauto_button {
   box-shadow: none;
   border: none;
+}
+
+.wannaplayauto_time {
+  color: white;
 }
 
 .tabbed_slider_bar_barcenter {
