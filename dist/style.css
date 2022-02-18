@@ -611,6 +611,7 @@ input.dijitInputInner {
   background: #383838;
   color: #FFFFFF;
   border-color: #ad6dfb;
+  text-shadow: 1px 1px 1px #000000;
 }
 .tundra .dijitTooltipContainer .predefined_textmessage:hover {
   background-color: #2c2c2c;
@@ -1124,6 +1125,32 @@ html[style^="--agricola"] .player-card-resizable {
   background: #2c2c2c;
 }
 
+.bgagame-rememberwhen .sentenceboard {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/rememberwhen/181010-1108/img/sentence.png) !important;
+}
+.bgagame-rememberwhen .text {
+  color: black;
+}
+.bgagame-rememberwhen ul.tab li a {
+  color: #FFFFFF;
+}
+.bgagame-rememberwhen .active {
+  background: #2c2c2c;
+}
+
+.dijitTooltipContainer .divTableBody[class*=tip_1] > div:nth-child(1) {
+  background-color: #BB86FC;
+}
+.dijitTooltipContainer .divTableBody[class*=tip_2] > div:nth-child(2) {
+  background-color: #BB86FC;
+}
+.dijitTooltipContainer .divTableBody[class*=tip_3] > div:nth-child(3) {
+  background-color: #BB86FC;
+}
+.dijitTooltipContainer .divTableBody[class*=tip_4] > div:nth-child(4) {
+  background-color: #BB86FC;
+}
+
 .bgagame-rollforthegalaxy .tile_title {
   color: black;
 }
@@ -1156,6 +1183,19 @@ html[style^="--agricola"] .player-card-resizable {
 }
 .bgagame-sevenwondersarchitects .stwbattleicon {
   color: black;
+}
+.bgagame-sevenwondersarchitects .stw_bgcartouche {
+  z-index: 0;
+}
+.bgagame-sevenwondersarchitects #left-side-wrapper:before {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/sevenwondersarchitects/220111-0842/img/backimage.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  filter: invert(95%);
 }
 
 .bgagame-sevenwondersduel .card_outline.science_progress, .bgagame-sevenwondersduel .card_outline:empty, .bgagame-sevenwondersduel .progress_token_outline {

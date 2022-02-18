@@ -59,6 +59,7 @@
     background: $lighterSurface;
     color: $onSurface;
     border-color: $darkPrimary;
+	text-shadow: 1px 1px 1px $onPrimary;
     .predefined_textmessage:hover {
         background-color: $lightSurface;
         color: $lightPrimary;
