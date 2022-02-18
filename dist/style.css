@@ -1079,8 +1079,9 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: #383838 !important;
 }
 
-.bgagame-oriflamme div.orf-tip-card {
+div.orf-tip-card {
   color: black;
+  text-shadow: none;
 }
 
 .bgagame-papayoo #myhand .stockitem_selected {
