@@ -1314,6 +1314,18 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: rgba(255, 255, 0, 0.5);
 }
 
+.bgagame-trekkingtheworld .playerTurn,
+.bgagame-trekkingtheworld .endGame,
+.bgagame-trekkingtheworld .destination p,
+.bgagame-trekkingtheworld .journeyCard,
+.bgagame-trekkingtheworld .destinationFront .card_title,
+.bgagame-trekkingtheworld .destinationCard .card_description {
+  color: black;
+}
+.bgagame-trekkingtheworld .whiteblock {
+  background: #1f1f1f;
+}
+
 .bgagame-ultimaterailroads #thething {
   color: black;
 }
