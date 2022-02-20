@@ -153,6 +153,10 @@ input.dijitInputInner {
     color : black;
 }
 
+.dijitTooltipContainer .cardToolTip {
+    background-color: $lighterSurface !important;
+} 
+
 .post .comment {
     background : $lightSurface
 }
@@ -404,6 +408,9 @@ input.dijitInputInner {
     box-shadow: none;
     border: none;
 }
+.wannaplayauto_time {
+    color: white;
+}
 
 .tabbed_slider_bar_barcenter {
     background-color: $lightSurface !important;
@@ -589,6 +596,7 @@ input.dijitInputInner {
 @import "games/seven_wonders";
 @import "games/sevenwondersarchitects";
 @import "games/sevenwondersduel";
+@import "games/sobek";
 @import "games/spaceempires";
 @import "games/splendor";
 @import "games/starfluxx";
@@ -599,7 +607,9 @@ input.dijitInputInner {
 @import "games/thebuildersantiquity";
 @import "games/thecrew";
 @import "games/tichu";
+@import "games/trekkingtheworld";
 @import "games/ultimaterailroads";
+@import "games/veggiegarden";
 @import "games/via_magica";
 @import "games/viticulture";
 @import "games/vultureculture";

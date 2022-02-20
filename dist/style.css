@@ -151,6 +151,10 @@ input.dijitInputInner {
   color: black;
 }
 
+.dijitTooltipContainer .cardToolTip {
+  background-color: #383838 !important;
+}
+
 .post .comment {
   background: #2c2c2c;
 }
@@ -417,6 +421,10 @@ input.dijitInputInner {
 .wannaplayauto_button {
   box-shadow: none;
   border: none;
+}
+
+.wannaplayauto_time {
+  color: white;
 }
 
 .tabbed_slider_bar_barcenter {
@@ -773,7 +781,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
-  content: "BGA Dark theme v1.0.18\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.19\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -1075,8 +1083,9 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: #383838 !important;
 }
 
-.bgagame-oriflamme div.orf-tip-card {
+div.orf-tip-card {
   color: black;
+  text-shadow: none;
 }
 
 .bgagame-papayoo #myhand .stockitem_selected {
@@ -1210,6 +1219,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-sobek .pauchons_corruption_count {
+  color: black;
+}
+
 .bgagame-spaceempires #pagemaintitletext {
   color: #2c2c2c;
 }
@@ -1306,6 +1319,18 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: rgba(255, 255, 0, 0.5);
 }
 
+.bgagame-trekkingtheworld .playerTurn,
+.bgagame-trekkingtheworld .endGame,
+.bgagame-trekkingtheworld .destination p,
+.bgagame-trekkingtheworld .journeyCard,
+.bgagame-trekkingtheworld .destinationFront .card_title,
+.bgagame-trekkingtheworld .destinationCard .card_description {
+  color: black;
+}
+.bgagame-trekkingtheworld .whiteblock {
+  background: #1f1f1f;
+}
+
 .bgagame-ultimaterailroads #thething {
   color: black;
 }
@@ -1320,6 +1345,14 @@ html[style^="--agricola"] .player-card-resizable {
 }
 .bgagame-ultimaterailroads .player-name, .bgagame-ultimaterailroads .player_board_inner, .bgagame-ultimaterailroads .player_score {
   background-color: #2c2c2c;
+}
+
+.bgagame-veggiegarden #harvesttext,
+.bgagame-veggiegarden #yourhandtext {
+  color: black;
+}
+.bgagame-veggiegarden .whiteblock {
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .bgagame-viamagica #vmg_portalstockrow,

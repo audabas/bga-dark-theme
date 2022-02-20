@@ -1,0 +1,14 @@
+.bgagame-trekkingtheworld {
+    .playerTurn,
+    .endGame,
+    .destination p,
+    .journeyCard,
+    .destinationFront .card_title,
+    .destinationCard .card_description {
+        color: black;
+    }
+
+    .whiteblock {
+        background: $surface;
+    }
+}
