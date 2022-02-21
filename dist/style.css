@@ -874,10 +874,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
-.bgagame-boomerangaustralia .whiteblock {
+.bgagame-boomerangaustralia .whiteblock, .bgagame-boomerangeurope .whiteblock, .bgagame-boomerangusa .whiteblock {
   background: #1f1f1f;
 }
-.bgagame-boomerangaustralia .box-normal-content:not(.total-value.total-tmp) {
+.bgagame-boomerangaustralia .box-normal-content:not(.total-value.total-tmp), .bgagame-boomerangeurope .box-normal-content:not(.total-value.total-tmp), .bgagame-boomerangusa .box-normal-content:not(.total-value.total-tmp) {
   color: black;
 }
 
