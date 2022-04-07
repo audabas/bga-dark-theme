@@ -11,7 +11,7 @@ body {
 
 .bg-bga-graybg-2 {
   background:linear-gradient(0deg,$surface,$lightSurface)!important;
-  margin-top: -6px; z-index: 1; background-image: linear-gradient(rgb(56, 56, 56) 0px, rgba(44, 44, 44, 0) 4px), linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, transparent 6px), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, transparent 6px), linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, transparent 6px); transition: margin-top 0.3s ease 0s;
+  margin-top: -6px; z-index: 1; 
   color: $primary;
 }
 .text-gray-600{
