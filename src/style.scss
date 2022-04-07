@@ -18,9 +18,8 @@ body {
     color: $primary;
 }
 
-.zoom .rounded-md {
+.zoom .rounded-md, .bg-bga-whitebg {
   background: linear-gradient(0deg, $surface,$lightSurface) !important;
-  
 }
 
 .zoom {

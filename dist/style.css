@@ -20,7 +20,7 @@ body {
   color: #BB86FC;
 }
 
-.zoom .rounded-md {
+.zoom .rounded-md, .bg-bga-whitebg {
   background: linear-gradient(0deg, #1f1f1f, #2c2c2c) !important;
 }
 
