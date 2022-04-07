@@ -7,6 +7,33 @@ body {
   filter: hue-rotate(756deg) invert(100%);
 }
 
+.bg-bga-graybg-2 {
+  background: linear-gradient(0deg, #1f1f1f, #2c2c2c) !important;
+  margin-top: -6px;
+  z-index: 1;
+  background-image: linear-gradient(#383838 0px, rgba(44, 44, 44, 0) 4px), linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, transparent 6px), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, transparent 6px), linear-gradient(270deg, rgba(0, 0, 0, 0.1) 0%, transparent 6px);
+  transition: margin-top 0.3s ease 0s;
+  color: #BB86FC;
+}
+
+.text-gray-600 {
+  color: #BB86FC;
+}
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll {
+  background: linear-gradient(#383838, #1f1f1f) !important;
+  border-top: 1px solid #2c2c2c !important;
+}
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll ~ .svelte-x617ll {
+  background: transparent !important;
+  border-top: none !important;
+}
+
+.bga-discover.bga-discover {
+  z-index: 1;
+}
+
 .pageheader {
   background: #2c2c2c;
   color: #FFFFFF;
