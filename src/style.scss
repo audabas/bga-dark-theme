@@ -18,6 +18,21 @@ body {
     color: $primary;
 }
 
+.zoom .rounded-md {
+  background: linear-gradient(0deg, $surface,$lightSurface) !important;
+  
+}
+
+.zoom {
+  border: 1px solid #121212!important;
+  -o-box-shadow: 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-bga-blue {
+    color: $primary;
+}
+
+
 .bga-game-browser__panel.svelte-x617ll.svelte-x617ll {
   background:linear-gradient($lighterSurface ,$surface)!important;
   border-top: 1px solid #2c2c2c!important;
