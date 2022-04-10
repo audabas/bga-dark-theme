@@ -5,6 +5,7 @@ a.tournaments-list-result {
         background: $lighterSurface;
     }
     .tournaments-list-result__players-max,
+	..tournaments-list-result__championship,
     .tournaments-list-result__date,
     .tournaments-list-result__date span,
     .tournaments-list-result__gamemode span {
@@ -15,6 +16,11 @@ a.tournaments-list-result {
 .tournaments-list-filters label:hover {
     color: $lightPrimary;
 }
+
+.tournaments-list-result__players {
+	background: transparent;
+}
+
 
 .tournaments-presentation {
     background-color: $surface;
