@@ -746,6 +746,8 @@ a.tournaments-list-result:hover {
   background: #383838;
 }
 a.tournaments-list-result .tournaments-list-result__players-max,
+a.tournaments-list-result .tournaments-list-result__championship,
+a.tournaments-list-result .tournaments-list-result__playerstatus,
 a.tournaments-list-result .tournaments-list-result__date,
 a.tournaments-list-result .tournaments-list-result__date span,
 a.tournaments-list-result .tournaments-list-result__gamemode span {
@@ -754,6 +756,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 
 .tournaments-list-filters label:hover {
   color: #d7b8fd;
+}
+
+.tournaments-list-result__players {
+  background: transparent;
 }
 
 .tournaments-presentation {
