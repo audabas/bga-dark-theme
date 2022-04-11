@@ -1002,6 +1002,13 @@ html[style^="--agricola"] .player-card-resizable {
   color: #FFFFFF;
 }
 
+.bgagame-greatwesterntrail #gwt_layout_wrapper > label {
+  color: #000000;
+}
+.bgagame-greatwesterntrail #gwt_scorepad {
+  color: #000000;
+}
+
 .bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
 .bgagame-haiclue #hc_board #clue_builder_container h3 > span.to_translate {
   text-shadow: none;
