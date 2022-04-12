@@ -1009,6 +1009,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: #000000;
 }
 
+.fixed-player-board .player-board-and-tiles:not(.no-fixed), .fixed-player-cards .me .player-cards:not(.no-fixed) {
+  background-color: rgba(44, 39, 32, 0.78);
+}
+
 .bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
 .bgagame-haiclue #hc_board #clue_builder_container h3 > span.to_translate {
   text-shadow: none;
