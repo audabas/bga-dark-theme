@@ -69,6 +69,14 @@ body {
   color: #BB86FC;
 }
 
+.text-bga-link {
+  color: #FFFFFF !important;
+}
+
+.bga-button-dropdown-item.svelte-1a8iggi:hover {
+  background-color: #383838 !important;
+}
+
 .pagesection,
 .portlet {
   background: #1f1f1f;
@@ -137,12 +145,12 @@ body {
 }
 
 .bgabutton_gray {
-  background: #ad6dfb;
-  color: #000000 !important;
+  background: #383838;
+  color: #FFFFFF !important;
 }
 .bgabutton_gray:hover {
-  background: #BB86FC !important;
-  color: #000000;
+  background: #2c2c2c !important;
+  color: #FFFFFF;
 }
 
 textarea,
@@ -503,6 +511,10 @@ input.dijitInputInner {
 
 .gamename, .gamename:active, .gamename:hover {
   color: #BB86FC;
+}
+
+a.bga-game-item.gamename {
+  color: black !important;
 }
 
 .player_is_at_table .gametable.gametable_status_init,

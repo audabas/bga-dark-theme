@@ -69,6 +69,14 @@ body {
 	color: $primary;
 }
 
+.text-bga-link {
+    color: $onSurface !important;
+}
+
+.bga-button-dropdown-item.svelte-1a8iggi:hover {
+    background-color: $lighterSurface !important;
+}
+
 .pagesection,
 .portlet {
 	background: $surface;
@@ -133,11 +141,11 @@ box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
 }
 
 .bgabutton_gray {
-    background: $darkPrimary;
-    color: $onPrimary !important;
+    background: $lighterSurface;
+    color: $onSurface !important;
     &:hover {
-        background: $primary !important;
-        color: $onPrimary;
+        background: $lightSurface !important;
+        color: $onSurface;
     }
 }
 
@@ -488,6 +496,10 @@ input.dijitInputInner {
 }
 .gamename, .gamename:active, .gamename:hover{
 	color: $primary;
+}
+
+a.bga-game-item.gamename {
+    color: black !important;
 }
 
 .player_is_at_table .gametable.gametable_status_init,
