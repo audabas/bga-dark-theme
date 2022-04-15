@@ -9,6 +9,43 @@ body {
     filter: hue-rotate(756deg) invert(100%);
 }
 
+.bg-bga-graybg-2 {
+  background:linear-gradient(0deg,$surface,$lightSurface)!important;
+  margin-top: -6px; z-index: 1; 
+  color: $primary;
+}
+.text-gray-600{
+    color: $primary;
+}
+
+.zoom .rounded-md, .bg-bga-whitebg {
+  background: linear-gradient(0deg, $surface,$lightSurface) !important;
+}
+
+.zoom {
+  border: 1px solid #121212!important;
+  -o-box-shadow: 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-bga-blue {
+    color: $primary;
+}
+
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll {
+  background:linear-gradient($lighterSurface ,$surface)!important;
+  border-top: 1px solid #2c2c2c!important;
+}
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll ~ .svelte-x617ll {
+  background: transparent!important;
+  border-top: none!important;
+}
+
+.bga-discover.bga-discover {
+  z-index: 1;
+}
+
 .pageheader {
     background: $lightSurface;
     color: $onSurface;
@@ -568,6 +605,7 @@ input.dijitInputInner {
 @import "games/for_sale";
 @import "games/frenchtarot";
 @import "games/gonutsfordonuts";
+@import "games/greatwesterntrail";
 @import "games/haiclue";
 @import "games/hanabi";
 @import "games/hardback";
