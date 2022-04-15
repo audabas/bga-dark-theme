@@ -7,6 +7,44 @@ body {
   filter: hue-rotate(756deg) invert(100%);
 }
 
+.bg-bga-graybg-2 {
+  background: linear-gradient(0deg, #1f1f1f, #2c2c2c) !important;
+  margin-top: -6px;
+  z-index: 1;
+  color: #BB86FC;
+}
+
+.text-gray-600 {
+  color: #BB86FC;
+}
+
+.zoom .rounded-md, .bg-bga-whitebg {
+  background: linear-gradient(0deg, #1f1f1f, #2c2c2c) !important;
+}
+
+.zoom {
+  border: 1px solid #121212 !important;
+  -o-box-shadow: 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-bga-blue {
+  color: #BB86FC;
+}
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll {
+  background: linear-gradient(#383838, #1f1f1f) !important;
+  border-top: 1px solid #2c2c2c !important;
+}
+
+.bga-game-browser__panel.svelte-x617ll.svelte-x617ll ~ .svelte-x617ll {
+  background: transparent !important;
+  border-top: none !important;
+}
+
+.bga-discover.bga-discover {
+  z-index: 1;
+}
+
 .pageheader {
   background: #2c2c2c;
   color: #FFFFFF;
@@ -708,6 +746,8 @@ a.tournaments-list-result:hover {
   background: #383838;
 }
 a.tournaments-list-result .tournaments-list-result__players-max,
+a.tournaments-list-result .tournaments-list-result__championship,
+a.tournaments-list-result .tournaments-list-result__playerstatus,
 a.tournaments-list-result .tournaments-list-result__date,
 a.tournaments-list-result .tournaments-list-result__date span,
 a.tournaments-list-result .tournaments-list-result__gamemode span {
@@ -716,6 +756,10 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 
 .tournaments-list-filters label:hover {
   color: #d7b8fd;
+}
+
+.tournaments-list-result__players {
+  background: transparent;
 }
 
 .tournaments-presentation {
@@ -956,6 +1000,13 @@ html[style^="--agricola"] .player-card-resizable {
 
 .gnfd_tooltip-text {
   color: #FFFFFF;
+}
+
+.bgagame-greatwesterntrail #gwt_layout_wrapper > label {
+  color: #000000;
+}
+.bgagame-greatwesterntrail #gwt_scorepad {
+  color: #000000;
 }
 
 .bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
