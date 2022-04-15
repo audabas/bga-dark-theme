@@ -1147,6 +1147,14 @@ div.orf-tip-card {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
 
+.pwhalloween .bgagame-patchwork .player-board {
+  background-color: #1f1f1f !important;
+}
+.pwhalloween .bgagame-patchwork .time_icon,
+.pwhalloween .bgagame-patchwork .button_icon {
+  filter: invert(100%) !important;
+}
+
 .bgagame-polis #region_info {
   background: #383838;
 }
@@ -1272,6 +1280,10 @@ div.orf-tip-card {
 }
 .bgagame-sevenwondersduel .swd_title {
   color: black;
+}
+
+.bgagame-shiftingstones .doubleempty {
+  color: white;
 }
 
 .bgagame-sobek .pauchons_corruption_count {
