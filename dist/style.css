@@ -785,7 +785,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
-  content: "BGA Dark theme v1.0.18\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.19\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -878,10 +878,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
-.bgagame-boomerangaustralia .whiteblock {
+.bgagame-boomerangaustralia .whiteblock, .bgagame-boomerangeurope .whiteblock, .bgagame-boomerangusa .whiteblock {
   background: #1f1f1f;
 }
-.bgagame-boomerangaustralia .box-normal-content:not(.total-value.total-tmp) {
+.bgagame-boomerangaustralia .box-normal-content:not(.total-value.total-tmp), .bgagame-boomerangeurope .box-normal-content:not(.total-value.total-tmp), .bgagame-boomerangusa .box-normal-content:not(.total-value.total-tmp) {
   color: black;
 }
 
@@ -933,6 +933,10 @@ html[style^="--agricola"] .player-card-resizable {
 
 .bgagame-elgrande .stockitem {
   color: black;
+}
+
+.bgagame-flamingpyramids .py_field, .bgagame-flamingpyramids .discard_field {
+  background-color: #2c2c2c;
 }
 
 .bgagame-fluxx .flx-card, .bgagame-fluxx .flx-card-overlay-title {
