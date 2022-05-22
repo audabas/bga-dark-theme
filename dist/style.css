@@ -893,6 +893,29 @@ html[style^="--agricola"] .player-card-resizable {
   color: black !important;
 }
 
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-1 {
+  color: #5af3fb;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-2 {
+  color: #fb412d;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-3 {
+  color: #f8d29c;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-4 {
+  color: #f9f2f5;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-5 {
+  color: #a3cd4f;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-6 {
+  color: #e3c6f3;
+}
+.bgagame-alhambra #bottom-part .alhambra-wrapper:before,
+.bgagame-alhambra #upper-part #right-part .alhambra-wrapper:before {
+  background: none;
+}
+
 .bgagame-azul::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
   content: "";
