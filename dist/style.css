@@ -1329,6 +1329,12 @@ div.orf-tip-card {
   color: black;
 }
 
+.bgagame-sushigoparty #sushigoparty_menu_wrapper,
+.bgagame-sushigoparty .select_predef_menu,
+.bgagame-sushigoparty h3.block_title {
+  background: #2c2c2c;
+}
+
 .bgagame-tapestry {
   /* hard to read on dark surface, so lighten the color a bit */
 }
