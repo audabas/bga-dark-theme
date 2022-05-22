@@ -893,6 +893,29 @@ html[style^="--agricola"] .player-card-resizable {
   color: black !important;
 }
 
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-1 {
+  color: #5af3fb;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-2 {
+  color: #fb412d;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-3 {
+  color: #f8d29c;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-4 {
+  color: #f9f2f5;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-5 {
+  color: #a3cd4f;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-6 {
+  color: #e3c6f3;
+}
+.bgagame-alhambra #bottom-part .alhambra-wrapper:before,
+.bgagame-alhambra #upper-part #right-part .alhambra-wrapper:before {
+  background: none;
+}
+
 .bgagame-azul::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
   content: "";
@@ -932,6 +955,16 @@ html[style^="--agricola"] .player-card-resizable {
 
 .tundra .dijitTooltipContainer .bang-card {
   color: black;
+}
+
+.bgagame-bloodrage .br_board_stat_rage p {
+  color: #ff1c00;
+}
+.bgagame-bloodrage .br_board_stat_axe p {
+  color: #59baff;
+}
+.bgagame-bloodrage .br_board_stat_horn p {
+  color: #e9e9e9;
 }
 
 .bgagame-boomerangaustralia .whiteblock, .bgagame-boomerangeurope .whiteblock, .bgagame-boomerangusa .whiteblock {
@@ -1327,6 +1360,12 @@ div.orf-tip-card {
 .bgagame-stella .ste_playerplate_pg,
 .bgagame-stella .ste_playerplate_name {
   color: black;
+}
+
+.bgagame-sushigoparty #sushigoparty_menu_wrapper,
+.bgagame-sushigoparty .select_predef_menu,
+.bgagame-sushigoparty h3.block_title {
+  background: #2c2c2c;
 }
 
 .bgagame-tapestry {

@@ -1,0 +1,32 @@
+.bgagame-alhambra {
+    .alhambra-stats {
+        .alhambra-stat.stat-1 {
+            color: #5af3fb;
+        }
+
+        .alhambra-stat.stat-2 {
+            color: #fb412d;
+        }
+
+        .alhambra-stat.stat-3 {
+            color: #f8d29c;
+        }
+
+        .alhambra-stat.stat-4 {
+            color: #f9f2f5;
+        }
+
+        .alhambra-stat.stat-5 {
+            color: #a3cd4f;
+        }
+
+        .alhambra-stat.stat-6 {
+            color: #e3c6f3;
+        }
+    }
+
+    #bottom-part .alhambra-wrapper:before,
+    #upper-part #right-part .alhambra-wrapper:before {
+        background: none;
+    }
+}
