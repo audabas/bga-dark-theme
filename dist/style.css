@@ -934,6 +934,16 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-bloodrage .br_board_stat_rage p {
+  color: #ff1c00;
+}
+.bgagame-bloodrage .br_board_stat_axe p {
+  color: #59baff;
+}
+.bgagame-bloodrage .br_board_stat_horn p {
+  color: #e9e9e9;
+}
+
 .bgagame-boomerangaustralia .whiteblock, .bgagame-boomerangeurope .whiteblock, .bgagame-boomerangusa .whiteblock {
   background: #1f1f1f;
 }
