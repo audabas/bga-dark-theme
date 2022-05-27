@@ -69,6 +69,14 @@ body {
 	color: $primary;
 }
 
+.text-bga-link {
+    color: $onSurface !important;
+}
+
+.bga-button-dropdown-item.svelte-1a8iggi:hover {
+    background-color: $lighterSurface !important;
+}
+
 .pagesection,
 .portlet {
 	background: $surface;
@@ -133,11 +141,11 @@ box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
 }
 
 .bgabutton_gray {
-    background: $darkPrimary;
-    color: $onPrimary !important;
+    background: $lighterSurface;
+    color: $onSurface !important;
     &:hover {
-        background: $primary !important;
-        color: $onPrimary;
+        background: $lightSurface !important;
+        color: $onSurface;
     }
 }
 
@@ -490,6 +498,10 @@ input.dijitInputInner {
 	color: $primary;
 }
 
+a.bga-game-item.gamename {
+    color: black !important;
+}
+
 .player_is_at_table .gametable.gametable_status_init,
 .player_is_at_table .gametable.gametable_status_open,
 .player_is_at_table .gametable.gametable_status_asyncinit,
@@ -587,8 +599,10 @@ input.dijitInputInner {
 // Specific games
 @import "games/abandonallartichokes";
 @import "games/agricola";
+@import "games/alhambra";
 @import "games/azul";
 @import "games/bang";
+@import "games/bloodrage";
 @import "games/boomerangaustralia";
 @import "games/cacao";
 @import "games/codexnaturalis";
@@ -620,6 +634,7 @@ input.dijitInputInner {
 @import "games/numberdrop";
 @import "games/oriflamme";
 @import "games/papayoo";
+@import "games/patchwork";
 @import "games/polis";
 @import "games/piratenkapern";
 @import "games/potion_explosion";
@@ -634,11 +649,13 @@ input.dijitInputInner {
 @import "games/seven_wonders";
 @import "games/sevenwondersarchitects";
 @import "games/sevenwondersduel";
+@import "games/shiftingstones";
 @import "games/sobek";
 @import "games/spaceempires";
 @import "games/splendor";
 @import "games/starfluxx";
 @import "games/stella";
+@import "games/sushigoparty";
 @import "games/tapestry";
 @import "games/targi";
 @import "games/thebuilders";

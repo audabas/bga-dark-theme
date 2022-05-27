@@ -1,0 +1,11 @@
+.pwhalloween {
+    .bgagame-patchwork {
+        .player-board {
+            background-color: $surface !important;
+        }
+        .time_icon,
+        .button_icon {
+            filter: invert(100%) !important;
+        }
+    }
+}

@@ -69,6 +69,14 @@ body {
   color: #BB86FC;
 }
 
+.text-bga-link {
+  color: #FFFFFF !important;
+}
+
+.bga-button-dropdown-item.svelte-1a8iggi:hover {
+  background-color: #383838 !important;
+}
+
 .pagesection,
 .portlet {
   background: #1f1f1f;
@@ -137,12 +145,12 @@ body {
 }
 
 .bgabutton_gray {
-  background: #ad6dfb;
-  color: #000000 !important;
+  background: #383838;
+  color: #FFFFFF !important;
 }
 .bgabutton_gray:hover {
-  background: #BB86FC !important;
-  color: #000000;
+  background: #2c2c2c !important;
+  color: #FFFFFF;
 }
 
 textarea,
@@ -505,6 +513,10 @@ input.dijitInputInner {
   color: #BB86FC;
 }
 
+a.bga-game-item.gamename {
+  color: black !important;
+}
+
 .player_is_at_table .gametable.gametable_status_init,
 .player_is_at_table .gametable.gametable_status_open,
 .player_is_at_table .gametable.gametable_status_asyncinit,
@@ -690,6 +702,10 @@ input.dijitInputInner {
 .bga-player-menu .bg-bga-whitebg {
   background-color: #1f1f1f;
 }
+.bga-friends-icon__dropdown .bga-table-list-item,
+.bga-player-menu .bga-table-list-item {
+  background: none !important;
+}
 .bga-friends-icon__dropdown .bga-hover-for-list:hover,
 .bga-player-menu .bga-hover-for-list:hover {
   background: #2c2c2c;
@@ -825,7 +841,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
-  content: "BGA Dark theme v1.0.19\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.21\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -877,6 +893,29 @@ html[style^="--agricola"] .player-card-resizable {
   color: black !important;
 }
 
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-1 {
+  color: #5af3fb;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-2 {
+  color: #fb412d;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-3 {
+  color: #f8d29c;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-4 {
+  color: #f9f2f5;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-5 {
+  color: #a3cd4f;
+}
+.bgagame-alhambra .alhambra-stats .alhambra-stat.stat-6 {
+  color: #e3c6f3;
+}
+.bgagame-alhambra #bottom-part .alhambra-wrapper:before,
+.bgagame-alhambra #upper-part #right-part .alhambra-wrapper:before {
+  background: none;
+}
+
 .bgagame-azul::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
   content: "";
@@ -916,6 +955,16 @@ html[style^="--agricola"] .player-card-resizable {
 
 .tundra .dijitTooltipContainer .bang-card {
   color: black;
+}
+
+.bgagame-bloodrage .br_board_stat_rage p {
+  color: #ff1c00;
+}
+.bgagame-bloodrage .br_board_stat_axe p {
+  color: #59baff;
+}
+.bgagame-bloodrage .br_board_stat_horn p {
+  color: #e9e9e9;
 }
 
 .bgagame-boomerangaustralia .whiteblock, .bgagame-boomerangeurope .whiteblock, .bgagame-boomerangusa .whiteblock {
@@ -1147,6 +1196,14 @@ div.orf-tip-card {
   box-shadow: 1px 1px 5px #BB86FC, 2px 2px 4px #BB86FC;
 }
 
+.pwhalloween .bgagame-patchwork .player-board {
+  background-color: #1f1f1f !important;
+}
+.pwhalloween .bgagame-patchwork .time_icon,
+.pwhalloween .bgagame-patchwork .button_icon {
+  filter: invert(100%) !important;
+}
+
 .bgagame-polis #region_info {
   background: #383838;
 }
@@ -1274,6 +1331,10 @@ div.orf-tip-card {
   color: black;
 }
 
+.bgagame-shiftingstones .doubleempty {
+  color: white;
+}
+
 .bgagame-sobek .pauchons_corruption_count {
   color: black;
 }
@@ -1303,6 +1364,12 @@ div.orf-tip-card {
 .bgagame-stella .ste_playerplate_pg,
 .bgagame-stella .ste_playerplate_name {
   color: black;
+}
+
+.bgagame-sushigoparty #sushigoparty_menu_wrapper,
+.bgagame-sushigoparty .select_predef_menu,
+.bgagame-sushigoparty h3.block_title {
+  background: #2c2c2c;
 }
 
 .bgagame-tapestry {

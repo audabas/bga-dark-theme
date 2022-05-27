@@ -10,6 +10,10 @@
         background-color: $surface;
     }
 
+    .bga-table-list-item {
+        background: none !important;
+    }
+
     .bga-hover-for-list:hover {
         background: $lightSurface;
     }
