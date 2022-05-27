@@ -1153,6 +1153,13 @@ html[style^="--agricola"] .player-card-resizable {
   color: #FFFFFF;
 }
 
+.bgagame-memoir #m44-container {
+  color: #000000;
+}
+.bgagame-memoir #settings-controls-container .row-data .row-label {
+  color: #FFFFFF;
+}
+
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.placeCard,
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #choice_zone .stockitem.survivalCard,
