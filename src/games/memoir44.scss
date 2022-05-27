@@ -7,3 +7,6 @@
 	  color: $onBackground;
 	}
 }
+.memoir44_popin::after, .memoir44_popin::before{
+	filter: brightness(20%);
+}
