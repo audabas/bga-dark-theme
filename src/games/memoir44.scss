@@ -1,0 +1,16 @@
+.bgagame-memoir {
+	#m44-container {
+	  color: $onPrimary;
+	}
+
+	 #settings-controls-container .row-data .row-label {
+	  color: $onBackground;
+	}
+	
+	#clipboard-button {
+		filter: invert(40%);
+	}
+}
+.memoir44_popin::after, .memoir44_popin::before{
+	filter: brightness(20%);
+}

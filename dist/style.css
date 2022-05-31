@@ -1058,6 +1058,10 @@ html[style^="--agricola"] .player-card-resizable {
   color: #000000;
 }
 
+.fixed-player-board .player-board-and-tiles:not(.no-fixed), .fixed-player-cards .me .player-cards:not(.no-fixed) {
+  background-color: rgba(44, 39, 32, 0.78);
+}
+
 .bgagame-haiclue #hc_board .clue_container h3 > span.to_translate,
 .bgagame-haiclue #hc_board #clue_builder_container h3 > span.to_translate {
   text-shadow: none;
@@ -1147,6 +1151,20 @@ html[style^="--agricola"] .player-card-resizable {
 
 .hbz_tooltiptext {
   color: #FFFFFF;
+}
+
+.bgagame-memoir #m44-container {
+  color: #000000;
+}
+.bgagame-memoir #settings-controls-container .row-data .row-label {
+  color: #FFFFFF;
+}
+.bgagame-memoir #clipboard-button {
+  filter: invert(40%);
+}
+
+.memoir44_popin::after, .memoir44_popin::before {
+  filter: brightness(20%);
 }
 
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
