@@ -14,6 +14,10 @@ body {
   color: #BB86FC;
 }
 
+.even\:bg-bga-graybg-2:nth-child(2n) {
+  background: #383838;
+}
+
 .text-gray-600 {
   color: #BB86FC;
 }
@@ -109,7 +113,7 @@ body {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.pagesection h2, .pagesection h3, .portlet h2, .portlet h3 {
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section > .bga-page-section__content {
   background: -prefixe-linear-gradient(bottom, #2c2c2c, #383838);
   background: linear-gradient(0deg, #2c2c2c, #383838);
   color: #f2f2f2;
