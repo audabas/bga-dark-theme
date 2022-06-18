@@ -18,6 +18,14 @@ body {
   background:$lighterSurface;
 }
 
+.bga-game-panel-medias-box__icon.svelte-hc6gll{
+  background: linear-gradient(90deg, #0000 100%, #0007 100%);
+}
+
+.bga-game-panel-medias-box__icon--active.svelte-hc6gll{
+   background: #2c2c2c!important;
+}
+
 .text-gray-600{
     color: $primary;
 }

@@ -18,6 +18,14 @@ body {
   background: #383838;
 }
 
+.bga-game-panel-medias-box__icon.svelte-hc6gll {
+  background: linear-gradient(90deg, #0000 100%, #0007 100%);
+}
+
+.bga-game-panel-medias-box__icon--active.svelte-hc6gll {
+  background: #2c2c2c !important;
+}
+
 .text-gray-600 {
   color: #BB86FC;
 }
@@ -1262,6 +1270,17 @@ div.orf-tip-card {
 
 .bgagame-rallymangt .warningCounterIcon {
   filter: invert(100%);
+}
+.bgagame-rallymangt .bgabutton_gray {
+  background-color: #BB86FC !important;
+}
+.bgagame-rallymangt .whiteblock {
+  background-color: #3B3B3BAA !important;
+}
+
+html.appearance-asphalt body {
+  background-image: linear-gradient(0deg, #000000aa, #000000aa), url(https://x.boardgamearena.net/data/themereleases/current/games/rallymangt/220420-1101/img/asphalt.jpg);
+  background-size: contain;
 }
 
 .bgagame-redsevengame .whiteblock {

@@ -1,5 +1,18 @@
+
 .bgagame-rallymangt {
     .warningCounterIcon {
         filter: invert(100%);
     }
+	
+	.bgabutton_gray {
+		background-color: $primary!important;
+	}
+
+	.whiteblock{
+		background-color: #3B3B3BAA!important;
+	}
+}
+html.appearance-asphalt body  {
+  background-image: linear-gradient(0deg, #000000aa, #000000aa), url(https://x.boardgamearena.net/data/themereleases/current/games/rallymangt/220420-1101/img/asphalt.jpg) ;
+  background-size: contain;
 }
