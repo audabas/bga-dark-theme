@@ -1,5 +1,17 @@
+
 .bgagame-rallymangt {
     .warningCounterIcon {
         filter: invert(100%);
     }
+	
+	.bgabutton_gray {
+		background-color: $primary!important;
+	}
+
+	.whiteblock{
+		background-color: #3B3B3BAA!important;
+	}
+}
+html.appearance-asphalt body {
+  background-color: #000000aa !important;
 }
