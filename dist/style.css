@@ -990,6 +990,40 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-catan #cat_summary:before {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/catan/220611-1138/img/summaryv2.jpg);
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  filter: invert(80%);
+}
+.bgagame-catan #cat_map_bg {
+  background: none !important;
+}
+.bgagame-catan .cat_coastline {
+  filter: brightness(0.6);
+}
+.bgagame-catan #cat_mapcontrols,
+.bgagame-catan .cat_card {
+  color: black;
+}
+
+#player_boards .cat_panel_icon {
+  filter: invert(1) !important;
+}
+#player_boards #cat_tradeawarenessconfig {
+  background: none;
+}
+
+.tundra .dijitTooltipContainer .cat_card {
+  color: black;
+  text-shadow: none;
+}
+
 .bgagame-codexnaturalis::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/codexnaturalis/210719-2314/img/background.jpg);
   content: "";
@@ -1279,8 +1313,7 @@ div.orf-tip-card {
 }
 
 html.appearance-asphalt body {
-  background-image: linear-gradient(0deg, #000000aa, #000000aa), url(https://x.boardgamearena.net/data/themereleases/current/games/rallymangt/220420-1101/img/asphalt.jpg);
-  background-size: contain;
+  background-color: #000000aa !important;
 }
 
 .bgagame-redsevengame .whiteblock {
