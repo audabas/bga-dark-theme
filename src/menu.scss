@@ -31,3 +31,15 @@
         }
     }
 }
+
+.bubblebanner{
+    background-color: $surface;
+    
+    &::after{
+        border-color: $lighterSurface;
+    }
+}
+
+.bga-popup-modal__content.svelte-1gmp0d8.svelte-1gmp0d8{
+    background-color: $surface;
+}
