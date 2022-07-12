@@ -739,6 +739,17 @@ a.bga-game-item.gamename {
   color: #ad6dfb !important;
 }
 
+.bubblebanner {
+  background-color: #1f1f1f;
+}
+.bubblebanner::after {
+  border-color: #383838 transparent;
+}
+
+.bga-popup-modal__content.svelte-1gmp0d8.svelte-1gmp0d8 {
+  background-color: #1f1f1f;
+}
+
 .mobile_version #mobile-navigation #mobile-menu-icon {
   color: #FFFFFF;
 }
@@ -853,7 +864,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 .bga-player-menu__bottom div.flex-1.h-1 > div:last-child::after {
-  content: "BGA Dark theme v1.0.22\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.23\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;

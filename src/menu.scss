@@ -36,7 +36,7 @@
     background-color: $surface;
     
     &::after{
-        border-color: $lighterSurface;
+        border-color: $lighterSurface transparent;
     }
 }
 
