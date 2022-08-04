@@ -1,0 +1,10 @@
+.bgagame-nextstation {
+    .nex_stationcrossed {
+        color: black;
+    }
+    .nex_metropad,
+    .nex_metropad .nex_station,
+    .nex_metropad path {
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
