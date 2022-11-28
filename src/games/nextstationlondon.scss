@@ -1,0 +1,17 @@
+.bgagame-nextstation {
+    .nex_stationcrossed,
+    .nex_scorepad_values {
+         color: black;
+    }
+    .nex_metropad,
+    .nex_metropad .nex_station,
+    .nex_metropad path {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    .nex_metropad .nex_central {
+        filter: invert(0) hue-rotate(180deg) !important;
+    }
+    .nex_metropad .nex_special {
+        filter: invert(1) hue-rotate(180deg) !important;
+    }
+}
