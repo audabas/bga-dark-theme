@@ -1,6 +1,15 @@
 .bgagame-breakthecode {
     .celltile,
+    .celltile0,
     .noteclass {
         color: black;
+    }
+    .scoresheet,
+    .deckcardscont {
+        filter: brightness(85%);
+    }
+    .card,
+    .tileBACK {
+        filter: invert(1) hue-rotate(180deg);
     }
 }
