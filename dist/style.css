@@ -1082,6 +1082,13 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+.bgagame-dungeontwister #pagemaintitletext span,
+.bgagame-dungeontwister .player-name a {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 0.3rem;
+  border-radius: 5px;
+}
+
 .bgagame-elgrande .stockitem {
   color: black;
 }
@@ -1183,6 +1190,27 @@ html[style^="--agricola"] .player-card-resizable {
 }
 .bgagame-imhotep .bgagame-imhotep .supply-board .player-name {
   color: black;
+}
+
+.bgagame-justone #board {
+  background-color: #121212;
+}
+.bgagame-justone .mystery-word {
+  color: black;
+}
+.bgagame-justone #score-counter {
+  color: black;
+}
+.bgagame-justone #card-back-countdown {
+  color: #FFFFFF;
+}
+.bgagame-justone #question {
+  color: black;
+}
+.bgagame-justone input {
+  background-color: transparent !important;
+  border: transparent !important;
+  color: black !important;
 }
 
 .bgagame-kingdombuilder div#objectives div.objective div.objective-name,
