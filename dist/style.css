@@ -998,12 +998,25 @@ html[style^="--agricola"] .player-card-resizable {
 }
 
 .bgagame-breakthecode .celltile,
+.bgagame-breakthecode .celltile0,
 .bgagame-breakthecode .noteclass {
   color: black;
+}
+.bgagame-breakthecode .scoresheet,
+.bgagame-breakthecode .deckcardscont {
+  filter: brightness(85%);
+}
+.bgagame-breakthecode .card,
+.bgagame-breakthecode .tileBACK {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .bgagame-cacao div#player_boards div.player_board_inner div.player_board_content > div.player_score > span.player_score_value > span {
   color: black;
+}
+
+.bgagame-cantstopexpress .pad {
+  filter: invert(1) hue-rotate(180deg) saturate(500%);
 }
 
 .bgagame-catan #cat_summary:before {
@@ -1072,6 +1085,10 @@ html[style^="--agricola"] .player-card-resizable {
 
 .bgagame-diceforge #turn-container #nb-turns-container {
   color: #FFFFFF;
+}
+
+.dj_webkit .tundra .dijitTooltipContainer .tooltip_card_wrap .tooltip_card_text {
+  background: none;
 }
 
 .bgagame-dinosaurteaparty .guess_dinosaur .guess_text {
@@ -1221,6 +1238,10 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: initial !important;
 }
 
+.bgagame-kingoftokyo .whiteblock {
+  background-color: #1f1f1f;
+}
+
 .bgagame-lettertycoon .lettertycoon_deck_info,
 .bgagame-lettertycoon .lettertycoon_area_label {
   color: #FFFFFF;
@@ -1255,6 +1276,22 @@ html[style^="--agricola"] .player-card-resizable {
 
 .memoir44_popin::after, .memoir44_popin::before {
   filter: brightness(20%);
+}
+
+.bgagame-nextstation .nex_stationcrossed,
+.bgagame-nextstation .nex_scorepad_values {
+  color: black;
+}
+.bgagame-nextstation .nex_metropad,
+.bgagame-nextstation .nex_metropad .nex_station,
+.bgagame-nextstation .nex_metropad path {
+  filter: invert(1) hue-rotate(180deg);
+}
+.bgagame-nextstation .nex_metropad .nex_central {
+  filter: invert(0) hue-rotate(180deg) !important;
+}
+.bgagame-nextstation .nex_metropad .nex_special {
+  filter: invert(1) hue-rotate(180deg) !important;
 }
 
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.placeCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.survivalCard, .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hand_zone .stockitem.huntCard,
@@ -1308,12 +1345,12 @@ div.orf-tip-card {
   filter: invert(100%) !important;
 }
 
-.bgagame-polis #region_info {
-  background: #383838;
-}
-
 .bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
   color: white;
+}
+
+.bgagame-polis #region_info {
+  background: #383838;
 }
 
 .bgagame-potionexplosion #game_play_area_wrap #game_play_area .playerArea.whiteblock .marble_pool,
