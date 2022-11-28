@@ -1,0 +1,22 @@
+.bgagame-justone {
+    #board{
+        background-color: $background;
+    }
+    .mystery-word{
+        color: black;
+    }
+    #score-counter{
+        color:black;
+    }
+    #card-back-countdown{
+        color: $onBackground;
+    }
+    #question{
+        color:black;
+    }
+    input{
+        background-color: transparent !important;
+        border: transparent !important;
+        color:black !important;
+    }
+}
