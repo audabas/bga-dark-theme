@@ -1672,3 +1672,12 @@ html.appearance-asphalt body {
   color: #FFFFFF;
   border-color: #383838;
 }
+
+.bgagame-livingforest .lvf_playerboard_name,
+.bgagame-livingforest .lvf_fire_counter_value,
+.bgagame-livingforest .lvf_discard_caption {
+  color: black;
+}
+.bgagame-livingforest .lvf_playerzone {
+  z-index: 1;
+}
