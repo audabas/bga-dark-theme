@@ -939,6 +939,18 @@ html[style^="--agricola"] .player-card-resizable {
   background: none;
 }
 
+.bgagame-arknova #player_config #help-mode-switch .label {
+  background-color: #BB86FC;
+}
+.bgagame-arknova .ark-player-board .icons-summary, .bgagame-arknova .player-board-cards, .bgagame-arknova .player-board-action-cards, .bgagame-arknova #association-board-resizable #association-board-container #base-projects-holder, .bgagame-arknova #association-board-resizable #association-board-container #projects-holder {
+  background: #1f1f1f !important;
+}
+
+.ark-card-wrapper {
+  color: black;
+  text-shadow: 0 0 0;
+}
+
 .bgagame-azul::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
   content: "";
