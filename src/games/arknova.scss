@@ -8,12 +8,16 @@
 	}
 	
 	.roundedbox span {
-		color: $onPrimary;
+		color: $onSurface;
 	}
 
 
 	.arknova-icon.icon-conservation, .arknova-icon.icon-appeal{
 	  color:$onPrimary;
+	  
+	  span {
+		color:$onPrimary;
+	  }
 	}
 
 	.help-marker{

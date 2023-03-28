@@ -946,9 +946,12 @@ html[style^="--agricola"] .player-card-resizable {
   background: #1f1f1f !important;
 }
 .bgagame-arknova .roundedbox span {
-  color: #BB86FC;
+  color: #FFFFFF;
 }
 .bgagame-arknova .arknova-icon.icon-conservation, .bgagame-arknova .arknova-icon.icon-appeal {
+  color: #000000;
+}
+.bgagame-arknova .arknova-icon.icon-conservation span, .bgagame-arknova .arknova-icon.icon-appeal span {
   color: #000000;
 }
 .bgagame-arknova .help-marker {
