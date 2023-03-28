@@ -945,9 +945,18 @@ html[style^="--agricola"] .player-card-resizable {
 .bgagame-arknova .ark-player-board .icons-summary, .bgagame-arknova .player-board-cards, .bgagame-arknova .player-board-action-cards, .bgagame-arknova #association-board-resizable #association-board-container #base-projects-holder, .bgagame-arknova #association-board-resizable #association-board-container #projects-holder {
   background: #1f1f1f !important;
 }
+.bgagame-arknova .roundedbox span {
+  color: #BB86FC;
+}
+.bgagame-arknova .arknova-icon.icon-conservation, .bgagame-arknova .arknova-icon.icon-appeal {
+  color: #000000;
+}
+.bgagame-arknova .help-marker {
+  color: #000000;
+}
 
 .ark-card-wrapper {
-  color: black;
+  color: #000000;
   text-shadow: 0 0 0;
 }
 

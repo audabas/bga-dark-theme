@@ -7,13 +7,23 @@
 		background: $surface!important;
 	}
 	
+	.roundedbox span {
+		color: $primary;
+	}
 
 
+	.arknova-icon.icon-conservation, .arknova-icon.icon-appeal{
+	  color:$onPrimary;
+	}
+
+	.help-marker{
+	  color:$onPrimary;
+	}
 }
 
 //not in bgagame-arknova since it is used in popups
 .ark-card-wrapper {
-  color: black;
+  color: $onPrimary;
   text-shadow:0 0 0;
 }
 
