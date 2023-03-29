@@ -23,6 +23,14 @@
 	.help-marker{
 	  color:$onPrimary;
 	}
+	
+	.map-infos {
+	  color:black;
+	}
+	
+	#pagesubtitle .arknova-icon {
+		filter: drop-shadow(1px 1px 1px white);
+	}
 }
 
 //not in bgagame-arknova since it is used in popups

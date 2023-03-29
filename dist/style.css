@@ -966,6 +966,12 @@ html[style^="--agricola"] .player-card-resizable {
 .bgagame-arknova .help-marker {
   color: #000000;
 }
+.bgagame-arknova .map-infos {
+  color: black;
+}
+.bgagame-arknova #pagesubtitle .arknova-icon {
+  filter: drop-shadow(1px 1px 1px white);
+}
 
 .ark-card-wrapper {
   color: #000000;
