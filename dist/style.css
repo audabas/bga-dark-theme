@@ -1153,8 +1153,12 @@ html[style^="--agricola"] .player-card-resizable {
   filter: invert(0.9);
   color: black;
 }
+.bgagame-earth .ea-objective-button {
+  filter: invert(0) brightness(0.8) !important;
+  color: #FFFFFF !important;
+}
 
-#popin_ea-dialog-card-detail {
+#popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail {
   background: linear-gradient(180deg, #1f1f1f, #383838);
 }
 

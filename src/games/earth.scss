@@ -11,8 +11,12 @@
 	  filter: invert(0.9);
 	  color: black;
 	}
+	.ea-objective-button{
+	  filter: invert(0) brightness(.8) !important;
+	  color: $onSurface !important;
+	}
 }
 
-#popin_ea-dialog-card-detail {
+#popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail {
   background: linear-gradient(180deg,$surface,$lighterSurface);
 }
