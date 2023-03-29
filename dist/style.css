@@ -1158,7 +1158,7 @@ html[style^="--agricola"] .player-card-resizable {
   color: #FFFFFF !important;
 }
 
-#popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail {
+#popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail, #popin_ea-leaf-dialog {
   background: linear-gradient(180deg, #1f1f1f, #383838);
 }
 
