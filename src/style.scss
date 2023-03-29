@@ -23,7 +23,11 @@ body {
 }
 
 .bga-game-panel-medias-box__icon--active.svelte-hc6gll{
-   background: #2c2c2c!important;
+   background: $surface!important;
+   color: $primary;
+}
+.bga-link {
+   background-color: $lighterSurface!important;
 }
 
 .text-gray-600{
