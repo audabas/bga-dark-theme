@@ -2,4 +2,8 @@
 	.ea-counter  {
 	   background-color: $lighterSurface;
 	}
+	
+	#ea-shortcut-area, #ea-area-card-hand-config, .ea-hand-float #ea-area-card-hand-config, #ea-area-card-hand-container.ea-hand-float, .ea-hand-float #ea-area-card-hand-config-control {
+		background-color: #2c2c2caa;
+	}
 }
