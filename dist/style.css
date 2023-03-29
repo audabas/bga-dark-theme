@@ -213,6 +213,10 @@ input.dijitInputInner {
   background-color: #383838 !important;
 }
 
+.bga-tooltip {
+  background-color: #383838 !important;
+}
+
 .post .comment {
   background: #2c2c2c;
 }
