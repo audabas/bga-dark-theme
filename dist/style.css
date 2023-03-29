@@ -1157,6 +1157,10 @@ html[style^="--agricola"] .player-card-resizable {
   filter: invert(0) brightness(0.8) !important;
   color: #FFFFFF !important;
 }
+.bgagame-earth #ea-scorepad {
+  filter: invert(0.9);
+  color: black;
+}
 
 #popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail, #popin_ea-leaf-dialog {
   background: linear-gradient(180deg, #1f1f1f, #383838);

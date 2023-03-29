@@ -15,6 +15,11 @@
 	  filter: invert(0) brightness(.8) !important;
 	  color: $onSurface !important;
 	}
+	
+	#ea-scorepad {
+	  filter: invert(0.9);
+	  color:black;
+	}
 }
 
 #popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail, #popin_ea-leaf-dialog {
