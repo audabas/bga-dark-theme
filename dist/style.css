@@ -1013,6 +1013,22 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+#popin_showTour #tour-slider-container .slide .bubble {
+  background-color: #2c2c2c;
+}
+
+#popin_showTour #tour-slide-footer {
+  background-color: #1f1f1f;
+}
+
+.barrageTour_popin {
+  background-color: #383838;
+}
+
+.bgagame-barrage #page-title {
+  background-color: #383838 !important;
+}
+
 .bgagame-bloodrage .br_board_stat_rage p {
   color: #ff1c00;
 }
@@ -1557,6 +1573,18 @@ html.appearance-asphalt body {
   border: none;
 }
 
+.bgagame-spacestationphoenix #left-side-wrapper {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/spacestationphoenix/220721-0223/img/background.jpg) no-repeat 50% fixed;
+  background-size: cover;
+}
+.bgagame-spacestationphoenix .player-board {
+  background: #2c2c2c;
+  opacity: 0.8;
+}
+.bgagame-spacestationphoenix .whiteblock {
+  background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0.25), rgba(100, 100, 100, 0.3));
+}
+
 .bgagame-splendor .spl_coinpile_counter {
   color: black;
 }
@@ -1658,6 +1686,13 @@ html.appearance-asphalt body {
 }
 .bgagame-trekkingtheworld .whiteblock {
   background: #1f1f1f;
+}
+
+.bgagame-trektwelve .textpnp, .bgagame-trektwelve .dice.yellow {
+  color: black;
+}
+.bgagame-trektwelve .textpnp.titleconf {
+  color: white;
 }
 
 .bgagame-ultimaterailroads #thething {

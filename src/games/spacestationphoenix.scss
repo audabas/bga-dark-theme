@@ -4,7 +4,8 @@
 		background-size: cover;
 	}
 	.player-board{
-		background-color: $lightSurface;
+		background: $lightSurface;
+		opacity: 0.8;
 	}
 	.whiteblock{
 		background-image: linear-gradient(to bottom, rgba(100,100,100,0.25), rgba(100,100,100,0.3));
