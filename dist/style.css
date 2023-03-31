@@ -22,7 +22,7 @@ body {
   background: linear-gradient(90deg, #0000 100%, #0007 100%);
 }
 
-div :has(div.bga-game-filter-panel__input-blocks), .place-self-stretch {
+#main-content div :has(div.bga-game-filter-panel__input-blocks), .place-self-stretch {
   background: #383838;
 }
 
