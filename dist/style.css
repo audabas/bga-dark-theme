@@ -22,8 +22,21 @@ body {
   background: linear-gradient(90deg, #0000 100%, #0007 100%);
 }
 
+#main-content div :has(div.bga-game-filter-panel__input-blocks), .place-self-stretch {
+  background: #383838;
+}
+
+.place-self-stretch {
+  background: linear-gradient(#383838, #1f1f1f) !important;
+}
+
 .bga-game-panel-medias-box__icon--active.svelte-hc6gll {
-  background: #2c2c2c !important;
+  background: #1f1f1f !important;
+  color: #BB86FC;
+}
+
+.bga-game-panel-medias-box__icon.bga-link {
+  background-color: #383838 !important;
 }
 
 .text-gray-600 {
@@ -210,6 +223,10 @@ input.dijitInputInner {
 }
 
 .dijitTooltipContainer .cardToolTip {
+  background-color: #383838 !important;
+}
+
+.bga-tooltip {
   background-color: #383838 !important;
 }
 
@@ -943,6 +960,36 @@ html[style^="--agricola"] .player-card-resizable {
   background: none;
 }
 
+.bgagame-arknova #player_config #help-mode-switch .label {
+  background-color: #BB86FC;
+}
+.bgagame-arknova .ark-player-board .icons-summary, .bgagame-arknova .player-board-cards, .bgagame-arknova .player-board-action-cards, .bgagame-arknova #association-board-resizable #association-board-container #base-projects-holder, .bgagame-arknova #association-board-resizable #association-board-container #projects-holder {
+  background: #1f1f1f !important;
+}
+.bgagame-arknova .roundedbox span {
+  color: #FFFFFF;
+}
+.bgagame-arknova .arknova-icon.icon-conservation, .bgagame-arknova .arknova-icon.icon-appeal {
+  color: #000000;
+}
+.bgagame-arknova .arknova-icon.icon-conservation span, .bgagame-arknova .arknova-icon.icon-appeal span {
+  color: #000000;
+}
+.bgagame-arknova .help-marker {
+  color: #000000;
+}
+.bgagame-arknova .map-infos {
+  color: black;
+}
+.bgagame-arknova #pagesubtitle .arknova-icon {
+  filter: drop-shadow(1px 1px 1px white);
+}
+
+.ark-card-wrapper {
+  color: #000000;
+  text-shadow: 0 0 0;
+}
+
 .bgagame-azul::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/azul/220114-1140/img/background2.jpg) #00587a;
   content: "";
@@ -982,6 +1029,22 @@ html[style^="--agricola"] .player-card-resizable {
 
 .tundra .dijitTooltipContainer .bang-card {
   color: black;
+}
+
+#popin_showTour #tour-slider-container .slide .bubble {
+  background-color: #2c2c2c;
+}
+
+#popin_showTour #tour-slide-footer {
+  background-color: #1f1f1f;
+}
+
+.barrageTour_popin {
+  background-color: #383838;
+}
+
+.bgagame-barrage #page-title {
+  background-color: #383838 !important;
 }
 
 .bgagame-bloodrage .br_board_stat_rage p {
@@ -1116,6 +1179,29 @@ html[style^="--agricola"] .player-card-resizable {
 
 .bgagame-elgrande .stockitem {
   color: black;
+}
+
+.bgagame-earth .ea-counter {
+  background-color: #383838;
+}
+.bgagame-earth #ea-shortcut-area, .bgagame-earth #ea-area-card-hand-config, .bgagame-earth .ea-hand-float #ea-area-card-hand-config, .bgagame-earth #ea-area-card-hand-container.ea-hand-float, .bgagame-earth .ea-hand-float #ea-area-card-hand-config-control {
+  background-color: #2c2c2caa;
+}
+.bgagame-earth .ea-player-panel-pill {
+  filter: invert(0.9);
+  color: black;
+}
+.bgagame-earth .ea-objective-button {
+  filter: invert(0) brightness(0.8) !important;
+  color: #FFFFFF !important;
+}
+.bgagame-earth #ea-scorepad {
+  filter: invert(0.9);
+  color: black;
+}
+
+#popin_ea-dialog-card-detail, #popin_ea-dialog-objective-detail, #popin_ea-leaf-dialog {
+  background: linear-gradient(180deg, #1f1f1f, #383838);
 }
 
 .bgagame-flamingpyramids .py_field, .bgagame-flamingpyramids .discard_field {
@@ -1518,6 +1604,18 @@ html.appearance-asphalt body {
   border: none;
 }
 
+.bgagame-spacestationphoenix #left-side-wrapper {
+  background: url(https://x.boardgamearena.net/data/themereleases/current/games/spacestationphoenix/220721-0223/img/background.jpg) no-repeat 50% fixed;
+  background-size: cover;
+}
+.bgagame-spacestationphoenix .player-board {
+  background: #2c2c2c;
+  opacity: 0.8;
+}
+.bgagame-spacestationphoenix .whiteblock {
+  background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0.25), rgba(100, 100, 100, 0.3));
+}
+
 .bgagame-splendor .spl_coinpile_counter {
   color: black;
 }
@@ -1623,6 +1721,13 @@ html.appearance-asphalt body {
 }
 .bgagame-trekkingtheworld .whiteblock {
   background: #1f1f1f;
+}
+
+.bgagame-trektwelve .textpnp, .bgagame-trektwelve .dice.yellow {
+  color: black;
+}
+.bgagame-trektwelve .textpnp.titleconf {
+  color: white;
 }
 
 .bgagame-ultimaterailroads #thething {
