@@ -868,7 +868,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #footer_footer::after {
-  content: "BGA Dark theme v1.0.25\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.26\ahttps://github.com/bastien09/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -1081,6 +1081,10 @@ html[style^="--agricola"] .player-card-resizable {
 }
 .bgagame-cubirds #cubirds_below .whiteblock {
   background-color: #2c2c2c;
+}
+
+.bgagame-decrypto {
+  color: black;
 }
 
 .bgagame-deus .deus_repeat_counter_section, .bgagame-deus .whiteblock {
@@ -1521,6 +1525,10 @@ html.appearance-asphalt body {
   color: black;
 }
 
+.bgagame-spots .spt-trick-text {
+  color: black;
+}
+
 .bgagame-starfluxx .flx-card, .bgagame-starfluxx .flx-card-overlay-title {
   color: black;
 }
@@ -1684,12 +1692,4 @@ html.appearance-asphalt body {
 .bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td {
   color: #FFFFFF;
   border-color: #383838;
-}
-
-.bgagame-decrypto {
-  color: black;
-}
-
-.bgagame-spots .spt-trick-text {
-  color: black;
 }
