@@ -575,6 +575,10 @@ a.bga-game-item.gamename {
   filter: invert(100%);
 }
 
+#popin_bgaHelpDialog.standard_popin {
+  background-color: #121212;
+}
+
 .log_replayable:hover {
   background-color: #1f1f1f;
 }
@@ -1247,6 +1251,15 @@ html[style^="--agricola"] .player-card-resizable {
   color: #FFFFFF;
 }
 
+.bgagame-livingforest .lvf_playerboard_name,
+.bgagame-livingforest .lvf_fire_counter_value,
+.bgagame-livingforest .lvf_discard_caption {
+  color: black;
+}
+.bgagame-livingforest .lvf_playerzone {
+  z-index: 1;
+}
+
 .bgagame-lostcities #deck_count {
   color: #FFFFFF !important;
 }
@@ -1673,11 +1686,10 @@ html.appearance-asphalt body {
   border-color: #383838;
 }
 
-.bgagame-livingforest .lvf_playerboard_name,
-.bgagame-livingforest .lvf_fire_counter_value,
-.bgagame-livingforest .lvf_discard_caption {
+.bgagame-decrypto {
   color: black;
 }
-.bgagame-livingforest .lvf_playerzone {
-  z-index: 1;
+
+.bgagame-spots .spt-trick-text {
+  color: black;
 }

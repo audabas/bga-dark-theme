@@ -557,6 +557,10 @@ a.bga-game-item.gamename {
     }
 }
 
+#popin_bgaHelpDialog.standard_popin {
+    background-color: $background;
+}
+
 .log_replayable:hover {
     background-color: $surface;
 }
@@ -624,6 +628,7 @@ a.bga-game-item.gamename {
 @import "games/concept";
 @import "games/crazy_farmers";
 @import "games/cubirds";
+@import "games/decrypto";
 @import "games/deus";
 @import "games/dice_forge";
 @import "games/dicethemepark";
@@ -646,6 +651,7 @@ a.bga-game-item.gamename {
 @import "games/kingdom_builder";
 @import "games/kingoftokyo";
 @import "games/letter_tycoon";
+@import "games/livingforest";
 @import "games/lostcities";
 @import "games/love_letter";
 @import "games/mascarade";
@@ -674,6 +680,7 @@ a.bga-game-item.gamename {
 @import "games/sobek";
 @import "games/spaceempires";
 @import "games/splendor";
+@import "games/spots";
 @import "games/starfluxx";
 @import "games/stella";
 @import "games/sushigoparty";
@@ -692,4 +699,3 @@ a.bga-game-item.gamename {
 @import "games/welcometo";
 @import "games/welcometonewlasvegas";
 @import "games/yatzy";
-@import "games/livingforest";
