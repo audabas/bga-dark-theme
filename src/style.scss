@@ -9,6 +9,10 @@ body {
     filter: hue-rotate(756deg) invert(100%);
 }
 
+#server_status_warning_message {
+    background-color: $error;
+}
+
 .bg-bga-graybg-2 {
   background:linear-gradient(0deg,$surface,$lightSurface)!important;
   margin-top: -6px; z-index: 1; 
