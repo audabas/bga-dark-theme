@@ -1363,6 +1363,22 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+#mcb-floatingHand {
+  background-color: #2c2c2c;
+}
+
+.bgagame-maracaibo #mcb-career-notice, .bgagame-maracaibo .bgagame-maracaibo #game_play_area {
+  color: black;
+}
+
+.mcb-scoreSheet tr:nth-child(2n) {
+  background-color: #2c2c2c;
+}
+
+.mcb-scoreSheet tr:nth-child(2n+1) {
+  background-color: #1f1f1f;
+}
+
 .hbz_tooltiptext {
   color: #FFFFFF;
 }
