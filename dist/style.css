@@ -1367,7 +1367,7 @@ html[style^="--agricola"] .player-card-resizable {
   background-color: #2c2c2c;
 }
 
-.bgagame-maracaibo #mcb-career-notice, .bgagame-maracaibo .bgagame-maracaibo #game_play_area {
+.bgagame-maracaibo #mcb-career-notice, .bgagame-maracaibo .bgagame-maracaibo #game_play_area, .bgagame-maracaibo .mcb-tab, .bgagame-maracaibo .mcb-scroll, .bgagame-maracaibo #mcb-nextQuest-text {
   color: black;
 }
 
