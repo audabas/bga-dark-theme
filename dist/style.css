@@ -1464,6 +1464,32 @@ div.orf-tip-card {
   filter: invert(100%) !important;
 }
 
+.bgagame-paxrenaissance {
+  color: black;
+}
+.bgagame-paxrenaissance #left-side-wrapper {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/paxrenaissance/240221-2227/img/background_goldsmith.webp);
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.bgagame-paxrenaissance .pr_player_tableau:before {
+  background-color: #1f1f1f;
+}
+.bgagame-paxrenaissance .pr_player_tableau {
+  color: white;
+  z-index: 1;
+}
+.bgagame-paxrenaissance #pr_open_hands_button, .bgagame-paxrenaissance #pr_information_button {
+  filter: invert(1);
+}
+
+#pr_information_modal_content {
+  color: black;
+  filter: brightness(80%);
+}
+
 .bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
   color: white;
 }
