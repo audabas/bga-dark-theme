@@ -1465,7 +1465,7 @@ div.orf-tip-card {
 }
 
 .bgagame-paxrenaissance {
-  color: black;
+  color: #000000;
 }
 .bgagame-paxrenaissance #left-side-wrapper {
   background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/paxrenaissance/240221-2227/img/background_goldsmith.webp);
@@ -1478,7 +1478,7 @@ div.orf-tip-card {
   background-color: #1f1f1f;
 }
 .bgagame-paxrenaissance .pr_player_tableau {
-  color: white;
+  color: #FFFFFF;
   z-index: 1;
 }
 .bgagame-paxrenaissance #pr_open_hands_button, .bgagame-paxrenaissance #pr_information_button {
@@ -1486,7 +1486,7 @@ div.orf-tip-card {
 }
 
 #pr_information_modal_content {
-  color: black;
+  color: #000000;
   filter: brightness(80%);
 }
 
@@ -1790,6 +1790,10 @@ html.appearance-asphalt body {
   filter: invert(90%);
 }
 .bgagame-ultimaterailroads .player-name, .bgagame-ultimaterailroads .player_board_inner, .bgagame-ultimaterailroads .player_score {
+  background-color: #2c2c2c;
+}
+
+.ve_tooltip {
   background-color: #2c2c2c;
 }
 
