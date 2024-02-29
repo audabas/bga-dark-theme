@@ -9,9 +9,14 @@ background-color:$lightSurface;
 	}
 	
 	
-	.mcb-card-pane .mcb-scroll{
+	.mcb-card-pane .mcb-scroll, .mcb-scroll-combatTile .mcb-scroll{
 	   color:$onSurface;
 	}
+	
+	.mcb-endRound{
+	  background-color: $lightSurface;
+	}
+
 }
 
 
