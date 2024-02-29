@@ -5,7 +5,12 @@ background-color:$lightSurface;
 
 .bgagame-maracaibo {
 	#mcb-career-notice, .bgagame-maracaibo  #game_play_area, .mcb-tab, .mcb-scroll, #mcb-nextQuest-text {
-		color: black;
+		color: $onPrimary;
+	}
+	
+	
+	.mcb-card-pane .mcb-scroll{
+	   color:$onSurface;
 	}
 }
 

@@ -1368,7 +1368,10 @@ html[style^="--agricola"] .player-card-resizable {
 }
 
 .bgagame-maracaibo #mcb-career-notice, .bgagame-maracaibo .bgagame-maracaibo #game_play_area, .bgagame-maracaibo .mcb-tab, .bgagame-maracaibo .mcb-scroll, .bgagame-maracaibo #mcb-nextQuest-text {
-  color: black;
+  color: #000000;
+}
+.bgagame-maracaibo .mcb-card-pane .mcb-scroll {
+  color: #FFFFFF;
 }
 
 .mcb-scoreSheet tr:nth-child(2n) {
