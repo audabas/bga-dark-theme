@@ -1120,6 +1120,10 @@ html[style^="--agricola"] .player-card-resizable {
   text-shadow: none;
 }
 
+.bgagame-canvas .player-board, .bgagame-canvas .canvas-painting-ribbons {
+  color: #000000;
+}
+
 .bgagame-codexnaturalis::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/codexnaturalis/210719-2314/img/background.jpg);
   content: "";
