@@ -3,6 +3,8 @@
 body {
     background: $background;
     color: $onSurface;
+	z-index: -10;
+	position:sticky;
 }
 
 .emblempremium_big {

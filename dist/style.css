@@ -1,6 +1,8 @@
 body {
   background: #121212;
   color: #FFFFFF;
+  z-index: -10;
+  position: sticky;
 }
 
 .emblempremium_big {
