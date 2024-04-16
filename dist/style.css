@@ -1735,6 +1735,13 @@ html.appearance-asphalt body {
   color: black;
 }
 
+.bgagame-terraformingmars {
+  color: black;
+}
+.bgagame-terraformingmars .groupline, .bgagame-terraformingmars .playerboard_group {
+  color: #000000;
+}
+
 .bgagame-thebuilders .cardname {
   color: black;
 }
