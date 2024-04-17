@@ -1800,6 +1800,10 @@ html.appearance-asphalt body {
   color: white;
 }
 
+.bgagame-turingmachine .phcard {
+  color: #000000;
+}
+
 .bgagame-ultimaterailroads #thething {
   color: black;
 }
