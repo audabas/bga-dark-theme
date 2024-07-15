@@ -1798,3 +1798,8 @@ html.appearance-asphalt body {
   color: #FFFFFF;
   border-color: #383838;
 }
+
+.bgagame-photosynthesis .psy_overlay_button,
+.bgagame-photosynthesis .psy_suncounter_value {
+  color: black;
+}
