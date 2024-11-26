@@ -7,7 +7,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "./node_modules/.bin/sass --no-source-map ./src/style.scss ./dist/style.css",
+    "build": "npx sass --no-source-map ./src/style.scss ./dist/style.css",
     "watch": "npm run build -- --watch"
   },
   "repository": {
