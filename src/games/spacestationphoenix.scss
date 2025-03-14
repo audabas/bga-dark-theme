@@ -1,0 +1,13 @@
+.bgagame-spacestationphoenix {
+	#left-side-wrapper {
+		background: url(https://x.boardgamearena.net/data/themereleases/current/games/spacestationphoenix/220721-0223/img/background.jpg)  no-repeat 50% fixed;
+		background-size: cover;
+	}
+	.player-board{
+		background: $lightSurface;
+		opacity: 0.8;
+	}
+	.whiteblock{
+		background-image: linear-gradient(to bottom, rgba(100,100,100,0.25), rgba(100,100,100,0.3));
+	}
+}

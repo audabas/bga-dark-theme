@@ -1,0 +1,41 @@
+.bgagame-arknova {
+	#player_config #help-mode-switch .label {
+		background-color: $primary;
+	}
+	
+	.ark-player-board .icons-summary, .player-board-cards, .player-board-action-cards,#association-board-resizable #association-board-container #base-projects-holder, #association-board-resizable #association-board-container #projects-holder  {
+		background: $surface!important;
+	}
+	
+	.roundedbox span {
+		color: $onSurface;
+	}
+
+
+	.arknova-icon.icon-conservation, .arknova-icon.icon-appeal{
+	  color:$onPrimary;
+	  
+	  span {
+		color:$onPrimary;
+	  }
+	}
+
+	.help-marker{
+	  color:$onPrimary;
+	}
+	
+	.map-infos {
+	  color:black;
+	}
+	
+	#pagesubtitle .arknova-icon {
+		filter: drop-shadow(1px 1px 1px white);
+	}
+}
+
+//not in bgagame-arknova since it is used in popups
+.ark-card-wrapper {
+  color: $onPrimary;
+  text-shadow:0 0 0;
+}
+
