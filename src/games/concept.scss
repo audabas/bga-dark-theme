@@ -1,11 +1,22 @@
 .bgagame-concept {
-    #player-boards .player-board {
-        background-color: initial;
+    #player_boards .player-board {
+        background-color: initial !important;
     }
     #concept-app #concept-card > ul > li {
         color: black;
     }
     #current-word, #toggle-grid, #page-title {
-        background-color: hsla(0,0%,100%,.5)
+        background-color: hsla(0,0%,100%,.5) !important;
+    }
+    #concept-guesses-container > h2:nth-child(3) {
+        background-color: #292d33 !important;
+        color: gray !important;
+    }
+    #concept-guesses {
+        background: #3b4048 !important;
+
+        li.separator {
+            background: #414851 !important;
+        }
     }
 }
