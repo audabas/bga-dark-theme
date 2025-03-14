@@ -1,5 +1,11 @@
 .bgagame-concept {
+    #player-boards .player-board {
+        background-color: initial;
+    }
     #concept-app #concept-card > ul > li {
         color: black;
+    }
+    #current-word, #toggle-grid, #page-title {
+        background-color: hsla(0,0%,100%,.5)
     }
 }
