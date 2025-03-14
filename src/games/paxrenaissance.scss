@@ -1,0 +1,30 @@
+
+.bgagame-paxrenaissance {
+	color:$onPrimary;
+	
+	#left-side-wrapper {
+		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/paxrenaissance/240221-2227/img/background_goldsmith.webp);
+		background-position:50%;
+		background-size:cover;
+		background-attachment:fixed;
+		z-index: -1;
+	}
+	
+	.pr_player_tableau:before {
+		background-color:$surface;
+	}
+	
+	.pr_player_tableau{
+		color:$onSurface ;
+		z-index: 1;
+	}
+
+	#pr_open_hands_button, #pr_information_button{
+		filter:invert(1);
+	}	
+}
+
+#pr_information_modal_content {
+  color: $onPrimary;
+  filter:brightness(80%);
+}

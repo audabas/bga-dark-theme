@@ -1,6 +1,8 @@
 body {
   background: #121212;
   color: #FFFFFF;
+  z-index: -10;
+  position: sticky;
 }
 
 .emblempremium_big {
@@ -1120,6 +1122,10 @@ html[style^="--agricola"] .player-card-resizable {
   text-shadow: none;
 }
 
+.bgagame-canvas .player-board, .bgagame-canvas .canvas-painting-ribbons {
+  color: #000000;
+}
+
 .bgagame-codexnaturalis::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/codexnaturalis/210719-2314/img/background.jpg);
   content: "";
@@ -1363,6 +1369,28 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
+#mcb-floatingHand {
+  background-color: #2c2c2c;
+}
+
+.bgagame-maracaibo #mcb-career-notice, .bgagame-maracaibo .bgagame-maracaibo #game_play_area, .bgagame-maracaibo .mcb-tab, .bgagame-maracaibo .mcb-scroll, .bgagame-maracaibo #mcb-nextQuest-text {
+  color: #000000;
+}
+.bgagame-maracaibo .mcb-card-pane .mcb-scroll, .bgagame-maracaibo .mcb-scroll-combatTile .mcb-scroll {
+  color: #FFFFFF;
+}
+.bgagame-maracaibo .mcb-endRound {
+  background-color: #2c2c2c;
+}
+
+.mcb-scoreSheet tr:nth-child(2n) {
+  background-color: #2c2c2c;
+}
+
+.mcb-scoreSheet tr:nth-child(2n+1) {
+  background-color: #1f1f1f;
+}
+
 .hbz_tooltiptext {
   color: #FFFFFF;
 }
@@ -1446,6 +1474,32 @@ div.orf-tip-card {
 .pwhalloween .bgagame-patchwork .time_icon,
 .pwhalloween .bgagame-patchwork .button_icon {
   filter: invert(100%) !important;
+}
+
+.bgagame-paxrenaissance {
+  color: #000000;
+}
+.bgagame-paxrenaissance #left-side-wrapper {
+  background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/paxrenaissance/240221-2227/img/background_goldsmith.webp);
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.bgagame-paxrenaissance .pr_player_tableau:before {
+  background-color: #1f1f1f;
+}
+.bgagame-paxrenaissance .pr_player_tableau {
+  color: #FFFFFF;
+  z-index: 1;
+}
+.bgagame-paxrenaissance #pr_open_hands_button, .bgagame-paxrenaissance #pr_information_button {
+  filter: invert(1);
+}
+
+#pr_information_modal_content {
+  color: #000000;
+  filter: brightness(80%);
 }
 
 .bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
@@ -1681,6 +1735,13 @@ html.appearance-asphalt body {
   color: black;
 }
 
+.bgagame-terraformingmars {
+  color: black;
+}
+.bgagame-terraformingmars .groupline, .bgagame-terraformingmars .playerboard_group {
+  color: #000000;
+}
+
 .bgagame-thebuilders .cardname {
   color: black;
 }
@@ -1702,6 +1763,15 @@ html.appearance-asphalt body {
   width: 100%;
   height: 100%;
   filter: brightness(20%);
+}
+
+.bgagame-threethousandscoundrels .scoundrel {
+  color: #000000;
+}
+
+.bgagame-throughtheagesnewstory .whiteblock {
+  background-color: #2c2c2c;
+  border-radius: 2px;
 }
 
 .bgagame-tichu .whiteblock {
@@ -1730,6 +1800,10 @@ html.appearance-asphalt body {
   color: white;
 }
 
+.bgagame-turingmachine .phcard {
+  color: #000000;
+}
+
 .bgagame-ultimaterailroads #thething {
   color: black;
 }
@@ -1743,6 +1817,10 @@ html.appearance-asphalt body {
   filter: invert(90%);
 }
 .bgagame-ultimaterailroads .player-name, .bgagame-ultimaterailroads .player_board_inner, .bgagame-ultimaterailroads .player_score {
+  background-color: #2c2c2c;
+}
+
+.ve_tooltip {
   background-color: #2c2c2c;
 }
 

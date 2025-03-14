@@ -3,6 +3,8 @@
 body {
     background: $background;
     color: $onSurface;
+	z-index: -10;
+	position:sticky;
 }
 
 .emblempremium_big {
@@ -640,6 +642,7 @@ a.bga-game-item.gamename {
 @import "games/cacao";
 @import "games/cantstopexpress";
 @import "games/catan";
+@import "games/canvas";
 @import "games/codexnaturalis";
 @import "games/concept";
 @import "games/crazy_farmers";
@@ -671,6 +674,7 @@ a.bga-game-item.gamename {
 @import "games/livingforest";
 @import "games/lostcities";
 @import "games/love_letter";
+@import "games/maracaibo";
 @import "games/mascarade";
 @import "games/memoir44";
 @import "games/nextstationlondon";
@@ -679,6 +683,7 @@ a.bga-game-item.gamename {
 @import "games/oriflamme";
 @import "games/papayoo";
 @import "games/patchwork";
+@import "games/paxrenaissance.scss";
 @import "games/piratenkapern";
 @import "games/polis";
 @import "games/potion_explosion";
@@ -704,13 +709,18 @@ a.bga-game-item.gamename {
 @import "games/sushigoparty";
 @import "games/tapestry";
 @import "games/targi";
+@import "games/terraformingmars";
 @import "games/thebuilders";
 @import "games/thebuildersantiquity";
 @import "games/thecrew";
+@import "games/threethousandscoundrels";
+@import "games/throughtheagesnewstory";
 @import "games/tichu";
 @import "games/trekkingtheworld";
 @import "games/trektwelve";
+@import "games/turingmachine";
 @import "games/ultimaterailroads";
+@import "games/valeofeternity";
 @import "games/veggiegarden";
 @import "games/via_magica";
 @import "games/viticulture";
