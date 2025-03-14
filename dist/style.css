@@ -1061,6 +1061,13 @@ html[style^="--agricola"] .player-card-resizable {
   text-shadow: none;
 }
 
+.bgagame-castlecombo .result table td {
+  color: black;
+}
+.bgagame-castlecombo .card {
+  color: black;
+}
+
 .bgagame-codexnaturalis::before {
   background: url(https://x.boardgamearena.net/data/themereleases/current/games/codexnaturalis/210719-2314/img/background.jpg);
   content: "";
