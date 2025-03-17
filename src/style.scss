@@ -11,7 +11,7 @@ body {
 
 .bg-bga-graybg-2 {
   background:linear-gradient(0deg,$surface,$lightSurface)!important;
-  margin-top: -6px; z-index: 1; 
+  margin-top: -6px; z-index: 1;
   color: $primary;
 }
 .even\:bg-bga-graybg-2:nth-child(2n){
@@ -142,7 +142,7 @@ box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
 		}
 	}
 }
-  
+
 
 .bgabutton_blue {
     background: $darkPrimary;
@@ -223,7 +223,7 @@ input.dijitInputInner {
 
 .dijitTooltipContainer .cardToolTip {
     background-color: $lighterSurface !important;
-} 
+}
 
 .bga-tooltip{
   background-color:$lighterSurface !important;
