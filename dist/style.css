@@ -1072,9 +1072,11 @@ html[style^="--agricola"] .player-card-resizable {
   color: black;
 }
 
-.bgagame-bonsai .game-content {
+.bgagame-bonsai #bon_deck-count {
   color: black;
-  /* sets turn counter to black */
+}
+.bgagame-bonsai .action-button:has(.bon_button-icon) {
+  background: initial;
 }
 
 .bgagame-breakthecode .celltile,

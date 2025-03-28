@@ -1,4 +1,12 @@
-.bgagame-bonsai .game-content {
-  color: black;
-  /* sets turn counter to black */
+.bgagame-bonsai {
+
+  // sets turn counter to black
+  #bon_deck-count {
+    color: black;
+  }
+
+  // sets button background dark
+  .action-button:has(.bon_button-icon) {
+    background: initial;
+  }
 }
