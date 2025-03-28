@@ -889,15 +889,14 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #footer_footer::after {
-  content: "BGA Dark theme v1.0.26\ahttps://github.com/bastien09/bga-dark-theme";
+  content: "BGA Dark theme v1.0.27\ahttps://github.com/audabas/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
   display: block;
   color: darkgray;
-  font-size: 0.6rem;
-  position: absolute;
-  bottom: 1rem;
+  font-size: 0.7rem;
+  padding-top: 0.5rem;
 }
 
 .bgagame-abandonallartichokes .artichoke_tray_description {
