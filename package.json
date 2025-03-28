@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bastien09/bga-dark-theme.git"
+    "url": "git+https://github.com/audabas/bga-dark-theme.git"
   },
-  "author": "bastien09",
+  "author": "audabas",
   "license": "LPRAB",
   "bugs": {
-    "url": "https://github.com/bastien09/bga-dark-theme/issues"
+    "url": "https://github.com/audabas/bga-dark-theme/issues"
   },
-  "homepage": "https://github.com/bastien09/bga-dark-theme#readme"
+  "homepage": "https://github.com/audabas/bga-dark-theme#readme"
 }
