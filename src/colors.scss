@@ -1,17 +1,18 @@
-$background : #121212;
-$primary : #BB86FC;
-$error : #CF6679;
+@use "sass:color";
+$background: #282a36; // Dracula background color
+$primary: #bd93f9; // Dracula accent color
+$error: #ff5555; // Dracula error color
 
-$surface : lighten($background, 5%);
-$lightSurface : lighten($background, 10%);
-$lighterSurface : lighten($background, 15%);
-$lightPrimary : lighten($primary, 10%);
-$darkPrimary : darken($primary, 5%);
-$lightError : lighten($error, 5%);
+$surface: color.scale($background, $lightness: 5%);
+$lightSurface: color.scale($background, $lightness: 10%);
+$lighterSurface: color.scale($background, $lightness: 15%);
+$lightPrimary: color.scale($primary, $lightness: 10%);
+$darkPrimary: color.scale($primary, $lightness: -5%);
+$lightError: color.scale($error, $lightness: 5%);
 
-$onBackground : #FFFFFF;
-$onSurface : #FFFFFF;
-$onPrimary : #000000;
-$onError : #000000;
+$onBackground: #f8f8f2; // Softer white for text on background
+$onSurface: #f8f8f2; // Softer white for text on surfaces
+$onPrimary: #44475a; // Softer black for text on primary-colored elements
+$onError: #44475a; // Softer black for text on error-colored elements
 
-$darkOnBackground : darken($onBackground, 5%);
+$darkOnBackground: color.scale($onBackground, $lightness: -5%);

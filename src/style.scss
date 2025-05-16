@@ -14,9 +14,10 @@ body {
 }
 
 .bg-bga-graybg-2 {
-  background:linear-gradient(0deg,$surface,$lightSurface)!important;
-  margin-top: -6px; z-index: 1; 
-  color: $primary;
+    background:linear-gradient(0deg,$surface,$lightSurface)!important;
+    margin-top: -6px;
+    z-index: 1;
+    color: $primary;
 }
 .even\:bg-bga-graybg-2:nth-child(2n){
   background:$lighterSurface;
@@ -67,6 +68,10 @@ body {
 .bga-game-browser__panel.svelte-x617ll.svelte-x617ll ~ .svelte-x617ll {
   background: transparent!important;
   border-top: none!important;
+}
+
+.bga-checkbox__label.text-bga-gray-78 {
+    color: $onSurface;
 }
 
 .bga-discover.bga-discover {
