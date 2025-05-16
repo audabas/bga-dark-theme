@@ -1,5 +1,8 @@
 
 .bgagame-paxrenaissance {
+	position: sticky;
+	z-index: 1;
+
 	color:$onPrimary;
 	
 	#left-side-wrapper {
