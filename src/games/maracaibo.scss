@@ -1,0 +1,27 @@
+.bgagame-maracaibo {
+	#mcb-career-notice, #game_play_area, .mcb-tab, .mcb-scroll, #mcb-nextQuest-text {
+		color: $onPrimary;
+	}
+	
+	.mcb-card-pane .mcb-scroll, .mcb-scroll-combatTile .mcb-scroll{
+	   color:$onSurface;
+	}
+	
+	.mcb-endRound{
+	  background-color: $lightSurface;
+	}
+}
+
+#mcb-floatingHand{
+	background-color:$lightSurface;
+}
+
+.mcb-scoreSheet tr:nth-child(2n) {
+  background-color: $lightSurface;
+}
+
+.mcb-scoreSheet tr:nth-child(2n+1) {
+  background-color: $surface;
+}
+
+
