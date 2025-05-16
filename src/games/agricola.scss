@@ -12,14 +12,14 @@
 	}
 	[data-players="2"] #add-board {
 		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/add_2p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
-	} 
-	
+	}
+
 	#left-board {
 		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_3p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
 	 }
 	[data-players="4"] #left-board {
 		background-image:url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/left_4p.png), url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/211210-1652/img/background.jpg);
-	}	
+	}
 }
 
 html[style^="--agricola"] .tundra .dijitTooltipContainer {
@@ -39,4 +39,13 @@ html[style^="--agricola"] .tundra .dijitTooltipContainer {
 //overlay is not in bgagame-agricola and name is a bit too generic
 html[style^="--agricola"] .player-card-resizable{
   color: black!important;
+}
+
+//keep the gras background
+html[style^="--agricola"]{
+	background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/agricola/240812-1028/img/background.jpg);
+}
+html[style*="--agricola"] body {
+	background: transparent; /* Or none */
+	color: $onSurface;
 }
