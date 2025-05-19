@@ -1,14 +1,9 @@
 .bgagame-yatzy {
-    table.table-style-one {
+    table.table-style-one,
+    table#scoring_chart {
         th, td {
             color: $onSurface;
             border-color: $lighterSurface;
         }
-    }
-    #scoring_chart {
-        color: #ccc;
-    }
-    .possible_cell {
-        color: #ccc;
     }
 }

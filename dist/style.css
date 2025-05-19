@@ -1940,13 +1940,9 @@ html.appearance-asphalt body {
   position: sticky;
 }
 
-.bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td {
+.bgagame-yatzy table.table-style-one th, .bgagame-yatzy table.table-style-one td,
+.bgagame-yatzy table#scoring_chart th,
+.bgagame-yatzy table#scoring_chart td {
   color: #f8f8f2;
   border-color: #43465a;
-}
-.bgagame-yatzy #scoring_chart {
-  color: #ccc;
-}
-.bgagame-yatzy .possible_cell {
-  color: #ccc;
 }
