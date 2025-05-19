@@ -1,0 +1,11 @@
+#player-module {
+    #playertab-news,
+    #playertab-activity {
+        &.bg-bga-gray-244 {
+            background-color: $lightSurface;
+        }
+        &.bg-bga-gray-211 {
+            background-color: $lighterSurface;
+        }
+    }
+}

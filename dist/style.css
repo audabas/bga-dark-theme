@@ -848,6 +848,15 @@ a.bga-game-item.gamename {
   background-color: #43465a;
 }
 
+#player-module #playertab-news.bg-bga-gray-244,
+#player-module #playertab-activity.bg-bga-gray-244 {
+  background-color: #3a3d4e;
+}
+#player-module #playertab-news.bg-bga-gray-211,
+#player-module #playertab-activity.bg-bga-gray-211 {
+  background-color: #43465a;
+}
+
 a.tournaments-list-result {
   background: #3a3d4e;
   color: #f8f8f2;
