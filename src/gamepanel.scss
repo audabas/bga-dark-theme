@@ -1,0 +1,48 @@
+.bga-game-panel {
+    .bga-lobby-table-item {
+        background: $lightSurface !important;
+        &:hover {
+            background-color: $lighterSurface !important;
+        }
+
+        .bga-lobby-table-item__bg {
+            background: $lighterSurface !important;
+        }
+    }
+
+    .bga-panel-table-status {
+        .hover\:bg-bga-gray-211:hover {
+            background-color: $lighterSurface !important;
+        }
+    }
+
+    // Tables list
+    .bga-game-option-form {
+        .bga-game-option-item-choice__selector {
+            .text-bga-gray-78 {
+                color: $onPrimary !important;
+            }
+        }
+        .bga-game-option-item-bool {
+            .text-bga-gray-78 {
+                color: $onPrimary !important;
+            }
+        }
+    }
+}
+
+.bga-invite-player-modal .bga-invite-player-modal__content {
+    background-color: $lightSurface !important;
+
+    .bga-hover-for-list:hover {
+        background: $lighterSurface !important;
+    }
+}
+
+.bga-player-profile-modal__content.svelte-bn746u.svelte-bn746u {
+    background-color: $lighterSurface !important;
+}
+
+.bga-dropdown__list-wrap .bga-game-option-item-choice__option.text-bga-gray-78 {
+    color: $onPrimary !important;
+}

@@ -130,12 +130,6 @@ body {
 box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
 }
 
-.pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section>.bga-page-section__content {
-  background: -prefixe-linear-gradient(bottom,$lightSurface,$lighterSurface);
-  background: linear-gradient(0deg,$lightSurface,$lighterSurface);
-  color:$darkOnBackground;
-}
-
 .gamelist {
 	.pagesection, .portlet {
 		background: none;
@@ -627,6 +621,8 @@ a.bga-game-item.gamename {
 @import "chat";
 @import "community";
 @import "gameinprogress";
+@import "gamepanel";
+@import "general";
 @import "homepage";
 @import "menu";
 @import "mobile";

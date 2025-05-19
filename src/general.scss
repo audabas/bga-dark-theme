@@ -1,0 +1,19 @@
+// All non page specific styles
+
+// Modal background
+div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky {
+    background-color: $lighterSurface !important;
+}
+
+// Dropdowns
+.bga-dropdown__list-wrap {
+    .bga-dropdown__list.bg-bga-whitebg {
+        background-color: $lightSurface !important;
+    }
+}
+
+// Page sections
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section>.bga-page-section__content {
+    background: $surface !important;
+    color: $darkOnBackground;
+}

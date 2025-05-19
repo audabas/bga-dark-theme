@@ -138,12 +138,6 @@ body {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section > .bga-page-section__content {
-  background: -prefixe-linear-gradient(bottom, #3a3d4e, #43465a);
-  background: linear-gradient(0deg, #3a3d4e, #43465a);
-  color: #efefe2;
-}
-
 .gamelist .pagesection, .gamelist .portlet {
   background: none;
   box-shadow: none;
@@ -729,6 +723,53 @@ a.bga-game-item.gamename {
 }
 .newbgatable tr:hover td {
   color: #c49efa !important;
+}
+
+.bga-game-panel .bga-lobby-table-item {
+  background: #3a3d4e !important;
+}
+.bga-game-panel .bga-lobby-table-item:hover {
+  background-color: #43465a !important;
+}
+.bga-game-panel .bga-lobby-table-item .bga-lobby-table-item__bg {
+  background: #43465a !important;
+}
+.bga-game-panel .bga-panel-table-status .hover\:bg-bga-gray-211:hover {
+  background-color: #43465a !important;
+}
+.bga-game-panel .bga-game-option-form .bga-game-option-item-choice__selector .text-bga-gray-78 {
+  color: #44475a !important;
+}
+.bga-game-panel .bga-game-option-form .bga-game-option-item-bool .text-bga-gray-78 {
+  color: #44475a !important;
+}
+
+.bga-invite-player-modal .bga-invite-player-modal__content {
+  background-color: #3a3d4e !important;
+}
+.bga-invite-player-modal .bga-invite-player-modal__content .bga-hover-for-list:hover {
+  background: #43465a !important;
+}
+
+.bga-player-profile-modal__content.svelte-bn746u.svelte-bn746u {
+  background-color: #43465a !important;
+}
+
+.bga-dropdown__list-wrap .bga-game-option-item-choice__option.text-bga-gray-78 {
+  color: #44475a !important;
+}
+
+div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky {
+  background-color: #43465a !important;
+}
+
+.bga-dropdown__list-wrap .bga-dropdown__list.bg-bga-whitebg {
+  background-color: #3a3d4e !important;
+}
+
+.pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section > .bga-page-section__content {
+  background: #313342 !important;
+  color: #efefe2;
 }
 
 .bga-news-item--montions.svelte-lurk2c:hover .bga-news-item__news-text.svelte-lurk2c.svelte-lurk2c {
