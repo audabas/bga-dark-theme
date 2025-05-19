@@ -719,6 +719,10 @@ a.bga-game-item.gamename {
   color: #f8f8f2;
 }
 
+#community-module .controlpanelmenu .subtitle {
+  color: #f8f8f2 !important;
+}
+
 .newbgatable td,
 .newbgatable th {
   color: #f8f8f2;
