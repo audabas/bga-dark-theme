@@ -1,0 +1,47 @@
+.bga-news-item--montions.svelte-lurk2c:hover .bga-news-item__news-text.svelte-lurk2c.svelte-lurk2c {
+    // Game on hover description
+    color: $onPrimary;
+}
+
+.bga-homepage__games-section {
+    .bg-bga-gray-100 {
+        background-color: $lighterSurface !important;
+    }
+}
+
+// News an tournaments agenda
+.bga-homepage-tournaments-agenda .bg-bga-whitebg,
+.homepage-section__content.bg-bga-whitebg {
+    background: $surface !important;
+}
+
+.bga-homepage-tournaments-agenda ,
+.bga-homepage-newsfeed  {
+    .bg-bga-gray-233,
+    .post {
+        background-color: $lightSurface !important;
+
+        &.bga-hover-for-list:hover {
+            background: $lighterSurface !important;
+        }
+
+        .comment {
+            background-color: $lighterSurface !important;
+        }
+    }
+}
+
+// Achievements and rankings
+.bga-homepage__pre-footer {
+    .bga-homepage-achievements__label.svelte-117xadk.svelte-117xadk.svelte-117xadk {
+        color: $onSurface;
+    }
+
+    .bga-homepage-achievements__last-award.bg-bga-gray-233 {
+        background-color: $lightSurface !important;
+    }
+
+    .bga-ranked-player-list .even\:bg-bga-gray-233:nth-child(2n) {
+        background-color: $lightSurface !important;
+    }
+}

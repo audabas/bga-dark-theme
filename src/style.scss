@@ -46,10 +46,6 @@ body {
     color: $primary;
 }
 
-.zoom .rounded-md, .bg-bga-whitebg {
-  background: linear-gradient(0deg, $surface,$lightSurface) !important;
-}
-
 .zoom {
   border: 1px solid #121212!important;
   -o-box-shadow: 5px rgba(0, 0, 0, 0.2);
@@ -70,7 +66,7 @@ body {
   border-top: none!important;
 }
 
-.bga-checkbox__label.text-bga-gray-78 {
+.text-bga-gray-78 {
     color: $onSurface;
 }
 
@@ -630,6 +626,7 @@ a.bga-game-item.gamename {
 // Global
 @import "chat";
 @import "gameinprogress";
+@import "homepage";
 @import "menu";
 @import "mobile";
 @import "tournaments";

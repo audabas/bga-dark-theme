@@ -47,10 +47,6 @@ body {
   color: #bd93f9;
 }
 
-.zoom .rounded-md, .bg-bga-whitebg {
-  background: linear-gradient(0deg, #313342, #3a3d4e) !important;
-}
-
 .zoom {
   border: 1px solid #121212 !important;
   -o-box-shadow: 5px rgba(0, 0, 0, 0.2);
@@ -70,7 +66,7 @@ body {
   border-top: none !important;
 }
 
-.bga-checkbox__label.text-bga-gray-78 {
+.text-bga-gray-78 {
   color: #f8f8f2;
 }
 
@@ -729,6 +725,48 @@ a.bga-game-item.gamename {
 }
 .newbgatable tr:hover td {
   color: #c49efa !important;
+}
+
+.bga-news-item--montions.svelte-lurk2c:hover .bga-news-item__news-text.svelte-lurk2c.svelte-lurk2c {
+  color: #44475a;
+}
+
+.bga-homepage__games-section .bg-bga-gray-100 {
+  background-color: #43465a !important;
+}
+
+.bga-homepage-tournaments-agenda .bg-bga-whitebg,
+.homepage-section__content.bg-bga-whitebg {
+  background: #313342 !important;
+}
+
+.bga-homepage-tournaments-agenda .bg-bga-gray-233,
+.bga-homepage-tournaments-agenda .post,
+.bga-homepage-newsfeed .bg-bga-gray-233,
+.bga-homepage-newsfeed .post {
+  background-color: #3a3d4e !important;
+}
+.bga-homepage-tournaments-agenda .bg-bga-gray-233.bga-hover-for-list:hover,
+.bga-homepage-tournaments-agenda .post.bga-hover-for-list:hover,
+.bga-homepage-newsfeed .bg-bga-gray-233.bga-hover-for-list:hover,
+.bga-homepage-newsfeed .post.bga-hover-for-list:hover {
+  background: #43465a !important;
+}
+.bga-homepage-tournaments-agenda .bg-bga-gray-233 .comment,
+.bga-homepage-tournaments-agenda .post .comment,
+.bga-homepage-newsfeed .bg-bga-gray-233 .comment,
+.bga-homepage-newsfeed .post .comment {
+  background-color: #43465a !important;
+}
+
+.bga-homepage__pre-footer .bga-homepage-achievements__label.svelte-117xadk.svelte-117xadk.svelte-117xadk {
+  color: #f8f8f2;
+}
+.bga-homepage__pre-footer .bga-homepage-achievements__last-award.bg-bga-gray-233 {
+  background-color: #3a3d4e !important;
+}
+.bga-homepage__pre-footer .bga-ranked-player-list .even\:bg-bga-gray-233:nth-child(2n) {
+  background-color: #3a3d4e !important;
 }
 
 .bga-friends-icon__dropdown-arrow.bg-bga-whitebg {
