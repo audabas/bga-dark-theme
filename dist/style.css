@@ -1944,3 +1944,9 @@ html.appearance-asphalt body {
   color: #f8f8f2;
   border-color: #43465a;
 }
+.bgagame-yatzy #scoring_chart {
+  color: #ccc;
+}
+.bgagame-yatzy .possible_cell {
+  color: #ccc;
+}
