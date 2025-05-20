@@ -1,4 +1,15 @@
 .bga-game-panel {
+    .bga-page-section > .bga-page-section__title {
+        color: $onSurface;
+        .text-bga-gamename {
+            color: $lightPrimary;
+        }
+    }
+
+    .bga-page-section__content > .bg-bga-gray-204 {
+        background-color: $lightSurface !important;
+    }
+
     .bga-lobby-table-item {
         background: $lightSurface !important;
         &:hover {
@@ -10,9 +21,12 @@
         }
     }
 
+    .block-panel-rules,
+    .block-panel-weblinks,
     .bga-panel-table-status {
         .hover\:bg-bga-gray-211:hover {
             background-color: $lighterSurface !important;
+            color: $onSurface !important;
         }
     }
 
@@ -29,6 +43,29 @@
             }
         }
     }
+
+    // Rankings
+    .block-panel-rankings {
+        .even\:bg-bga-gray-211:nth-child(2n) {
+            background-color: $lightSurface !important;
+        }
+    }
+
+    // Videos
+    .block-panel-videos {
+        .bg-bga-gray-211 {
+            background-color: $lightSurface !important;
+        }
+    }
+
+    // Background
+    &.bga-game-panel--status-tournaments.svelte-r3yse2 .bga-game-panel__content-divider-line.svelte-r3yse2, &.bga-game-panel--status-quick-play.svelte-r3yse2 .bga-game-panel__content-divider-line.svelte-r3yse2, &.bga-game-panel--status-arena.svelte-r3yse2 .bga-game-panel__content-divider-line.svelte-r3yse2 {
+        border-top-color: $lightSurface;
+    }
+
+    &.bga-game-panel--status-tournaments.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2, &.bga-game-panel--status-quick-play.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2, &.bga-game-panel--status-arena.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2 {
+        background: linear-gradient($surface, $background 300px);
+    }
 }
 
 .bga-invite-player-modal .bga-invite-player-modal__content {
@@ -43,6 +80,18 @@
     background-color: $lighterSurface !important;
 }
 
+// Options dropdown
 .bga-dropdown__list-wrap .bga-game-option-item-choice__option.text-bga-gray-78 {
     color: $onPrimary !important;
+}
+
+// Main dropdown
+#ebd-body > div.bga-dropdown__list-wrap.hidden.bga-dropdown__list-wrap--tablet.svelte-n2kuh.bga-dropdown__list-wrap--sized.bga-modal > div > div.bga-dropdown__options #dropdown-container {
+    & > .bg-gray-200 {
+        background-color: $lightSurface;
+
+        &:hover {
+            background-color: $lighterSurface;
+        }
+    }
 }

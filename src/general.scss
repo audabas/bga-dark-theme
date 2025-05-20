@@ -2,7 +2,9 @@
 
 // Modal background
 div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky {
-    background-color: $lighterSurface !important;
+    &, & > div {
+        background-color: $lightSurface !important;
+    }
 }
 
 // Dropdowns
@@ -16,4 +18,9 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 .pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section>.bga-page-section__content {
     background: $surface !important;
     color: $darkOnBackground;
+}
+
+// Awards
+.awards-list__tooltip.svelte-rf10np.svelte-rf10np {
+    background-color: $lightSurface !important;
 }

@@ -725,6 +725,15 @@ a.bga-game-item.gamename {
   color: #c49efa !important;
 }
 
+.bga-game-panel .bga-page-section > .bga-page-section__title {
+  color: #f8f8f2;
+}
+.bga-game-panel .bga-page-section > .bga-page-section__title .text-bga-gamename {
+  color: #c49efa;
+}
+.bga-game-panel .bga-page-section__content > .bg-bga-gray-204 {
+  background-color: #3a3d4e !important;
+}
 .bga-game-panel .bga-lobby-table-item {
   background: #3a3d4e !important;
 }
@@ -734,14 +743,29 @@ a.bga-game-item.gamename {
 .bga-game-panel .bga-lobby-table-item .bga-lobby-table-item__bg {
   background: #43465a !important;
 }
+.bga-game-panel .block-panel-rules .hover\:bg-bga-gray-211:hover,
+.bga-game-panel .block-panel-weblinks .hover\:bg-bga-gray-211:hover,
 .bga-game-panel .bga-panel-table-status .hover\:bg-bga-gray-211:hover {
   background-color: #43465a !important;
+  color: #f8f8f2 !important;
 }
 .bga-game-panel .bga-game-option-form .bga-game-option-item-choice__selector .text-bga-gray-78 {
   color: #44475a !important;
 }
 .bga-game-panel .bga-game-option-form .bga-game-option-item-bool .text-bga-gray-78 {
   color: #44475a !important;
+}
+.bga-game-panel .block-panel-rankings .even\:bg-bga-gray-211:nth-child(2n) {
+  background-color: #3a3d4e !important;
+}
+.bga-game-panel .block-panel-videos .bg-bga-gray-211 {
+  background-color: #3a3d4e !important;
+}
+.bga-game-panel.bga-game-panel--status-tournaments.svelte-r3yse2 .bga-game-panel__content-divider-line.svelte-r3yse2, .bga-game-panel.bga-game-panel--status-quick-play.svelte-r3yse2 .bga-game-panel__content-divider-line.svelte-r3yse2, .bga-game-panel.bga-game-panel--status-arena.svelte-r3yse2 .bga-game-panel__content-divider-line.svelte-r3yse2 {
+  border-top-color: #3a3d4e;
+}
+.bga-game-panel.bga-game-panel--status-tournaments.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2, .bga-game-panel.bga-game-panel--status-quick-play.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2, .bga-game-panel.bga-game-panel--status-arena.svelte-r3yse2 .bga-game-panel__content-divider-background.svelte-r3yse2 {
+  background: linear-gradient(#313342, #282a36 300px);
 }
 
 .bga-invite-player-modal .bga-invite-player-modal__content {
@@ -759,8 +783,15 @@ a.bga-game-item.gamename {
   color: #44475a !important;
 }
 
-div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky {
-  background-color: #43465a !important;
+#ebd-body > div.bga-dropdown__list-wrap.hidden.bga-dropdown__list-wrap--tablet.svelte-n2kuh.bga-dropdown__list-wrap--sized.bga-modal > div > div.bga-dropdown__options #dropdown-container > .bg-gray-200 {
+  background-color: #3a3d4e;
+}
+#ebd-body > div.bga-dropdown__list-wrap.hidden.bga-dropdown__list-wrap--tablet.svelte-n2kuh.bga-dropdown__list-wrap--sized.bga-modal > div > div.bga-dropdown__options #dropdown-container > .bg-gray-200:hover {
+  background-color: #43465a;
+}
+
+div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky, div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky > div {
+  background-color: #3a3d4e !important;
 }
 
 .bga-dropdown__list-wrap .bga-dropdown__list.bg-bga-whitebg {
@@ -770,6 +801,10 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 .pagesection h2, .pagesection h3, .portlet h2, .portlet h3, .bga-page-section > .bga-page-section__content {
   background: #313342 !important;
   color: #efefe2;
+}
+
+.awards-list__tooltip.svelte-rf10np.svelte-rf10np {
+  background-color: #3a3d4e !important;
 }
 
 .bga-news-item--montions.svelte-lurk2c:hover .bga-news-item__news-text.svelte-lurk2c.svelte-lurk2c {
