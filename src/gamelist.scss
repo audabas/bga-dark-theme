@@ -1,0 +1,8 @@
+.bga-game-browser__panel {
+    .bga-quick-play-widget__item.svelte-1s7mdl1 {
+        background: $lightSurface;
+        &:hover {
+            background: $lighterSurface;
+        }
+    }
+}

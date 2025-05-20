@@ -16,8 +16,12 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 
 // Dropdowns
 .bga-dropdown__list-wrap {
+    .bg-bga-gray-244,
     .bga-dropdown__list.bg-bga-whitebg {
         background-color: $lightSurface !important;
+    }
+    .hover\:bg-bga-gray-233:hover {
+        background-color: $lighterSurface !important;
     }
 }
 
