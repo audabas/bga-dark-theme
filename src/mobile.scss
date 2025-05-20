@@ -1,4 +1,20 @@
 .mobile_version {
+    .bga-mobile-sub-bar.svelte-z10lkn {
+        color: $primary;
+    }
+
+    #topbar.topbar_new_version.hide-alpha-banner {
+        background: $surface !important;
+    }
+
+    .bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.svelte-1duixkh {
+        background-color: $surface !important;
+    }
+
+    .bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.bga-menu-sub-menu-item.svelte-1duixkh {
+        background-color: $lightSurface !important;
+    }
+
     #mobile-navigation {
         #mobile-menu-icon {
             color: $onSurface;

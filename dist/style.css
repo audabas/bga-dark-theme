@@ -927,6 +927,18 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
   background-color: #313342;
 }
 
+.mobile_version .bga-mobile-sub-bar.svelte-z10lkn {
+  color: #bd93f9;
+}
+.mobile_version #topbar.topbar_new_version.hide-alpha-banner {
+  background: #313342 !important;
+}
+.mobile_version .bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.svelte-1duixkh {
+  background-color: #313342 !important;
+}
+.mobile_version .bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.bga-menu-sub-menu-item.svelte-1duixkh {
+  background-color: #3a3d4e !important;
+}
 .mobile_version #mobile-navigation #mobile-menu-icon {
   color: #f8f8f2;
 }
