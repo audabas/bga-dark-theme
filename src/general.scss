@@ -5,6 +5,13 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
     &, & > div {
         background-color: $lightSurface !important;
     }
+
+    .bga-game-option-item-bool,
+    .bga-game-option-item-choice {
+        .text-bga-gray-78 {
+            color: $onPrimary;
+        }
+    }
 }
 
 // Dropdowns

@@ -1,0 +1,19 @@
+#halloffame-module {
+    .season-progress-bar-wrap,
+    .own-progress-wrap {
+        background-color: $lighterSurface;
+    }
+
+    .overall-stats-wrap {
+        color: $darkPrimary;
+    }
+
+    .own-progress-background {
+        background-image: linear-gradient(180deg, $lighterSurface, $surface);
+    }
+
+    .own-progress-text,
+    .hof-league-progress-bar-bottom-infos {
+        color: $onSurface !important;
+    }
+}

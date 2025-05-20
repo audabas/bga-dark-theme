@@ -793,6 +793,10 @@ a.bga-game-item.gamename {
 div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky, div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky > div {
   background-color: #3a3d4e !important;
 }
+div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky .bga-game-option-item-bool .text-bga-gray-78,
+div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky .bga-game-option-item-choice .text-bga-gray-78 {
+  color: #44475a;
+}
 
 .bga-dropdown__list-wrap .bga-dropdown__list.bg-bga-whitebg {
   background-color: #3a3d4e !important;
@@ -805,6 +809,21 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 
 .awards-list__tooltip.svelte-rf10np.svelte-rf10np {
   background-color: #3a3d4e !important;
+}
+
+#halloffame-module .season-progress-bar-wrap,
+#halloffame-module .own-progress-wrap {
+  background-color: #43465a;
+}
+#halloffame-module .overall-stats-wrap {
+  color: #b280f8;
+}
+#halloffame-module .own-progress-background {
+  background-image: linear-gradient(180deg, #43465a, #313342);
+}
+#halloffame-module .own-progress-text,
+#halloffame-module .hof-league-progress-bar-bottom-infos {
+  color: #f8f8f2 !important;
 }
 
 .bga-news-item--montions.svelte-lurk2c:hover .bga-news-item__news-text.svelte-lurk2c.svelte-lurk2c {
