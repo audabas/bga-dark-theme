@@ -756,6 +756,11 @@ a.bga-game-item.gamename {
   background-color: #43465a !important;
   color: #f8f8f2 !important;
 }
+.bga-game-panel .block-panel-rules .bg-bga-gray-233,
+.bga-game-panel .block-panel-weblinks .bg-bga-gray-233,
+.bga-game-panel .bga-panel-table-status .bg-bga-gray-233 {
+  background-color: #3a3d4e !important;
+}
 .bga-game-panel .bga-game-option-form .bga-game-option-item-choice__selector .text-bga-gray-78 {
   color: #44475a !important;
 }
@@ -914,6 +919,21 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 .bga-friends-icon__dropdown .bga-player-menu__tab.bga-player-menu__tab--active,
 .bga-player-menu .bga-player-menu__tab.bga-player-menu__tab--active {
   color: #b280f8 !important;
+}
+.bga-friends-icon__dropdown .bga-player-menu__bottom .bga-table-list-item .bga-table-list-item__players-list,
+.bga-friends-icon__dropdown .bga-player-menu__bottom .bga-table-list-item .bga-table-list-item__main,
+.bga-player-menu .bga-player-menu__bottom .bga-table-list-item .bga-table-list-item__players-list,
+.bga-player-menu .bga-player-menu__bottom .bga-table-list-item .bga-table-list-item__main {
+  background-color: #3a3d4e !important;
+}
+.bga-friends-icon__dropdown .bga-player-menu__bottom .notification-holder.notification-unread,
+.bga-player-menu .bga-player-menu__bottom .notification-holder.notification-unread {
+  background-color: #b280f8 !important;
+}
+.bga-friends-icon__dropdown .bga-player-menu__bottom .notification-holder.notification-unread a, .bga-friends-icon__dropdown .bga-player-menu__bottom .notification-holder.notification-unread a span.gamename,
+.bga-player-menu .bga-player-menu__bottom .notification-holder.notification-unread a,
+.bga-player-menu .bga-player-menu__bottom .notification-holder.notification-unread a span.gamename {
+  color: #f8f8f2 !important;
 }
 
 .bubblebanner {

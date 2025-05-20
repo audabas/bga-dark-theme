@@ -30,6 +30,24 @@
             color: $darkPrimary !important;
         }
     }
+
+    .bga-player-menu__bottom {
+        .bga-table-list-item { // Tables list
+            .bga-table-list-item__players-list,
+            .bga-table-list-item__main {
+                background-color: $lightSurface !important;
+            }
+        }
+        .notification-holder.notification-unread {
+            background-color: $darkPrimary !important;
+            a {
+                &,
+                & span.gamename {
+                    color: $onSurface !important;
+                }
+            }
+        }
+    }
 }
 
 .bubblebanner{
