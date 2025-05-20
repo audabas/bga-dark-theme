@@ -1,0 +1,16 @@
+.bga-premium-page {
+    .bga-premium-payment--card-container {
+        .bg-white {
+            background-color: $surface;
+        }
+    }
+    .bga-premium-page-section--full.bg-bga-gray-100 {
+        background-color: $surface;
+    }
+    div.bga-premium-page-section--full.order-6.svelte-1i074lt > div > div p.text-gray-600 {
+        color: $onPrimary;
+    }
+    span.text-gray-700 {
+        color: $onSurface;
+    }
+}

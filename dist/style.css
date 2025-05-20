@@ -975,6 +975,19 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
   background-color: #43465a;
 }
 
+.bga-premium-page .bga-premium-payment--card-container .bg-white {
+  background-color: #313342;
+}
+.bga-premium-page .bga-premium-page-section--full.bg-bga-gray-100 {
+  background-color: #313342;
+}
+.bga-premium-page div.bga-premium-page-section--full.order-6.svelte-1i074lt > div > div p.text-gray-600 {
+  color: #44475a;
+}
+.bga-premium-page span.text-gray-700 {
+  color: #f8f8f2;
+}
+
 a.tournaments-list-result {
   background: #3a3d4e;
   color: #f8f8f2;
