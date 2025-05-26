@@ -1138,7 +1138,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #footer_footer::after {
-  content: "BGA Dark theme v1.1.1\ahttps://github.com/audabas/bga-dark-theme";
+  content: "BGA Dark theme v1.1.2\ahttps://github.com/audabas/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
