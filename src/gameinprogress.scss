@@ -7,3 +7,43 @@
         color: $lightPrimary !important;
     }
 }
+
+#section-waiting.bga-player-progress-list__section {
+    background-color: $surface !important;
+}
+
+#section-play.bga-player-progress-list__section {
+    .bga-table-list-item {
+        .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+        .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
+            background-color: $lightSurface !important;
+        }
+    }
+}
+
+#section-arena.bga-player-progress-list__section {
+    .bga-quick-play-widget__item.svelte-1s7mdl1 {
+        background: $lightSurface;
+
+        &:hover {
+            background: $lighterSurface;
+        }
+    }
+}
+
+#section-tournament.bga-player-progress-list__section {
+    .bga-progress-list__tournament-item-holder {
+        background-color: $lightSurface !important;
+    }
+}
+
+.bga-progress-list-pre-footer__friends-section {
+    &.bg-bga-gray-233 {
+        background-color: $lightSurface !important;
+    }
+    .bga-progress-list-pre-footer__friends-section-middle {
+        &.bg-bga-gray-244 {
+            background-color: $lighterSurface !important;
+        }
+    }
+}

@@ -34,6 +34,12 @@
     }
 
     // Tables list
+    .block-panel-gaminfo .bga-table-list-item {
+        .bga-table-list-item__background .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
+            background-color: $lightSurface !important;
+        }
+    }
+
     .bga-game-option-form {
         .bga-game-option-item-choice__selector {
             .text-bga-gray-78 {
@@ -81,11 +87,6 @@
 
 .bga-player-profile-modal__content.svelte-bn746u.svelte-bn746u {
     background-color: $lighterSurface !important;
-}
-
-// Options dropdown
-.bga-dropdown__list-wrap .bga-game-option-item-choice__option.text-bga-gray-78 {
-    color: $onPrimary !important;
 }
 
 // Main dropdown

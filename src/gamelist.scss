@@ -6,3 +6,8 @@
         }
     }
 }
+
+// No result section
+#main-content > div > div.w-full.text-center.box-border[style*="background: linear-gradient(rgb(234, 234, 234), rgb(198, 198, 198));"] {
+    background: $lightSurface !important;
+}

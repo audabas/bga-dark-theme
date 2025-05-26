@@ -13,4 +13,11 @@
     span.text-gray-700 {
         color: $onSurface;
     }
+
+    // Pay modal
+    div[name="modal-content"] {
+        &, & a.bga-link {
+            color: initial;
+        }
+    }
 }

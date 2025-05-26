@@ -1,0 +1,9 @@
+#preferences-module {
+    #pagesection_account {
+        #pagesection_account__linked-services {
+            .grid.svelte-1utb1ny>div.svelte-1utb1ny:nth-child(6n), .grid.svelte-1utb1ny>div.svelte-1utb1ny:nth-child(6n-1), .grid.svelte-1utb1ny>div.svelte-1utb1ny:nth-child(6n-2) {
+                background-color: $lighterSurface;
+            }
+        }
+    }
+}

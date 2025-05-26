@@ -8,4 +8,15 @@
             background-color: $lighterSurface;
         }
     }
+
+    #newsfeed {
+        .post[style*="background-color: rgb(237, 186, 183);"] {
+            background-color: $darkPrimary !important;
+            a {
+                &, & .gamename {
+                    color: $onSurface;
+                }
+            }
+        }
+    }
 }

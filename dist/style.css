@@ -725,11 +725,42 @@ a.bga-game-item.gamename {
   color: #c49efa !important;
 }
 
+#section-waiting.bga-player-progress-list__section {
+  background-color: #313342 !important;
+}
+
+#section-play.bga-player-progress-list__section .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+#section-play.bga-player-progress-list__section .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
+  background-color: #3a3d4e !important;
+}
+
+#section-arena.bga-player-progress-list__section .bga-quick-play-widget__item.svelte-1s7mdl1 {
+  background: #3a3d4e;
+}
+#section-arena.bga-player-progress-list__section .bga-quick-play-widget__item.svelte-1s7mdl1:hover {
+  background: #43465a;
+}
+
+#section-tournament.bga-player-progress-list__section .bga-progress-list__tournament-item-holder {
+  background-color: #3a3d4e !important;
+}
+
+.bga-progress-list-pre-footer__friends-section.bg-bga-gray-233 {
+  background-color: #3a3d4e !important;
+}
+.bga-progress-list-pre-footer__friends-section .bga-progress-list-pre-footer__friends-section-middle.bg-bga-gray-244 {
+  background-color: #43465a !important;
+}
+
 .bga-game-browser__panel .bga-quick-play-widget__item.svelte-1s7mdl1 {
   background: #3a3d4e;
 }
 .bga-game-browser__panel .bga-quick-play-widget__item.svelte-1s7mdl1:hover {
   background: #43465a;
+}
+
+#main-content > div > div.w-full.text-center.box-border[style*="background: linear-gradient(rgb(234, 234, 234), rgb(198, 198, 198));"] {
+  background: #3a3d4e !important;
 }
 
 .bga-game-panel .bga-page-section > .bga-page-section__title {
@@ -761,6 +792,9 @@ a.bga-game-item.gamename {
 .bga-game-panel .bga-panel-table-status .bg-bga-gray-233 {
   background-color: #3a3d4e !important;
 }
+.bga-game-panel .block-panel-gaminfo .bga-table-list-item .bga-table-list-item__background .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
+  background-color: #3a3d4e !important;
+}
 .bga-game-panel .bga-game-option-form .bga-game-option-item-choice__selector .text-bga-gray-78 {
   color: #44475a !important;
 }
@@ -789,10 +823,6 @@ a.bga-game-item.gamename {
 
 .bga-player-profile-modal__content.svelte-bn746u.svelte-bn746u {
   background-color: #43465a !important;
-}
-
-.bga-dropdown__list-wrap .bga-game-option-item-choice__option.text-bga-gray-78 {
-  color: #44475a !important;
 }
 
 #ebd-body > div.bga-dropdown__list-wrap.hidden.bga-dropdown__list-wrap--tablet.svelte-n2kuh.bga-dropdown__list-wrap--sized.bga-modal > div > div.bga-dropdown__options #dropdown-container > .bg-gray-200 {
@@ -994,6 +1024,16 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 #player-module #playertab-activity.bg-bga-gray-211 {
   background-color: #43465a;
 }
+#player-module #newsfeed .post[style*="background-color: rgb(237, 186, 183);"] {
+  background-color: #b280f8 !important;
+}
+#player-module #newsfeed .post[style*="background-color: rgb(237, 186, 183);"] a, #player-module #newsfeed .post[style*="background-color: rgb(237, 186, 183);"] a .gamename {
+  color: #f8f8f2;
+}
+
+#preferences-module #pagesection_account #pagesection_account__linked-services .grid.svelte-1utb1ny > div.svelte-1utb1ny:nth-child(6n), #preferences-module #pagesection_account #pagesection_account__linked-services .grid.svelte-1utb1ny > div.svelte-1utb1ny:nth-child(6n-1), #preferences-module #pagesection_account #pagesection_account__linked-services .grid.svelte-1utb1ny > div.svelte-1utb1ny:nth-child(6n-2) {
+  background-color: #43465a;
+}
 
 .bga-premium-page .bga-premium-payment--card-container .bg-white {
   background-color: #313342;
@@ -1006,6 +1046,9 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 }
 .bga-premium-page span.text-gray-700 {
   color: #f8f8f2;
+}
+.bga-premium-page div[name=modal-content], .bga-premium-page div[name=modal-content] a.bga-link {
+  color: initial;
 }
 
 a.tournaments-list-result {
@@ -2135,6 +2178,10 @@ html.appearance-asphalt body {
 
 .bgagame-welcometonewlasvegas .handwritten {
   color: darkblue;
+}
+
+.bgagame-welcometothemoon .scribble-number {
+  color: black;
 }
 
 .bgagame-wordtraveler {
