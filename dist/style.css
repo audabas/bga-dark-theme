@@ -2180,6 +2180,8 @@ html.appearance-asphalt body {
   color: darkblue;
 }
 
+.bgagame-welcometothemoon .wttm-slot.slot-score,
+.bgagame-welcometothemoon .wttm-slot.slot-subscore,
 .bgagame-welcometothemoon .scribble-number {
   color: black;
 }
