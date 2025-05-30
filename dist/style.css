@@ -2227,3 +2227,8 @@ html.appearance-asphalt body {
 .bgagame-supermegaluckybox .smlb_scorecard {
   color: black;
 }
+
+.bgagame-spades .bid_box,
+.bgagame-spades .board_tricks {
+  color: black;
+}
