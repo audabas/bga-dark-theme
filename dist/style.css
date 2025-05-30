@@ -1148,7 +1148,7 @@ a.tournaments-list-result .tournaments-list-result__gamemode span {
 }
 
 #footer_footer::after {
-  content: "BGA Dark theme v1.1.2\ahttps://github.com/audabas/bga-dark-theme";
+  content: "BGA Dark theme v1.1.3\ahttps://github.com/audabas/bga-dark-theme";
   white-space: pre-wrap;
   text-align: center;
   width: 100%;
@@ -1716,6 +1716,14 @@ html[style*="--agricola"] body {
   filter: brightness(20%);
 }
 
+.bgagame-minirogue .mnr-title,
+.bgagame-minirogue .mnr-card-title,
+.bgagame-minirogue .mnr-card-name,
+.bgagame-minirogue .mnr-card-char-abil-name,
+.bgagame-minirogue .mnr-card-char-abil-text {
+  color: black;
+}
+
 .bgagame-nextstation .nex_stationcrossed,
 .bgagame-nextstation .nex_scorepad_values {
   color: black;
@@ -1898,6 +1906,16 @@ html.appearance-asphalt body {
   background-color: #bd93f9;
 }
 
+.bgagame-rollandbump #rnb_rolllock_locked {
+  border-color: #f8f8f2;
+}
+.bgagame-rollandbump #rnb_rolllock_locked #rnb_rolllock_locked_lock {
+  filter: invert(1);
+}
+.bgagame-rollandbump .rnb_cardsnb {
+  color: #f8f8f2;
+}
+
 .bgagame-rollforthegalaxy .tile_title {
   color: black;
 }
@@ -1961,6 +1979,14 @@ html.appearance-asphalt body {
   color: black;
 }
 
+.bgagame-solstis #st_global_scores {
+  color: black;
+}
+.bgagame-solstis #st_layout_change a,
+.bgagame-solstis #st_layout_change p {
+  color: #f8f8f2;
+}
+
 .bgagame-spaceempires #pagemaintitletext {
   color: #3a3d4e;
 }
@@ -1984,6 +2010,11 @@ html.appearance-asphalt body {
   background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0.25), rgba(100, 100, 100, 0.3));
 }
 
+.bgagame-spades .bid_box,
+.bgagame-spades .board_tricks {
+  color: black;
+}
+
 .bgagame-splendor .spl_coinpile_counter {
   color: black;
 }
@@ -2001,6 +2032,10 @@ html.appearance-asphalt body {
 
 .bgagame-stella .ste_playerplate_pg,
 .bgagame-stella .ste_playerplate_name {
+  color: black;
+}
+
+.bgagame-supermegaluckybox .smlb_scorecard {
   color: black;
 }
 
@@ -2212,39 +2247,4 @@ html.appearance-asphalt body {
 .bgagame-yatzy table#scoring_chart td {
   color: #f8f8f2;
   border-color: #43465a;
-}
-
-.bgagame-rollandbump #rnb_rolllock_locked {
-  border-color: #f8f8f2;
-}
-.bgagame-rollandbump #rnb_rolllock_locked #rnb_rolllock_locked_lock {
-  filter: invert(1);
-}
-.bgagame-rollandbump .rnb_cardsnb {
-  color: #f8f8f2;
-}
-
-.bgagame-supermegaluckybox .smlb_scorecard {
-  color: black;
-}
-
-.bgagame-spades .bid_box,
-.bgagame-spades .board_tricks {
-  color: black;
-}
-
-.bgagame-minirogue .mnr-title,
-.bgagame-minirogue .mnr-card-title,
-.bgagame-minirogue .mnr-card-name,
-.bgagame-minirogue .mnr-card-char-abil-name,
-.bgagame-minirogue .mnr-card-char-abil-text {
-  color: black;
-}
-
-.bgagame-solstis #st_global_scores {
-  color: black;
-}
-.bgagame-solstis #st_layout_change a,
-.bgagame-solstis #st_layout_change p {
-  color: #f8f8f2;
 }
