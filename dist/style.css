@@ -729,8 +729,12 @@ a.bga-game-item.gamename {
   background-color: #313342 !important;
 }
 
-#section-play.bga-player-progress-list__section .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
-#section-play.bga-player-progress-list__section .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
+#section-play .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+#section-play .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g,
+#section-arena .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+#section-arena .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g,
+#section-tournament .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+#section-tournament .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
   background-color: #3a3d4e !important;
 }
 
@@ -757,6 +761,10 @@ a.bga-game-item.gamename {
 }
 .bga-game-browser__panel .bga-quick-play-widget__item.svelte-1s7mdl1:hover {
   background: #43465a;
+}
+
+#main-content > div > div.flex.items-center.mx-2.desktop\:mr-16.relative.z-0 > button > div > div.-ml-2.flex.items-center.justify-center.bg-current.h-5.w-7.rounded-xl.text-sm > div.text-white {
+  color: black;
 }
 
 #main-content > div > div.w-full.text-center.box-border[style*="background: linear-gradient(rgb(234, 234, 234), rgb(198, 198, 198));"] {
