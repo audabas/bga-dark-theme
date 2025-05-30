@@ -7,6 +7,11 @@
     }
 }
 
+// Filters button
+#main-content > div > div.flex.items-center.mx-2.desktop\:mr-16.relative.z-0 > button > div > div.-ml-2.flex.items-center.justify-center.bg-current.h-5.w-7.rounded-xl.text-sm > div.text-white {
+    color: black;
+}
+
 // No result section
 #main-content > div > div.w-full.text-center.box-border[style*="background: linear-gradient(rgb(234, 234, 234), rgb(198, 198, 198));"] {
     background: $lightSurface !important;

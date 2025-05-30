@@ -623,7 +623,7 @@ a.bga-game-item.gamename {
 @import "gameinprogress";
 @import "gamelist";
 @import "gamepanel";
-@import "general";
+@import "global";
 @import "halloffame";
 @import "homepage";
 @import "menu";
@@ -740,3 +740,8 @@ a.bga-game-item.gamename {
 @import "games/welcometothemoon";
 @import "games/word_traveler";
 @import "games/yatzy";
+@import "games/rollandbump";
+@import "games/supermegaluckybox";
+@import "games/spades";
+@import "games/minirogue";
+@import "games/solstis";

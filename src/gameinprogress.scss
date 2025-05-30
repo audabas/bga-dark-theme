@@ -12,7 +12,10 @@
     background-color: $surface !important;
 }
 
-#section-play.bga-player-progress-list__section {
+#section-play,
+#section-arena,
+#section-tournament,
+.bga-game-progress-list-section-grid {
     .bga-table-list-item {
         .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
         .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
