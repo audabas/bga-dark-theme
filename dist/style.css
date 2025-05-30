@@ -2211,3 +2211,13 @@ html.appearance-asphalt body {
   color: #f8f8f2;
   border-color: #43465a;
 }
+
+.bgagame-rollandbump #rnb_rolllock_locked {
+  border-color: #f8f8f2;
+}
+.bgagame-rollandbump #rnb_rolllock_locked #rnb_rolllock_locked_lock {
+  filter: invert(1);
+}
+.bgagame-rollandbump .rnb_cardsnb {
+  color: #f8f8f2;
+}

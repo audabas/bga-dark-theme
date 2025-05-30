@@ -1,0 +1,11 @@
+.bgagame-rollandbump {
+    #rnb_rolllock_locked {
+        border-color: $onSurface;
+        #rnb_rolllock_locked_lock {
+            filter: invert(1);
+        }
+    }
+    .rnb_cardsnb {
+        color: $onSurface;
+    }
+}
