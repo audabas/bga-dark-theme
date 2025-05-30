@@ -2240,3 +2240,11 @@ html.appearance-asphalt body {
 .bgagame-minirogue .mnr-card-char-abil-text {
   color: black;
 }
+
+.bgagame-solstis #st_global_scores {
+  color: black;
+}
+.bgagame-solstis #st_layout_change a,
+.bgagame-solstis #st_layout_change p {
+  color: #f8f8f2;
+}
