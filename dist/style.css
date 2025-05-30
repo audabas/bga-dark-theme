@@ -2221,3 +2221,7 @@ html.appearance-asphalt body {
 .bgagame-rollandbump .rnb_cardsnb {
   color: #f8f8f2;
 }
+
+.bgagame-supermegaluckybox .smlb_scorecard {
+  color: black;
+}
