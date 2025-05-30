@@ -2232,3 +2232,11 @@ html.appearance-asphalt body {
 .bgagame-spades .board_tricks {
   color: black;
 }
+
+.bgagame-minirogue .mnr-title,
+.bgagame-minirogue .mnr-card-title,
+.bgagame-minirogue .mnr-card-name,
+.bgagame-minirogue .mnr-card-char-abil-name,
+.bgagame-minirogue .mnr-card-char-abil-text {
+  color: black;
+}
