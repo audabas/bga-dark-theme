@@ -734,7 +734,9 @@ a.bga-game-item.gamename {
 #section-arena .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
 #section-arena .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g,
 #section-tournament .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
-#section-tournament .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
+#section-tournament .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g,
+.bga-game-progress-list-section-grid .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+.bga-game-progress-list-section-grid .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
   background-color: #3a3d4e !important;
 }
 
