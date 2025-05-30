@@ -2190,7 +2190,13 @@ html.appearance-asphalt body {
 
 .bgagame-welcometothemoon .wttm-slot.slot-score,
 .bgagame-welcometothemoon .wttm-slot.slot-subscore,
-.bgagame-welcometothemoon .scribble-number {
+.bgagame-welcometothemoon .scribble-number,
+.bgagame-welcometothemoon .log-number,
+.bgagame-welcometothemoon .wttm-player-panel .numbers-status {
+  color: black;
+}
+
+.welcometothemoon_popin_container {
   color: black;
 }
 

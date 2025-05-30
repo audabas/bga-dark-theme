@@ -1,7 +1,13 @@
 .bgagame-welcometothemoon {
     .wttm-slot.slot-score,
     .wttm-slot.slot-subscore,
-    .scribble-number {
+    .scribble-number,
+    .log-number,
+    .wttm-player-panel .numbers-status {
         color: black;
     }
+}
+
+.welcometothemoon_popin_container {
+    color: black;
 }
