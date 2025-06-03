@@ -1,0 +1,22 @@
+.bgagame-daybreak {
+    .dbk-card-qr {
+        color: $lightSurface;
+    }
+
+    .dbk-voteBlock {
+        background-color: $lightSurface;
+    }
+
+    #dbk-tabs {
+        .dbk-tab {
+            background-color: $lightSurface;
+            &.dbk-tab-selected,
+            &:hover {
+                background-color: $lighterSurface;
+            }
+            b[style*="color:#000000"] {
+                color: $onSurface !important;
+            }
+        }
+    }
+}
