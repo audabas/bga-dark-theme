@@ -867,6 +867,10 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
   background-color: #3a3d4e !important;
 }
 
+#overall_messages_wrapper_source #stay_connected {
+  background-color: #3a3d4e !important;
+}
+
 #halloffame-module .season-progress-bar-wrap,
 #halloffame-module .own-progress-wrap {
   background-color: #43465a;

@@ -35,3 +35,8 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 .awards-list__tooltip.svelte-rf10np.svelte-rf10np {
     background-color: $lightSurface !important;
 }
+
+// Stay connected alert box
+#overall_messages_wrapper_source #stay_connected {
+    background-color: $lightSurface !important;
+}
