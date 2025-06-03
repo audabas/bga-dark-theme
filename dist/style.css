@@ -2268,3 +2268,12 @@ html.appearance-asphalt body {
 .bgagame-daybreak #dbk-tabs .dbk-tab b[style*="color:#000000"] {
   color: #f8f8f2 !important;
 }
+
+.bgagame-thirteenclues .tcCardName,
+.bgagame-thirteenclues .tcCardNameBigger {
+  color: black;
+}
+.bgagame-thirteenclues .tcQuestionWitness .tcQuestionHeader,
+.bgagame-thirteenclues .tcPlayerBoards .tcSpeech {
+  background-color: #313342;
+}

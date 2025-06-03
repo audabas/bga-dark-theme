@@ -1,0 +1,11 @@
+.bgagame-thirteenclues {
+    .tcCardName,
+    .tcCardNameBigger {
+        color: black;
+    }
+
+    .tcQuestionWitness .tcQuestionHeader,
+    .tcPlayerBoards .tcSpeech {
+        background-color: $surface;
+    }
+}
