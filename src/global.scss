@@ -40,3 +40,11 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
 #overall_messages_wrapper_source #stay_connected {
     background-color: $lightSurface !important;
 }
+
+// Invitation toast
+#ebd-body > div.bga-toast-holder.z-10.svelte-111wiz9 > div > div.bg-bga-gray-233.bga-toast {
+    background-color: $lightSurface !important;
+    .bga-hover-for-list:hover {
+        background: $lighterSurface !important;
+    }
+}

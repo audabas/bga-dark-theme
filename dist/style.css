@@ -871,6 +871,13 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
   background-color: #3a3d4e !important;
 }
 
+#ebd-body > div.bga-toast-holder.z-10.svelte-111wiz9 > div > div.bg-bga-gray-233.bga-toast {
+  background-color: #3a3d4e !important;
+}
+#ebd-body > div.bga-toast-holder.z-10.svelte-111wiz9 > div > div.bg-bga-gray-233.bga-toast .bga-hover-for-list:hover {
+  background: #43465a !important;
+}
+
 #halloffame-module .season-progress-bar-wrap,
 #halloffame-module .own-progress-wrap {
   background-color: #43465a;
