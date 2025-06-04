@@ -805,10 +805,10 @@ a.bga-game-item.gamename {
 .bga-game-panel .block-panel-gaminfo .bga-table-list-item .bga-table-list-item__background .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g {
   background-color: #3a3d4e !important;
 }
-.bga-game-panel .bga-game-option-form .bga-game-option-item-choice__selector .text-bga-gray-78 {
+.bga-game-panel .bga-panel-table-configuration .bga-game-option-item-choice__selector .text-bga-gray-78 {
   color: #44475a !important;
 }
-.bga-game-panel .bga-game-option-form .bga-game-option-item-bool .text-bga-gray-78 {
+.bga-game-panel .bga-panel-table-configuration .bga-game-option-item-bool .text-bga-gray-78 {
   color: #44475a !important;
 }
 .bga-game-panel .block-panel-rankings .even\:bg-bga-gray-211:nth-child(2n) {
