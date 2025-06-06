@@ -1,0 +1,15 @@
+.bgagame-stoneage {
+    #diceboard {
+        background-color: rgba($surface, 0.7);
+    }
+    button.sta_cards_extent {
+        color: $primary;
+    }
+    #sta_main button.sa_icon {
+        &.sta_zoomIn,
+        &.sta_zoomOut,
+        &.sta_adjustZoom {
+            filter: invert(1);
+        }
+    }
+}

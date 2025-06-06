@@ -2284,3 +2284,7 @@ html.appearance-asphalt body {
 .bgagame-thirteenclues .tcPlayerBoards .tcSpeech {
   background-color: #313342;
 }
+
+.bgagame-stoneage #diceboard {
+  background-color: rgba(49, 51, 66, 0.7);
+}
