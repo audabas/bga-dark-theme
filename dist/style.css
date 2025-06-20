@@ -2296,3 +2296,7 @@ html.appearance-asphalt body {
 .bgagame-stoneage #sta_main button.sa_icon.sta_zoomIn, .bgagame-stoneage #sta_main button.sa_icon.sta_zoomOut, .bgagame-stoneage #sta_main button.sa_icon.sta_adjustZoom {
   filter: invert(1);
 }
+
+.bgagame-rolltothetopjourneys .field_num {
+  color: black;
+}
