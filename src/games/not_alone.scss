@@ -14,13 +14,13 @@
             }
         }
     }
+}
 
-    #dialogContent .cardsWrapper,
-    .dijitTooltip .dijitTooltipContainer {
-        .huntCard,
-        .placeCard,
-        .survivalCard {
-            color: black;
-        }
+#dialogContent .cardsWrapper,
+.dijitTooltip .dijitTooltipContainer {
+    .huntCard,
+    .placeCard,
+    .survivalCard {
+        color: black;
     }
 }

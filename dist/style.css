@@ -1771,12 +1771,13 @@ html[style*="--agricola"] body {
 .bgagame-notalone #pagesection_gameview #game_play_area_wrap #game_play_area #hunt_survival_cards_discard_zone .stockitem.huntCard {
   color: black;
 }
-.bgagame-notalone #dialogContent .cardsWrapper .huntCard,
-.bgagame-notalone #dialogContent .cardsWrapper .placeCard,
-.bgagame-notalone #dialogContent .cardsWrapper .survivalCard,
-.bgagame-notalone .dijitTooltip .dijitTooltipContainer .huntCard,
-.bgagame-notalone .dijitTooltip .dijitTooltipContainer .placeCard,
-.bgagame-notalone .dijitTooltip .dijitTooltipContainer .survivalCard {
+
+#dialogContent .cardsWrapper .huntCard,
+#dialogContent .cardsWrapper .placeCard,
+#dialogContent .cardsWrapper .survivalCard,
+.dijitTooltip .dijitTooltipContainer .huntCard,
+.dijitTooltip .dijitTooltipContainer .placeCard,
+.dijitTooltip .dijitTooltipContainer .survivalCard {
   color: black;
 }
 
