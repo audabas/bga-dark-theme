@@ -729,6 +729,8 @@ a.bga-game-item.gamename {
   background-color: #313342 !important;
 }
 
+#section-waiting .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
+#section-waiting .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g,
 #section-play .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
 #section-play .bga-table-list-item .bga-table-list-item__main.svelte-1yag60g.svelte-1yag60g,
 #section-arena .bga-table-list-item .bga-table-list-item__players-list.svelte-1yag60g.svelte-1yag60g,
@@ -2287,4 +2289,10 @@ html.appearance-asphalt body {
 
 .bgagame-stoneage #diceboard {
   background-color: rgba(49, 51, 66, 0.7);
+}
+.bgagame-stoneage button.sta_cards_extent {
+  color: #bd93f9;
+}
+.bgagame-stoneage #sta_main button.sa_icon.sta_zoomIn, .bgagame-stoneage #sta_main button.sa_icon.sta_zoomOut, .bgagame-stoneage #sta_main button.sa_icon.sta_adjustZoom {
+  filter: invert(1);
 }
