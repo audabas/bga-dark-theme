@@ -2304,3 +2304,13 @@ html.appearance-asphalt body {
 .bgagame-rolltothetopjourneys .field_num {
   color: black;
 }
+
+.bgagame-harmonies #player_config_row,
+.bgagame-harmonies #settings-controls-container .row-data .row-label,
+.bgagame-harmonies .counters {
+  color: #f8f8f2;
+}
+.bgagame-harmonies #goToCurrentPlayer,
+.bgagame-harmonies #goBackUp {
+  filter: invert(1);
+}

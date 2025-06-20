@@ -1,0 +1,12 @@
+.bgagame-harmonies {
+    #player_config_row,
+    #settings-controls-container .row-data .row-label,
+    .counters {
+        color: $onSurface;
+    }
+
+    #goToCurrentPlayer,
+    #goBackUp {
+        filter: invert(1);
+    }
+}
