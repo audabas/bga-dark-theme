@@ -1649,6 +1649,9 @@ html[style*="--agricola"] body {
   border: transparent !important;
   color: black !important;
 }
+.bgagame-justone #table-decision {
+  background-color: #313342;
+}
 
 .bgagame-kingdombuilder div#objectives div.objective div.objective-name,
 .bgagame-kingdombuilder div#objectives div.objective div.objective-desc p {
