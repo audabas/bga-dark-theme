@@ -1606,7 +1606,8 @@ html[style*="--agricola"] body {
   color: black;
 }
 .bgagame-haiclue .gamestate_guess .player_board_content .player_hc .player_panel_word.word,
-.bgagame-haiclue .gamestate_score .player_board_content .player_hc .player_panel_word.word {
+.bgagame-haiclue .gamestate_score .player_board_content .player_hc .player_panel_word.word,
+.bgagame-haiclue #player_boards .player_board_content .player_hc .player_panel_word.word {
   color: black;
 }
 

@@ -23,7 +23,8 @@
     }
 
     .gamestate_guess,
-    .gamestate_score {
+    .gamestate_score,
+    #player_boards {
         .player_board_content .player_hc .player_panel_word.word {
             color: black;
         }
