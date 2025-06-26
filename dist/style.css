@@ -1611,16 +1611,16 @@ html[style*="--agricola"] body {
   color: black;
 }
 
-.bgagame-Hanabi #clue_box {
+.bgagame-hanabi #clue_box {
   background-color: #43465a;
 }
-.bgagame-Hanabi #clue_box .clue_option {
+.bgagame-hanabi #clue_box .clue_option {
   color: #f8f8f2;
 }
-.bgagame-Hanabi #clues_avail {
+.bgagame-hanabi #clues_avail {
   background-color: #43465a;
 }
-.bgagame-Hanabi .colored_element_5 .clue_panel {
+.bgagame-hanabi .colored_element_5 .clue_panel {
   color: black;
 }
 
