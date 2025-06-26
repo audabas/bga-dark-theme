@@ -2314,3 +2314,7 @@ html.appearance-asphalt body {
   color: #f8f8f2;
   border-color: #43465a;
 }
+
+#popin_bgaHelpDialog.standard_popin > #popin_bgaHelpDialog_contents > #help-dialog-content > #help-popin > ol {
+  background-color: #313342;
+}
