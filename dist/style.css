@@ -1396,6 +1396,10 @@ html[style*="--agricola"] body {
   color: black;
 }
 
+#popin_bgaHelpDialog.standard_popin > #popin_bgaHelpDialog_contents > #help-dialog-content > #help-popin > .block {
+  background-color: #313342;
+}
+
 .bgagame-catan #cat_summary:before {
   background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/catan/220611-1138/img/summaryv2.jpg);
   background-size: contain;

@@ -18,3 +18,7 @@
     color: black;
   }
 }
+
+#popin_bgaHelpDialog.standard_popin > #popin_bgaHelpDialog_contents > #help-dialog-content > #help-popin > .block {
+  background-color: $surface;
+}
