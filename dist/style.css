@@ -1386,7 +1386,7 @@ html[style*="--agricola"] body {
   color: #44475a;
 }
 
-.bgagame-castlecombo .result table td {
+.bgagame-castlecombo #result #score-sheet table td {
   color: black;
 }
 .bgagame-castlecombo #notice {
