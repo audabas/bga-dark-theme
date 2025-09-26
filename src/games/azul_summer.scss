@@ -1,0 +1,24 @@
+.bgagame-azulsummerpavilion {
+	
+	#page-title  #summary{
+	 background: $onPrimary;
+
+	}
+
+	.player-hand {
+	  background: $onPrimary;
+	}
+	
+	#page-title #summary::after, #page-title #summary::before {
+		border-top: 32px solid $onPrimary;
+	}
+	
+	.space:empty::after {
+	  background: rgb(68, 71, 90, 0.5);
+	}
+	
+	.player-table-wrapper .player-hand {
+		box-shadow: 0 0 5px 5px $onPrimary;
+	}
+}
+

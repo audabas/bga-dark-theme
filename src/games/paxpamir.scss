@@ -1,0 +1,13 @@
+.bgagame-paxpamir 
+{	
+	#pp_supply, .pp_deck_counters_container {
+		background: $surface ;
+	}
+}
+
+.settings_modal #setting_modal_content .settings_modal_tabs .settings_modal_tab[data-state="selected"]{
+  background: $surface ;
+}
+.settings_modal #setting_modal_content {
+  background: $surface ;
+}

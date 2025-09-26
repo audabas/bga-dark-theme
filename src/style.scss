@@ -66,6 +66,15 @@ body {
   border-top: none!important;
 }
 
+.bga-popup-modal.bga-popup-modal--title-bar-grey.svelte-onjxky .bga-popup-modal__header.svelte-onjxky {
+  background: linear-gradient(180deg, $lighterSurface 0%, $surface 100%) !important;
+  color: $primary !important;
+}
+
+.bga-collection-management__row.svelte-1cqkg2v {
+  background-color: #3a3d4e !important;
+}
+
 .text-bga-gray-78 {
     color: $onSurface;
 }
@@ -641,6 +650,7 @@ a.bga-game-item.gamename {
 @import "games/alhambra";
 @import "games/arknova";
 @import "games/azul";
+@import "games/azul_summer";
 @import "games/bang";
 @import "games/barrage";
 @import "games/bloodrage";
@@ -651,6 +661,7 @@ a.bga-game-item.gamename {
 @import "games/cantstopexpress";
 @import "games/canvas";
 @import "games/castlecombo";
+@import "games/castleofmadkingludwig";
 @import "games/catan";
 @import "games/codexnaturalis";
 @import "games/concept";
@@ -669,6 +680,7 @@ a.bga-game-item.gamename {
 @import "games/flamingpyramids";
 @import "games/fluxx";
 @import "games/for_sale";
+@import "games/fornorthwood";
 @import "games/frenchtarot";
 @import "games/gonutsfordonuts";
 @import "games/greatwesterntrail";
@@ -693,10 +705,13 @@ a.bga-game-item.gamename {
 @import "games/not_alone";
 @import "games/numberdrop";
 @import "games/oriflamme";
+@import "games/paganfateofroanoke";
 @import "games/papayoo";
 @import "games/patchwork";
+@import "games/paxpamir";
 @import "games/paxrenaissance";
 @import "games/photosynthesis";
+@import "games/pioneerdaysproject";
 @import "games/piratenkapern";
 @import "games/polis";
 @import "games/potion_explosion";
