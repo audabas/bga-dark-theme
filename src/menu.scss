@@ -32,6 +32,10 @@
     }
 
     .bga-player-menu__bottom {
+        .bg-bga-gray-211 {
+            background-color: $lightSurface;
+        }
+
         .bga-table-list-item { // Tables list
             .bga-table-list-item__players-list,
             .bga-table-list-item__main {
