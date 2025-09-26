@@ -20,5 +20,15 @@
 	.player-table-wrapper .player-hand {
 		box-shadow: 0 0 5px 5px $onPrimary;
 	}
+
+	#zoom-notice {
+		background-color: $lightSurface;
+	}
+
+	#bga-zoom-controls {
+		> button {
+			filter: invert(1);
+		}
+	}
 }
 

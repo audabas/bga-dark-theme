@@ -66,6 +66,15 @@ body {
   border-top: none !important;
 }
 
+.bga-popup-modal.bga-popup-modal--title-bar-grey.svelte-onjxky .bga-popup-modal__header.svelte-onjxky {
+  background: linear-gradient(180deg, #43465a 0%, #313342 100%) !important;
+  color: #bd93f9 !important;
+}
+
+.bga-collection-management__row.svelte-1cqkg2v {
+  background-color: #3a3d4e !important;
+}
+
 .text-bga-gray-78 {
   color: #f8f8f2;
 }
@@ -1301,6 +1310,28 @@ html[style*="--agricola"] body {
 }
 .bgagame-azul #zoom-notice .arrow-right {
   border-left: 12px solid #3a3d4e;
+}
+
+.bgagame-azulsummerpavilion #page-title #summary {
+  background: #44475a;
+}
+.bgagame-azulsummerpavilion .player-hand {
+  background: #44475a;
+}
+.bgagame-azulsummerpavilion #page-title #summary::after, .bgagame-azulsummerpavilion #page-title #summary::before {
+  border-top: 32px solid #44475a;
+}
+.bgagame-azulsummerpavilion .space:empty::after {
+  background: rgba(68, 71, 90, 0.5);
+}
+.bgagame-azulsummerpavilion .player-table-wrapper .player-hand {
+  box-shadow: 0 0 5px 5px #44475a;
+}
+.bgagame-azulsummerpavilion #zoom-notice {
+  background-color: #3a3d4e;
+}
+.bgagame-azulsummerpavilion #bga-zoom-controls > button {
+  filter: invert(1);
 }
 
 .bgagame-bang .player-info,
