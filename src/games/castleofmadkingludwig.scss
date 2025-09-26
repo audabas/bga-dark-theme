@@ -2,8 +2,20 @@
 	.ca_board .ca_counter {
 		background: rgb(68, 71, 90, 0.5);
 	}
+
+	.ca_btn_choice_help {
+		background-color: $surface;
+	}
+
+	.ca_market .ca_container .ca_price_zoom {
+		filter: invert(1);
+	}
 }
 
 .aal-popup-overlay .aal-popup-content {
 	background: $surface;
+
+	.ca_btn_choice_help {
+		background-color: $surface;
+	}
 }
