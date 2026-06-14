@@ -1,6 +1,6 @@
 @import "colors";
 // Global
-body {
+#ebd-body, #main-content, #overall-content, body {
     background: $background;
     color: $onSurface;
 }
