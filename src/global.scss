@@ -1,11 +1,19 @@
 // All non page specific styles
 
-// Modal background
-div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content.svelte-onjxky {
-    &, & > div {
-        background-color: $lightSurface !important;
-    }
+// Modal background. BGA renders the modal panel on a white background
+// (`bga-popup-modal__holder`) and the "grey" variant gets a light-grey title
+// bar; the theme's light text is then unreadable on both. Darken them.
+// (Selectors are hash-independent — BGA changes the Svelte hash on updates.)
+.bga-popup-modal__holder {
+    background-color: $lightSurface !important;
+}
 
+.bga-popup-modal--title-bar-grey .bga-popup-modal__header {
+    background: $surface !important;
+    background-image: none !important;
+}
+
+.bga-popup-modal__content {
     .bga-game-option-item-bool,
     .bga-game-option-item-choice {
         .text-bga-gray-78 {
@@ -14,13 +22,39 @@ div.bga-popup-modal.svelte-onjxky.bga-modal > div > div.bga-popup-modal__content
     }
 }
 
+// Favorite/collection lists management modal ("Gestion des listes")
+// BGA paints each list row on a light grey background, but the theme leaves
+// the list names light-colored, so unselected lists are nearly invisible
+// (see issue #75). Darken the rows to match the modal and keep the names and
+// the selected (active) accent legible.
+.bga-collection-management-modal {
+    .bga-collection-management__row {
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+
+        &:hover {
+            background-color: $lighterSurface !important;
+        }
+
+        .text-bga-link-active {
+            color: $primary !important;
+        }
+    }
+}
+
 // Dropdowns
 .bga-dropdown__list-wrap {
     .bg-bga-gray-244,
-    .bga-dropdown__list.bg-bga-whitebg {
+    .bga-dropdown__list {
         background-color: $lightSurface !important;
     }
     .hover\:bg-bga-gray-233:hover {
+        background-color: $lighterSurface !important;
+    }
+    // Dropdown items (e.g. "Ajouter à une liste") use a dark active/hover link
+    // colour that is illegible on the darkened list; keep the hover legible.
+    .bga-button-dropdown-item:hover {
+        color: $primary !important;
         background-color: $lighterSurface !important;
     }
 }
