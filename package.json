@@ -7,7 +7,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "npx sass --no-source-map ./src/style.scss ./dist/style.css",
+    "build": "npx sass --no-source-map ./src/style.scss ./dist/style.css --style=compressed",
     "watch": "npm run build -- --watch"
   },
   "repository": {
