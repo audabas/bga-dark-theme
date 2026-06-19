@@ -107,6 +107,39 @@ a.tournaments-list-result {
     color: $onSurface;
 }
 
+// Svelte tournament detail page (tournament?id=...)
+
+// Announcement panel content area
+.bga-tournament-panel__content {
+    background-color: $surface !important;
+    background-image: none !important;
+}
+
+// État du tournoi main container
+.bga-tournament__state.bg-bga-gray-233 {
+    background-color: $surface !important;
+}
+
+// Mode chooser tab bar
+.bga-tournament__state-mode-chooser {
+    background-color: $lightSurface !important;
+}
+
+// Player cards (white bg) inside état section
+.bga-tournament__state .bg-white {
+    background-color: $lightSurface !important;
+}
+
+// Bottom participants subgrid section
+.bga-content-subgrid.bg-bga-gray-211 {
+    background-color: $surface !important;
+}
+
+// Tournament list items in bottom subgrid
+.bga-tournament-list-item {
+    background-color: $lightSurface !important;
+}
+
 // Svelte tournament browser (tournamentlist page)
 
 // Filter panel gray container

@@ -48,7 +48,12 @@
     .bga-dropdown__list {
         background-color: $lightSurface !important;
     }
-    .hover\:bg-bga-gray-233:hover {
+    .bga-dropdown-option {
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+    }
+    .hover\:bg-bga-gray-233:hover,
+    .bga-dropdown-option--hoverable:hover {
         background-color: $lighterSurface !important;
     }
     // Dropdown items (e.g. "Ajouter à une liste") use a dark active/hover link
@@ -57,6 +62,12 @@
         color: $primary !important;
         background-color: $lighterSurface !important;
     }
+}
+
+// Dropdown trigger button: white→gray gradient → dark
+.bga-dropdown-button-value {
+    background-image: none !important;
+    background-color: $lightSurface !important;
 }
 
 // Page sections
