@@ -137,6 +137,34 @@ a.tournaments-list-result {
     background-color: $lightSurface !important;
 }
 
+// "Règles du jeu" panel: BGA renders the read-only options with light-theme
+// pills (light gradient background + dark grey gray-141/171 text), illegible
+// on the dark surface. Darken the pills and lighten the labels. (gray-78 — the
+// chosen variant value — is already handled by the global rule.)
+// Same component appears on the detail page (.bga-tournament-panel) and in the
+// tournament-list right-side preview (.bga-tournament-details-panel).
+.bga-tournament-panel,
+.bga-tournament-details-panel {
+    .bga-game-option-item-choice__selector,
+    .bga-game-option-item-bool {
+        background-image: none !important;
+        background-color: $lightSurface !important;
+    }
+    .bga-game-option-form {
+        .text-bga-gray-141 {
+            color: $onSurface !important;
+        }
+        .text-bga-gray-171 {
+            color: $darkOnBackground !important;
+        }
+        // The variant description callout also carries a light gradient bg.
+        .bga-game-option-messages__option-description {
+            background-image: none !important;
+            background-color: $lightSurface !important;
+        }
+    }
+}
+
 // Bottom participants subgrid section
 .bga-content-subgrid.bg-bga-gray-211 {
     background-color: $surface !important;
@@ -180,4 +208,35 @@ a.tournaments-list-result {
 // Game search input container at bottom ("Créer un tournoi")
 .bga-tournaments-browser__panel-heading .bg-white {
     background-color: $lightSurface !important;
+}
+
+// Right-side tournament preview panel: BGA paints the stat band, the "next
+// tournaments" callout and the collapsible section headers with light-theme
+// greys, and the criteria labels with dark grey text — all illegible on the
+// dark surface.
+.bga-tournament-details-panel {
+    // Stat band (total players / per match / per table) + "next tournaments"
+    // daily-series callout.
+    .bg-bga-gray-244,
+    &__latest-msg {
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+    }
+    // Criteria labels (XP à gagner / Karma / Niveau): dark grey on dark panel.
+    &__criterias-label {
+        color: $onSurface !important;
+    }
+    // Collapsible section headers (Paramètres supplémentaires / Règles du jeu).
+    &__collapsible-header {
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+    }
+}
+
+// Selected tournament row: BGA reveals a light gradient fill (__bg, rendered
+// only on the selected item) that makes its subtitle illegible. Replace it
+// with a dark highlight that still reads as "selected".
+.bga-tournament-list-item__bg {
+    background-image: none !important;
+    background-color: $lighterSurface !important;
 }
