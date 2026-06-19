@@ -120,9 +120,16 @@ a.tournaments-list-result {
     background-color: $surface !important;
 }
 
-// Mode chooser tab bar
+// Mode chooser tab bar + dropdown trigger (white→gray gradient, scoped here
+// because the trigger is inside the DOM tree, unlike the portal popup)
 .bga-tournament__state-mode-chooser {
     background-color: $lightSurface !important;
+
+    .bga-dropdown-button-value {
+        background-image: none !important;
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+    }
 }
 
 // Player cards (white bg) inside état section
