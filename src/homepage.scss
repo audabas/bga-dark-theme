@@ -52,3 +52,24 @@
         background-color: $lightSurface !important;
     }
 }
+
+// Live stream banner
+.live_stream_next {
+    background-color: $lighterSurface !important;
+
+    .live_stream_title_next,
+    .live_stream_title,
+    .live_stream_date {
+        color: $primary !important;
+    }
+    .live_stream_button {
+        background-color: $primary;
+        color: $lighterSurface;
+    }
+}
+
+// Quick-play widget
+.bga-quick-play-widget__item.svelte-1ir55h2{
+  background: linear-gradient(0deg,$surface,$lightSurface)!important;
+  box-shadow: inset $lighterSurface -1px -2px 7px!important;
+}

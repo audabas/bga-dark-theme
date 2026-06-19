@@ -87,3 +87,287 @@
 #account-module .svelte-8a71si {
     background: $lightSurface !important;
 }
+
+// Base background & text
+#ebd-body, #main-content, #overall-content, body {
+    background: $background;
+    color: $onSurface;
+}
+
+// Alerts
+#server_status_warning_message {
+    background-color: $error;
+}
+
+.warning_high {
+    background-color: $error;
+}
+
+// Text utilities
+.text-gray-600{
+    color: $primary;
+}
+
+.text-bga-blue {
+    color: $primary;
+}
+
+.text-bga-gray-78 {
+    color: $onSurface;
+}
+
+// Links
+.bga-link {
+	color:$onSurface;
+}
+
+.bga-link-inside a:not(.playername, .gamename, .bgabutton) {
+	color: $primary;
+}
+
+.text-bga-link {
+    color: $onSurface !important;
+}
+
+// Page header
+.pageheader {
+    background: $lightSurface;
+    color: $onSurface;
+    a {
+        color: $primary;
+        &:hover {
+            color : $lightPrimary;
+        }
+    }
+}
+
+.pageheader_menu {
+    .pageheader_menuitem {
+        color: $onSurface;
+        &:hover {
+            color: $primary;
+        }
+        .pageheader_menuitembar {
+            background-color: $primary;
+        }
+    }
+}
+
+// Page sections (containers)
+.pagesection,
+.portlet {
+	background: $surface;
+    color: $onSurface;
+    a:not(.bgabutton),
+    a.playername {
+        color: $primary;
+        &:hover {
+            color: $lightPrimary;
+        }
+    }
+    &#follow_us_portlet a span {
+        color: $primary !important;
+        &:hover {
+            color: $lightPrimary !important;
+        }
+    }
+}
+
+.pagesection, .portlet, .tips {
+  border-radius: 6px;
+-o-box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
+box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
+}
+
+.pagesection__content, .portlet__content, .tips__content {
+    background-color: $lightSurface;
+}
+
+// Containers
+.roundedbox,
+.roundedbox_main,
+.roundedbox_topmain,
+.roundedbox_topleft,
+.roundedbox_topright,
+.roundedbox_bottommain,
+.roundedbox_bottomleft,
+.roundedbox_bottomright {
+    background: $lightSurface !important;
+    color: $onSurface;
+}
+
+.whiteblock {
+    background-image: none;
+}
+
+.head_info {
+    background-color: $lighterSurface;
+    color: $onSurface;
+}
+
+// Buttons
+.bgabutton_blue {
+    background: $darkPrimary;
+    color: $onSurface !important;
+    &:hover {
+        background: $primary !important;
+    }
+    &.green {
+        background: green !important;
+    }
+}
+
+.bgabutton_red {
+    background: $error;
+    color: $onError !important;
+    &:hover {
+        background: $lightError !important;
+    }
+}
+
+.bgabutton_gray {
+    background: $lighterSurface;
+    color: $onSurface !important;
+    &:hover {
+        background: $lightSurface !important;
+        color: $onSurface;
+    }
+}
+
+// Form inputs
+textarea,
+.board_fake_input,
+input:not(.dijitArrowButtonInner),
+input.dijitInputInner {
+    background: $background !important;
+    background-color: $background !important;
+    border: solid 1px $onBackground;
+    color: $onSurface !important;
+}
+
+.row-data .row-label {
+    color: $onSurface;
+}
+
+// Dijit calendar & select
+.tundra .dijitCalendarContainer {
+    .dijitCalendarMonthContainer {
+        background: $lighterSurface;
+        .dijitCalendarMonthLabel {
+            color: $onSurface;
+        }
+    }
+    table {
+        .dijitCalendarDayLabelTemplate {
+            background: $lightSurface;
+            color: $onSurface;
+        }
+        .dijitCalendarCurrentMonth {
+            background: $lightSurface;
+            color: $onSurface;
+        }
+        .dijitCalendarPreviousMonth,
+        .dijitCalendarNextMonth {
+            background: $surface;
+            color: $onSurface;
+        }
+    }
+    .dijitCalendarYearContainer {
+        background: $lighterSurface;
+        .dijitCalendarNextYear, .dijitCalendarPreviousYear {
+            color: $onSurface !important;
+        }
+    }
+}
+.tundra .dijitCalendarMonthMenuPopup {
+    .dijitCalendarMonthLabel {
+        color: $onSurface;
+    }
+}
+
+.dijitSelect .dijitSelectLabel {
+    color : black;
+}
+
+// Tooltips
+.dijitTooltipContainer .cardToolTip {
+    background-color: $lighterSurface !important;
+}
+
+.bga-tooltip{
+  background-color:$lighterSurface !important;
+}
+
+// Posts & notifications
+.post .comment {
+    background : $lightSurface
+}
+
+.post.playernotification_not_read {
+    background-color: $darkPrimary;
+    a {
+        color: $onSurface;
+    }
+}
+
+// Popins
+.standard_popin {
+    background: $lightSurface;
+    color: $onSurface;
+    .standard_popin_closeicon,
+    .standard_popin_helpicon {
+        color: $onSurface !important;
+        &:hover {
+            color: $lightPrimary !important;
+        }
+    }
+}
+
+.standard_popin_underlay {
+    background-color: $background;
+}
+
+// Tables
+.tableWindow th {
+    color: $onSurface;
+    border-bottom-color: $onSurface;
+}
+.tableWindow td {
+    color: $onSurface;
+}
+.tableWindow tbody tr:hover td {
+    color: $lightPrimary;
+}
+
+.extended_message_hidden::after {
+    background: linear-gradient(180deg, rgba($surface, 0), rgba($surface, 1));
+}
+
+// Table banners
+#current_table_banner {
+    background-color: $primary;
+    a {
+        color: $onPrimary;
+    }
+}
+#async_table_banner,
+#expected_table_banners .expected_banner {
+    background-color: $lighterSurface;
+    color: $onSurface;
+    a {
+        color: $primary;
+        &:hover {
+            color : $lightPrimary;
+        }
+    }
+}
+
+// Dropdown items
+.bga-button-dropdown-item.svelte-1a8iggi:hover {
+    background-color: $lighterSurface !important;
+}
+
+// Footer
+#overall-footer {
+    background: $surface;
+}

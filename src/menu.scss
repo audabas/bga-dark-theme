@@ -65,3 +65,48 @@
 .bga-popup-modal__content.svelte-1gmp0d8.svelte-1gmp0d8{
     background-color: $surface;
 }
+
+// Top menu bar
+.bga-menu-bar,
+.bga-menu-subbar {
+	background-image:linear-gradient($lighterSurface ,$surface)!important;
+}
+
+#topbar.newbgastyle {
+    background: $surface;
+    #friends_icon.friendsOnline #friends_baseicon,
+    #friends_icon .notification_nbr_icon {
+        color: $darkPrimary;
+    }
+    a.menu_item {
+        color: $onSurface;
+        &:hover {
+            color: $lightPrimary;
+        }
+    }
+}
+
+// Mobile dropdown menu
+// (the classic desktop user/language/friend menus — #login-menu,
+// #language_switcher_dropdown, #friend-menu, .login-menu-item — were replaced
+// by the Svelte .bga-player-menu / .bga-friends-icon__dropdown styled above,
+// confirmed via live audit, so only #mobile-menu remains.)
+#mobile-menu {
+    background: $lightSurface;
+    color: $onSurface;
+    #connected_username {
+        color: $primary !important;
+    }
+    .playername {
+        color: $primary;
+    }
+    .player_baseline {
+        color: $onSurface;
+    }
+    a {
+        color: $primary;
+        &:hover {
+            color: $lightPrimary;
+        }
+    }
+}

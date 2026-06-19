@@ -99,3 +99,59 @@
         }
     }
 }
+
+// Medias box icons
+.bga-game-panel-medias-box__icon{
+  background: linear-gradient(90deg, #0000 100%, #0007 100%);
+}
+.bga-game-panel-medias-box__icon--active{
+   background: $surface!important;
+   color: $primary;
+}
+.bga-game-panel-medias-box__icon.bga-link {
+   background-color: $lighterSurface!important;
+}
+
+// How to play
+.howtoplay_block_enabled {
+    background: $darkPrimary;
+    .howtoplay_content {
+        color: $onSurface;
+    }
+    &:hover {
+        background: $primary;
+    }
+    a span {
+        color: white !important;
+    }
+}
+
+// Challenge
+.challenge_text {
+    color: $onSurface;
+    & b {
+        color: $primary;
+    }
+}
+.challenge_image {
+    filter: none;
+}
+
+// Game characteristics (icons & bars)
+.icon16_nbrplayer,
+.icon16_duration,
+.icon16_luck {
+    filter: invert(100%);
+}
+
+.icon16_strategy {
+    filter: brightness(200%);
+}
+
+.game_carac_bar_strategy {
+    background-color: blue;
+}
+
+.game_carac_bar_luck {
+    background-color: white;
+}

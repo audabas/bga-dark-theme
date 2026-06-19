@@ -1,3 +1,4 @@
+// Tournament list
 a.tournaments-list-result {
     background: $lightSurface;
     color: $onSurface;
@@ -22,7 +23,7 @@ a.tournaments-list-result {
 	background: transparent;
 }
 
-
+// Tournament detail (presentation)
 .tournaments-presentation {
     background-color: $surface;
     color: $onSurface;
@@ -39,6 +40,7 @@ a.tournaments-list-result {
     }
 }
 
+// Tournament detail (bracket / encounters)
 #tournament-module .v2tournament {
     background: $surface;
 
@@ -90,6 +92,7 @@ a.tournaments-list-result {
     }
 }
 
+// Create tournament
 #newtournament-module #createnewtournament {
     .row-data .row-label {
         color: $onSurface;
@@ -97,4 +100,9 @@ a.tournaments-list-result {
     .form-hint {
         color: $onSurface;
     }
+}
+
+// Tournament agenda
+.agenda-tournament-list-category, .agenda-tournament-list__title, .agenda-tournament-list__players-num {
+    color: $onSurface;
 }

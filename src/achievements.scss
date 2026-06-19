@@ -1,0 +1,5 @@
+// Achievements popin (expanded achievement tiles)
+.standard_popin .expanded .achievement,
+.notouch-device .expanded .achievement:hover {
+    background-color: $lighterSurface;
+}

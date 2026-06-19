@@ -1,0 +1,75 @@
+// Styles applied while actually playing/watching a game (the game table chrome,
+// not the "games in progress" list — that lives in gameinprogress.scss).
+
+// Game start / loading overlays
+.gamestart_overlay {
+    background: $background;
+}
+.playerstart_content {
+    background-color: $surface;
+}
+#loader_mask {
+    background-color: $background;
+}
+
+// Player board
+.player-board {
+    background-color: $lightSurface;
+    color: $onSurface;
+}
+
+// In-game top bar & menu
+#topbar.ingame {
+    background: $surface;
+    .upperrightmenu_item i,
+    .upperrightmenu_item a,
+    #tableinfos {
+        color: #999;
+    }
+}
+
+#ingame_menu_content {
+    background: $surface;
+    .ingame_menu_item {
+        color: $onSurface !important;
+        &:hover {
+            background-color: $lightSurface;
+        }
+    }
+    .icon64 {
+        filter: invert(100%);
+    }
+}
+
+#popin_bgaHelpDialog.standard_popin {
+    background-color: $background;
+}
+
+// Action selection panel
+#player_chooseactions {
+	background-color: $lightSurface;
+}
+
+// Board zoom controls
+.zoom {
+  border: 1px solid #121212!important;
+  -o-box-shadow: 5px rgba(0, 0, 0, 0.2);
+}
+
+// Logs, replay & archive controls
+.log_replayable:hover {
+    background-color: $surface;
+}
+
+#seemorelogs {
+    filter: grayscale(100%) brightness(150%) invert(100%);
+}
+
+#archivecontrol a {
+    color: $onSurface;
+}
+#archive_goto_menu {
+    a:link, a:visited {
+        color: $primary;
+    }
+}

@@ -1,0 +1,85 @@
+// Game lobby / table-selection page (choosing a game mode and a table to join).
+
+// Game switcher in the page header
+.pageheader_menu_verylarge .pageheader_big_switch {
+    background-color: $surface !important;
+
+    &:hover {
+        color: $onSurface;
+        .switcher_zone {
+            background: $lighterSurface !important;
+        }
+    }
+
+    .switcher_zone {
+        background: $lightSurface !important;
+        border-left: none;
+    }
+}
+.pageheader_big_switch_dropdown {
+    .pageheader_menuitem {
+        background-color: $lightSurface !important;
+        color: $onSurface !important;
+
+        &.pageheader_menuitemselected {
+            background-color: $lighterSurface;
+        }
+
+        &:hover {
+            color: $primary !important;
+        }
+    }
+}
+
+// "Wanna play" auto-match button
+.wannaplayauto_button {
+    box-shadow: none;
+    border: none;
+}
+.wannaplayauto_time {
+    color: white;
+}
+
+// Mode slider / section title dropdown
+.tabbed_slider_bar_barcenter {
+    background-color: $lightSurface !important;
+    color: $onSurface !important;
+    .icon_plus {
+        background-color: $primary;
+    }
+    .tabbed_slider_bar_left,
+    .tabbed_slider_bar_right {
+        border-top-color: $lightSurface;
+    }
+}
+
+.sectiontitle_dropdown_menu {
+    background: $surface;
+}
+
+// Table list
+.game_box_wrap.tables_available {
+    border-color: $darkPrimary;
+}
+
+.gametable {
+    background-color: $lightSurface;
+}
+
+.player_is_at_table .gametable.gametable_status_init,
+.player_is_at_table .gametable.gametable_status_open,
+.player_is_at_table .gametable.gametable_status_asyncinit,
+.player_is_at_table .gametable.gametable_status_asyncopen {
+    background-color: $lighterSurface;
+}
+
+// Friends list panel
+#lobby_friend_list_state {
+    h3,
+    .lobby_invite_friend_name {
+        color: $primary;
+    }
+    #lobby_add_friend_button .lobby_invite_friend_avatar {
+        background-color: $primary;
+    }
+}

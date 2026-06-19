@@ -16,3 +16,37 @@
 #main-content > div > div.w-full.text-center.box-border[style*="background: linear-gradient(rgb(234, 234, 234), rgb(198, 198, 198));"] {
     background: $lightSurface !important;
 }
+
+// Browser panel background
+.bga-game-browser__panel {
+  background: transparent!important;
+  border-top: none!important;
+}
+
+// Grey list backgrounds
+.bg-bga-graybg-2 {
+    background:linear-gradient(0deg,$surface,$lightSurface)!important;
+    margin-top: -6px;
+    z-index: 1;
+    color: $primary;
+}
+.even\:bg-bga-graybg-2:nth-child(2n){
+  background:$lighterSurface;
+}
+
+// Filter panel
+#main-content div :has(div.bga-game-filter-panel__input-blocks), .place-self-stretch   {
+   background:$lighterSurface;
+}
+.place-self-stretch {
+   background: linear-gradient($lighterSurface, $surface) !important;
+}
+
+// Game names (.gamelist / .gamelist_item legacy browser markup removed —
+// the browser is now fully Svelte: .bga-game-browser__panel / .bga-game-item)
+.gamename, .gamename:active, .gamename:hover{
+	color: $primary;
+}
+a.bga-game-item.gamename {
+    color: black !important;
+}
