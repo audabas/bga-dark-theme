@@ -54,6 +54,32 @@
     }
 }
 
+// Global search dropdown (omni-bar) — player & group result badges.
+// BGA renders these tiles on a light-grey (#c1c1c1) box with light/near-white
+// text (and a raw browser-blue group link), all washed out on the dark dropdown.
+// Darken the box and make the text legible.
+.bga-omni-bar-panel-players__list > *,
+.bga-omni-bar-panel-groups__group {
+    background-color: $lightSurface !important;
+
+    // Low-contrast grey subtitles: country, "recently met", group privacy & member count
+    .text-gray-400,
+    .text-gray-500,
+    .bga-omni-bar-panel-groups__group-subtitle {
+        color: $onSurface !important;
+    }
+
+    // Group title link defaults to raw browser blue
+    .bga-omni-bar-panel-groups__group-link {
+        color: $onSurface;
+    }
+
+    // "Recently met" game link
+    .gamename {
+        color: $primary !important;
+    }
+}
+
 .bubblebanner{
     background-color: $surface;
     
