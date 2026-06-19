@@ -15,6 +15,13 @@
     background: $surface !important;
 }
 
+// "Play a few games to unlock recommended tournaments" locked overlay:
+// BGA dims the panel with a 90%-white veil, leaving light theme text illegible.
+.bga-homepage-tournaments-agenda .bg-white.bg-opacity-90 {
+    background-color: rgba($lightSurface, 0.92) !important;
+    color: $onSurface;
+}
+
 .bga-homepage-tournaments-agenda ,
 .bga-homepage-newsfeed  {
     .bg-bga-gray-233,
