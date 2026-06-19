@@ -3,11 +3,16 @@
         background: $surface !important;
     }
 
-    .bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.svelte-1duixkh {
+    .bga-vertical.svelte-ok69b5 .bga-menu-bar-items__menu-item.svelte-ok69b5 {
         background-color: $surface !important;
+        color: $onSurface !important;
+        &:hover {
+            background-color: $lighterSurface !important;
+            color: $lightPrimary !important;
+        }
     }
 
-    .bga-vertical.svelte-1duixkh .bga-menu-bar-items__menu-item.bga-menu-sub-menu-item.svelte-1duixkh {
+    .bga-vertical.svelte-ok69b5 .bga-menu-bar-items__menu-item.bga-menu-sub-menu-item.svelte-ok69b5 {
         background-color: $lightSurface !important;
     }
 
@@ -38,8 +43,5 @@
     }
     .bga-mobile-sub-bar.svelte-1o2rppf {
         color: $onSurface;
-    }
-    .bga-vertical.svelte-1yigghq .bga-menu-bar-items__menu-item.svelte-1yigghq {
-        background-color: $lighterSurface;
     }
 }
