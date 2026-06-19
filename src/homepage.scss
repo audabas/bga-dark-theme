@@ -9,20 +9,19 @@
     }
 }
 
-// News an tournaments agenda
-.bga-homepage-tournaments-agenda .bg-bga-whitebg,
+// News and tournaments agenda
+.bga-homepage__newsfeed-torunaments-section .bg-bga-whitebg,
 .homepage-section__content.bg-bga-whitebg {
     background: $surface !important;
 }
 
 // "Play a few games to unlock recommended tournaments" locked overlay:
 // BGA dims the panel with a 90%-white veil, leaving light theme text illegible.
-.bga-homepage-tournaments-agenda .bg-white.bg-opacity-90 {
+.bga-homepage__newsfeed-torunaments-section .bg-white.bg-opacity-90 {
     background-color: rgba($lightSurface, 0.92) !important;
     color: $onSurface;
 }
 
-.bga-homepage-tournaments-agenda ,
 .bga-homepage-newsfeed  {
     .bg-bga-gray-233,
     .post {
@@ -35,21 +34,6 @@
         .comment {
             background-color: $lighterSurface !important;
         }
-    }
-}
-
-// Achievements and rankings
-.bga-homepage__pre-footer {
-    .bga-homepage-achievements__label.svelte-117xadk.svelte-117xadk.svelte-117xadk {
-        color: $onSurface;
-    }
-
-    .bga-homepage-achievements__last-award.bg-bga-gray-233 {
-        background-color: $lightSurface !important;
-    }
-
-    .bga-ranked-player-list .even\:bg-bga-gray-233:nth-child(2n) {
-        background-color: $lightSurface !important;
     }
 }
 
