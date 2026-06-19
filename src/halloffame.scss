@@ -17,3 +17,10 @@
         color: $onSurface !important;
     }
 }
+
+// Panthéon ranked player list (homepage section + dedicated page): BGA
+// stripes the even rows with a near-white background, making the white
+// player text illegible. Darken them to a surface tone instead.
+.bga-ranked-player-list__entry:nth-child(even) {
+    background-color: $lightSurface !important;
+}

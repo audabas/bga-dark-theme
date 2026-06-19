@@ -9,6 +9,18 @@
     }
 }
 
+// "Vos badges" / last-award card: BGA gives it a near-white background,
+// leaving the (theme-whitened) badge text illegible.
+.bga-homepage-achievements__last-award {
+    background-color: $lightSurface !important;
+}
+
+// Section titles ("Votre dernier badge", "Votre Karma"…) are a dark blue
+// with poor contrast on the dark background; use the theme accent instead.
+.bga-homepage-achievements__label {
+    color: $primary !important;
+}
+
 // News and tournaments agenda
 .bga-homepage__newsfeed-torunaments-section .bg-bga-whitebg,
 .homepage-section__content.bg-bga-whitebg {
