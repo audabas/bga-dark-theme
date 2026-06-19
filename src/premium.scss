@@ -11,6 +11,22 @@
         color: $onSurface;
     }
 
+    // Light-grey gradient band behind the feature highlights (the 4 icons).
+    // BGA paints this as a light gradient image; .order-2 is the only handle.
+    .bga-premium-page-section--full.order-2 {
+        background-image: linear-gradient(0deg, $background 0%, $surface 5%, $surface 95%, $background) !important;
+    }
+
+    // Feature comparison table (was white with light-grey/white alternating rows).
+    .bga-premium-features_table {
+        &, tr {
+            background-color: $surface !important;
+        }
+        tr:nth-child(even) {
+            background-color: $lightSurface !important;
+        }
+    }
+
     // Pay modal
     div[name="modal-content"] {
         &, & a.bga-link {
