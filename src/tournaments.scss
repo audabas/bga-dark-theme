@@ -106,3 +106,38 @@ a.tournaments-list-result {
 .agenda-tournament-list-category, .agenda-tournament-list__title, .agenda-tournament-list__players-num {
     color: $onSurface;
 }
+
+// Svelte tournament browser (tournamentlist page)
+
+// Filter panel gray container
+.bga-tournaments-browser__filters .bg-bga-gray-211 {
+    background-color: $surface !important;
+}
+
+// Filter form labels (dark text on gray bg → light text on dark bg)
+.bga-tournament-filter-panel__form-label {
+    color: $onSurface !important;
+}
+
+// Text inputs (filter section + bottom game-search bar)
+.bga-tournaments-browser__filters .bga-textfield,
+.bga-tournaments-browser .bga-textfield {
+    background-color: $lightSurface !important;
+}
+
+// Checkboxes in filter section
+.bga-tournaments-browser__filters .bga-checkbox__checkbox {
+    background-color: $lightSurface !important;
+}
+
+// Right panel (tournament detail / "Pas de tournoi sélectionné")
+// background-image: overrides gradient set by BGA's page-section component
+.bga-tournaments-browser__panel-settings .bga-page-section__content {
+    background-color: $surface !important;
+    background-image: none !important;
+}
+
+// Game search input container at bottom ("Créer un tournoi")
+.bga-tournaments-browser__panel-heading .bg-white {
+    background-color: $lightSurface !important;
+}
