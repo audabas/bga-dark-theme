@@ -52,6 +52,11 @@
         background-color: $lightSurface !important;
         color: $onSurface !important;
     }
+    // Option labels (e.g. player-count filter) default to dark bga-blue,
+    // illegible on the darkened list; force them onto the surface colour.
+    .bga-dropdown-option__label {
+        color: $onSurface !important;
+    }
     .hover\:bg-bga-gray-233:hover,
     .bga-dropdown-option--hoverable:hover {
         background-color: $lighterSurface !important;

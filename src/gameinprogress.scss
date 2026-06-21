@@ -8,6 +8,16 @@
     }
 }
 
+// Table cards (Svelte .bga-table-list-item) render their title/progression
+// header (__main) and player row (__players-list) on light-grey gray-211,
+// leaving the light title text illegible. Used full-page on both the
+// "parties en cours" sections here and the gametables list (Tables pour X);
+// the menu dropdown and game panel scope their own (matching) overrides.
+.bga-table-list-item__main,
+.bga-table-list-item__players-list {
+    background-color: $lightSurface !important;
+}
+
 #section-waiting.bga-player-progress-list__section {
     background-color: $surface !important;
 }
@@ -26,6 +36,32 @@
     .bga-progress-list__tournament-item-holder {
         background-color: $lightSurface !important;
     }
+}
+
+// The "Rejouer" / "Découvrir d'autres jeux" discovery section at the bottom
+// renders on one big light-grey gray-211 panel with dark grey body text
+// (gray-78/204/171 and tailwind gray-500/600), clashing hard with the dark
+// page above it. Darken the panel onto $surface and lighten its text.
+.bg-bga-gray-211.text-bga-gray-78 {
+    background-color: $surface !important;
+    color: $onSurface !important;
+
+    .text-gray-500,
+    .text-gray-600,
+    .text-bga-gray-78,
+    .text-bga-gray-171,
+    .text-bga-gray-204 {
+        color: $onSurface !important;
+    }
+}
+
+// The "Jokers de temps" panel sits on a light-grey gray-211 background, but its
+// body text (text-bga-gray-78) is lightened to $onSurface by the global rule,
+// leaving light text on a light panel. The background class lives on a separate
+// element from the text class, so the combined rule above misses it — darken the
+// whole panel onto $surface so the (already-light) text becomes legible.
+.bg-bga-gray-211:has(.bga-joker-panel__paragraph) {
+    background-color: $surface !important;
 }
 
 .bga-progress-list-pre-footer__friends-section {
