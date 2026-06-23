@@ -5,9 +5,11 @@
   "dependencies": {
     "sass": "^1.30.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "csso-cli": "^4.0.2"
+  },
   "scripts": {
-    "build": "npx sass --no-source-map ./src/style.scss ./dist/style.css --style=compressed && npm run size",
+    "build": "npx sass --no-source-map ./src/style.scss ./dist/style.css --style=compressed && npx csso ./dist/style.css --output ./dist/style.css && npm run size",
     "watch": "npx sass --no-source-map ./src/style.scss ./dist/style.css --style=compressed --watch",
     "size": "node scripts/check-size.js"
   },
