@@ -85,8 +85,15 @@
     }
 }
 
-.bga-player-profile-modal__content.svelte-bn746u.svelte-bn746u {
+.bga-player-profile-modal__content {
     background-color: $lighterSurface !important;
+
+    // Player name, "Hors-ligne", country and language all render in dark
+    // tailwind grey, unreadable on the dark surface — lighten them.
+    .text-gray-500,
+    .text-gray-400 {
+        color: $darkOnBackground !important;
+    }
 }
 
 // Main dropdown
