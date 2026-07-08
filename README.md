@@ -3,10 +3,8 @@
 > [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278)
 > — please use that instead.
 >
-> This repository is kept for reference and is no longer actively maintained. Its future
-> — including a possible *Dracula* palette version — is being discussed in
-> [#83](https://github.com/audabas/bga-dark-theme/issues/83). Thank you to everyone who
-> used and contributed to it over the years. 🖤
+> This repository is kept for reference and is no longer actively maintained. Thank you to
+> everyone who used and contributed to it over the years. 🖤
 
 A dark css theme for [boardgamearena.com](https://boardgamearena.com/)
 
@@ -27,4 +25,4 @@ A dark css theme for [boardgamearena.com](https://boardgamearena.com/)
 
 ## Found a bug ?
 
-This project is no longer maintained. For a maintained dark experience, use BGA's [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278). To discuss the project's future — including a possible *Dracula* palette version — join the conversation in [#83](https://github.com/audabas/bga-dark-theme/issues/83).
+This project is no longer maintained. If you want a maintained dark theme, use BGA's [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278).
