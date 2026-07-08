@@ -1,3 +1,11 @@
+> [!WARNING]
+> **This project is discontinued.** Board Game Arena now ships an
+> [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278)
+> — please use that instead.
+>
+> This repository is kept read-only for reference. Thank you to everyone who used and
+> contributed to it over the years. 🖤
+
 A dark css theme for [boardgamearena.com](https://boardgamearena.com/)
 
 ## Installation :
@@ -17,4 +25,4 @@ A dark css theme for [boardgamearena.com](https://boardgamearena.com/)
 
 ## Found a bug ?
 
-I'm doing my best to make this theme work on most games, but won't have time to check them all, so feel free to create an issue if you find any visibility issue in-game.
+This project is no longer maintained and the repository is archived (read-only), so issues are closed. If you want a maintained dark theme, use BGA's [official dark theme](https://boardgamearena.com/forum/viewtopic.php?p=259278#p259278).
